@@ -1,4 +1,4 @@
-# BaseJava <!-- Metadata: type: Outline; tags: mindforger-home; created: 2019-12-16 14:39:43; reads: 217; read: 2019-12-16 23:29:42; revision: 217; modified: 2019-12-16 23:29:42; importance: 0/5; urgency: 0/5; -->
+# BaseJava <!-- Metadata: type: Outline; tags: mindforger-home; created: 2019-12-16 14:39:43; reads: 223; read: 2019-12-16 23:33:36; revision: 223; modified: 2019-12-16 23:33:36; importance: 0/5; urgency: 0/5; -->
 
 # Занятие 1 <!-- Metadata: type: Note; created: 2019-12-16 16:02:49; reads: 33; read: 2019-12-16 22:43:39; revision: 5; modified: 2019-12-16 22:43:39; -->
 Вступительное
@@ -627,7 +627,7 @@ https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson04.md
 ---
 
 * [x] Задание разобрал
-## Работа со строками <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 69; read: 2019-12-16 23:29:42; revision: 42; modified: 2019-12-16 23:29:42; -->
+## Работа со строками <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 72; read: 2019-12-16 23:33:36; revision: 45; modified: 2019-12-16 23:33:36; -->
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. [Работа со строками](https://drive.google.com/open?id=0B_4NpoQW1xfpSWVLYk51M2JpRnM)
 
 **Коммиты:**
@@ -669,6 +669,10 @@ Spring в себе содержит библиотеку
 Сколько каждый символ занимает нужно уже знать.
 
 Загрузки процессора, который работает с вебом - 80% CPU занимает процесс конвертации на сервере в Java.
+
+* Примеры разобрал 
+
+https://github.com/voothi/java-my-experiments/commit/62c5410a8ba12ec41534fb02487f732d950e35f6
 
 ## Исключения <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 12; read: 2019-12-16 17:15:23; revision: 2; modified: 2019-12-16 17:06:12; -->
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 2. [Исключения](https://drive.google.com/open?id=0B_4NpoQW1xfpQ1BaQjc3Y3N1MTQ)
