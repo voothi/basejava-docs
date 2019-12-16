@@ -1,9 +1,10 @@
-# BaseJava <!-- Metadata: type: Outline; created: 2019-12-16 14:39:43; reads: 62; read: 2019-12-16 16:12:38; revision: 62; modified: 2019-12-16 16:12:38; importance: 0/5; urgency: 0/5; -->
+# BaseJava <!-- Metadata: type: Outline; created: 2019-12-16 14:39:43; reads: 142; read: 2019-12-16 17:17:00; revision: 138; modified: 2019-12-16 17:15:52; importance: 0/5; urgency: 0/5; -->
 
-# Занятие 1 <!-- Metadata: type: Note; created: 2019-12-16 16:02:49; reads: 14; read: 2019-12-16 16:12:05; revision: 4; modified: 2019-12-16 16:03:31; -->
+# Занятие 1 <!-- Metadata: type: Note; created: 2019-12-16 16:02:49; reads: 18; read: 2019-12-16 16:49:11; revision: 4; modified: 2019-12-16 16:03:31; -->
 
-# Занятие 2 <!-- Metadata: type: Outline; created: 2019-12-16 14:39:43; reads: 7; read: 2019-12-16 15:36:27; revision: 3; modified: 2019-12-16 15:36:27; importance: 0/5; urgency: 0/5; -->
-## Видео 1. Принципы ООП <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 1; read: 2019-12-16 14:39:43; revision: 1; modified: 2019-12-16 14:39:43; -->
+# Занятие 2 <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 11; read: 2019-12-16 16:49:18; revision: 3; modified: 2019-12-16 15:36:27; -->
+
+## Видео 1. Принципы ООП <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 10; read: 2019-12-16 16:50:05; revision: 1; modified: 2019-12-16 14:39:43; -->
 * Что-то щелкает на видео у меня
 * ?fix: 1 19 Свойства -> Принципы
 * Григорий - оптик по образованию (?)
@@ -35,10 +36,10 @@ Alt F8 можно посмотреть объекты в режиме debug
 
         * композиция
 
-## Видео 2. Структура памяти: куча, стек, регистры, константы <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 1; read: 2019-12-16 14:39:43; revision: 1; modified: 2019-12-16 14:39:43; -->
+## Видео 2. Структура памяти: куча, стек, регистры, константы <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 9; read: 2019-12-16 16:49:56; revision: 1; modified: 2019-12-16 14:39:43; -->
 * getClass() 
 
-## Видео 3. Типы данных. Пакеты <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 1; read: 2019-12-16 14:39:43; revision: 1; modified: 2019-12-16 14:39:43; -->
+## Видео 3. Типы данных. Пакеты <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 9; read: 2019-12-16 16:49:57; revision: 1; modified: 2019-12-16 14:39:43; -->
 * Типы данных 
     * Ссылочные
         * Данные хранятся в Heap
@@ -156,7 +157,7 @@ public
         Можно накладывать ограничения на уровне пакетов - общение между ними.
 ```
 
-## Видео 4. Домашнее задание HW2 <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 1; read: 2019-12-16 14:39:43; revision: 1; modified: 2019-12-16 14:39:43; -->
+## Видео 4. Домашнее задание HW2 <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 5; read: 2019-12-16 16:49:57; revision: 1; modified: 2019-12-16 14:39:43; -->
 ```
 
 Не храним дырки
@@ -181,7 +182,7 @@ public
 https://www.youtube.com/watch?v=DrQqZj5OIZc
 
 
-## Домашнее задание HW2 <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 1; read: 2019-12-16 16:07:08; revision: 1; modified: 2019-12-16 16:07:08; -->
+## Домашнее задание HW2 <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 7; read: 2019-12-16 16:49:58; revision: 1; modified: 2019-12-16 16:07:08; -->
 + Еще раз прочитайте, как правильно оформлять код
 + Настройте IDEA на автоматическое удаление неиспользуемых импортов
 + Поместите классы в пакеты, как это показано в уроке.
@@ -241,7 +242,7 @@ index  0 1 2 3
                     resume = new ru.voothi.webapp.model.Resume();
 . get ru.voothi.webapp.storage.ArrayStorage.java @Overwrite toString(), кастомно, для вывода массива резюме.
 
-## Ревью <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 1; read: 2019-12-16 16:07:08; revision: 1; modified: 2019-12-16 16:07:08; -->
+## Ревью <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 3; read: 2019-12-16 16:49:59; revision: 1; modified: 2019-12-16 16:07:08; -->
 Resume
 + toStringSuper - в классах модели принято переопределять метод toString, чтобы он кастомизировал вывод объекта модели, метод toStringSuper это избыточно и неправильно, он только усложняет восприятие кода
 ArrayStorage
@@ -264,7 +265,7 @@ Util
 
 # Занятие 3 <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 1; read: 2019-12-16 16:07:08; revision: 1; modified: 2019-12-16 16:07:08; -->
 
-## Разбор домашнего задания <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 3; read: 2019-12-16 16:12:20; revision: 1; modified: 2019-12-16 16:07:08; -->
+## Видео. Разбор домашнего задания <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 6; read: 2019-12-16 16:57:27; revision: 2; modified: 2019-12-16 16:57:27; -->
 + Просмотр видео
 - Коммиты:
     HW1
@@ -278,7 +279,7 @@ $hack: IDEA Control Alt N (inline обратная операция)
 Восстановление проекта из-за ошибки Git merge
 $hack: IDEA ПКМ - Local history, можно на файле, можно на каталоге в проекте вызывать.
 
-## Видео 1. Объектная модель в Java <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 1; read: 2019-12-16 16:07:08; revision: 1; modified: 2019-12-16 16:07:08; -->
+## Видео 1. Объектная модель в Java <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 3; read: 2019-12-16 16:49:59; revision: 1; modified: 2019-12-16 16:07:08; -->
 +- Просмотр видео
 - Коммиты:
     Lesson03 equals&hashCode, static
@@ -554,9 +555,9 @@ getAll()
 
 ! LENGTH = 10_000
 
-## Ошибка NPE в реализованном методе get() для массива <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 1; read: 2019-12-16 16:07:08; revision: 1; modified: 2019-12-16 16:07:08; -->
+## Ошибка NPE в реализованном методе get() для массива <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 3; read: 2019-12-16 16:50:00; revision: 1; modified: 2019-12-16 16:07:08; -->
 
-### Ошибка <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 1; read: 2019-12-16 16:07:08; revision: 1; modified: 2019-12-16 16:07:08; -->
+### Ошибка <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 5; read: 2019-12-16 16:50:00; revision: 1; modified: 2019-12-16 16:07:08; -->
 ```log
 Get r1: uuid1
 Size: 3
@@ -568,7 +569,7 @@ Process finished with exit code 1
 ```
 
 
-### Код <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 1; read: 2019-12-16 16:07:08; revision: 1; modified: 2019-12-16 16:07:08; -->
+### Код <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 7; read: 2019-12-16 16:50:02; revision: 1; modified: 2019-12-16 16:07:08; -->
 
 Класс
 https://github.com/voothi/basejava/blob/e8f0bf45ffc8289970c19d48f2a4dcd17030af9e/src/ru.voothi.webapp.storage.ArrayStorage.java
@@ -593,7 +594,7 @@ https://github.com/voothi/basejava/blob/d8d4b370e9b9b7075ee3193eb1046fc37f891e5f
 System.out.println("Get dummy: " + ARRAY_STORAGE.get("dummy"));
 ```
 
-### Решения <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 1; read: 2019-12-16 16:07:08; revision: 1; modified: 2019-12-16 16:07:08; -->
+### Решения <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 11; read: 2019-12-16 16:54:50; revision: 1; modified: 2019-12-16 16:07:08; -->
 - Хранить количество реально добавленных объектов 
     и при переборке массива через for 
         до количества вставленных объектов
@@ -601,3 +602,90 @@ System.out.println("Get dummy: " + ARRAY_STORAGE.get("dummy"));
 ***
 - Синтаксически if (uuid.equals(Optional.ofNullable(element.getUuid).orElse(null)) { ... }
 - Переход на ArrayList
+# Занятие 4 <!-- Metadata: type: Note; created: 2019-12-16 16:51:07; reads: 25; read: 2019-12-16 17:15:12; revision: 7; modified: 2019-12-16 16:53:45; -->
+https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson04.md
+
+* Разбор домашнего задания
+* Работа со строками: String, StringBuilder, StringBuffer
+* String literal pool
+* Исключения (Exceptions)
+* Конструктор
+* Ключевые слова: this, super
+* Reflection
+* Аннотации в Java 8
+* Введение в модульное тестирование. JUnit
+* Домашнее задание
+
+## Разбор домашнего задания <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 28; read: 2019-12-16 17:15:52; revision: 6; modified: 2019-12-16 17:15:52; -->
+[Разбор домашнего задания](https://drive.google.com/open?id=0B_4NpoQW1xfpQXVMb2xjRXJPdUU)
+
+**Коммиты:**
+ - [`lesson04 HW03`](https://github.com/JavaWebinar/basejava/tree/afc0cc5111434375f9da00e225ed7cbb15bbd4b7/src/ru/javawebinar/basejava/storage)
+
+## Работа со строками <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 30; read: 2019-12-16 17:15:11; revision: 9; modified: 2019-12-16 17:14:59; -->
+![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. [Работа со строками](https://drive.google.com/open?id=0B_4NpoQW1xfpSWVLYk51M2JpRnM)
+
+**Коммиты:**
+ - [`Lesson04 String`](https://github.com/JavaWebinar/basejava/blob/7f5a5d70a63fbeea40539397b1c4b2cfb3bd272f/src/ru/javawebinar/basejava/MainString.java)
+
+**Ресурсы:**
+- [Строки в Java](https://urvanov.ru/2016/04/20/java-8-строки/)
+- [Кодировка в Java](http://www.skipy.ru/technics/encodings.html)
+- [Ошибки при использовании строк](http://www.skipy.ru/technics/strings.html)
+- [Обработка строк в Java](https://habrahabr.ru/post/260767/)
+- **Дополнительно:**
+  - [StringBuilder vs StringBuffer](https://stackoverflow.com/questions/355089/difference-between-stringbuilder-and-stringbuffer?rq=1)
+  - [String vs StringBuffer vs StringBuilder](https://www.journaldev.com/538/string-vs-stringbuffer-vs-stringbuilder)
+  - [String literal pool](http://java67.blogspot.ru/2014/08/difference-between-string-literal-and-new-String-object-Java.html)
+## Исключения <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 12; read: 2019-12-16 17:15:23; revision: 2; modified: 2019-12-16 17:06:12; -->
+![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 2. [Исключения](https://drive.google.com/open?id=0B_4NpoQW1xfpQ1BaQjc3Y3N1MTQ)
+
+**Коммиты:**
+ - [`Lesson04 Exceptions`](https://github.com/JavaWebinar/basejava/tree/da03245d2fdafa86d1f02ea242c072ca52e19f26/src/ru/javawebinar/basejava)
+
+**Ресурсы:**
+  - [Исключения (Exceptions)](http://proglang.su/java/exceptions)
+  - [Статья про исключения](http://developer.alexanderklimov.ru/android/java/exception.php)
+  - Про исключения также можно почитать в книге Джошуа Блоха - ["Java. Эффективное программирование"](https://www.ozon.ru/context/detail/id/21724143/)
+  - [Конструктор](http://info.javarush.ru/javarush_articles/2015/12/04/Конструкторы-классов-Java-JDK-1-5-.html)
+  - [Ключевые слова: this, super](http://info.javarush.ru/grishin/2015/03/31/Разница-между-ключевыми-словами-this-и-super-в-Java.html)
+  - **Дополнительно:**
+    - [Exceptions](https://docs.oracle.com/javase/tutorial/essential/exceptions/)
+    - [Checked vs unchecked exception explanation](https://stackoverflow.com/questions/6115896/java-checked-vs-unchecked-exception-explanation)
+
+![image](https://cloud.githubusercontent.com/assets/18701152/15581283/4c2f5348-2374-11e6-8fd2-e4de02d2c389.png)
+
+## Reflection. Аннотации. Модульное тестирование <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 16; read: 2019-12-16 17:15:26; revision: 2; modified: 2019-12-16 17:06:26; -->
+![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. [Reflection. Аннотации. Модульное тестирование](https://drive.google.com/open?id=0B_4NpoQW1xfpT0dGZWlJbnN3bU0)
+
+**Коммиты:**
+ - [`Lesson04 Reflection and JUnit`](https://github.com/JavaWebinar/basejava/tree/c77bb7c73022fa411262c1da56953f3ef3ca3cc7)
+ 
+**Ресурсы:**
+ - [Java 8 аннотации](https://urvanov.ru/2016/03/30/java-8-аннотации/)
+ - [Reflection для начинающих](https://youtu.be/XJQuBXWADZg) (youtube)
+ - [Руководство по Java Reflection API](http://javadevblog.com/polnoe-rukovodstvo-po-java-reflection-api-refleksiya-na-primerah.html)
+ - [Java Reflection Example Tutorial](https://www.journaldev.com/1789/java-reflection-example-tutorial)
+ - **Дополнительно:**
+   - [The Reflection API](https://docs.oracle.com/javase/tutorial/reflect/)
+   - [What is reflection and why is it useful?](https://stackoverflow.com/questions/37628/what-is-reflection-and-why-is-it-useful)
+> В нашем проекте Reflection используют JUnit и будут использовать библиотеки работы с XML и JSON
+ - [Фреймворк для модульного тестирования JUnit](http://junit.org/)
+ - [Тестирование с помощью JUnit (Test Case)](http://www.javenue.info/post/19)
+ - [Тестирование кода Java с помощью фреймворка JUnit](https://www.youtube.com/watch?v=z9jEVLCF5_w) (youtube)
+
+## Домашнее задание HW4 <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 41; read: 2019-12-16 17:15:29; revision: 4; modified: 2019-12-16 17:10:06; -->
+- Реализуйте тесты: `AbstractArrayStorageTest`, `ArrayStorageTest` и `SortedArrayStorageTest`
+- В `MainReflection` сделайте вызов метода `toString` через отражение, и выведите результат
+
+### Подсказки по HW4 <!-- Metadata: type: Note; created: 2019-12-16 17:10:06; reads: 11; read: 2019-12-16 17:15:31; revision: 2; modified: 2019-12-16 17:11:23; -->
+
+- `SortedArrayStorageTest` должен запускаться с `SortedArrayStorage`
+- `ArrayStorageTest` c `ArrayStorage`
+- тестировать правильность сортировки не надо
+- логика реализации теста на переполнение массива (`StorageException`):
+  - заполняем массив, но не вызываем у него переполнение
+  - если исключение вылетит раньше, чем массив будет заполнен, то тест должен провалиться (см. [`Assert.fail()`](https://stackoverflow.com/questions/3869954/whats-the-actual-use-of-fail-in-junit-test-case))
+  - если исключение вылетает, когда пытаемся добавить в полностью заполненный массив еще одно резюме - тест пройден
+- добавьте конструктор в `AbstractArrayStorageTest`, который инициализирует `Storage storage`, а в наследниках добавьте конструкторы, которые будут вызывать `super()` с нужным хранилищем
+
