@@ -1,4 +1,4 @@
-# BaseJava <!-- Metadata: type: Outline; tags: mindforger-home; created: 2019-12-16 14:39:43; reads: 223; read: 2019-12-16 23:33:36; revision: 223; modified: 2019-12-16 23:33:36; importance: 0/5; urgency: 0/5; -->
+# BaseJava <!-- Metadata: type: Outline; tags: mindforger-home; created: 2019-12-16 14:39:43; reads: 253; read: 2019-12-16 23:52:17; revision: 253; modified: 2019-12-16 23:52:17; importance: 0/5; urgency: 0/5; -->
 
 # Занятие 1 <!-- Metadata: type: Note; created: 2019-12-16 16:02:49; reads: 33; read: 2019-12-16 22:43:39; revision: 5; modified: 2019-12-16 22:43:39; -->
 Вступительное
@@ -604,7 +604,7 @@ System.out.println("Get dummy: " + ARRAY_STORAGE.get("dummy"));
 ***
 - Синтаксически if (uuid.equals(Optional.ofNullable(element.getUuid).orElse(null)) { ... }
 - Переход на ArrayList
-# Занятие 4 <!-- Metadata: type: Note; created: 2019-12-16 16:51:07; reads: 29; read: 2019-12-16 22:41:02; revision: 7; modified: 2019-12-16 16:53:45; -->
+# Занятие 4 <!-- Metadata: type: Note; created: 2019-12-16 16:51:07; reads: 31; read: 2019-12-16 23:51:45; revision: 7; modified: 2019-12-16 16:53:45; -->
 https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson04.md
 
 * Разбор домашнего задания
@@ -618,7 +618,7 @@ https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson04.md
 * Введение в модульное тестирование. JUnit
 * Домашнее задание
 
-## Разбор домашнего задания <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 39; read: 2019-12-16 22:45:07; revision: 9; modified: 2019-12-16 22:44:40; progress: 100%; -->
+## Разбор домашнего задания <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 45; read: 2019-12-16 23:51:45; revision: 9; modified: 2019-12-16 22:44:40; progress: 100%; -->
 [Разбор домашнего задания](https://drive.google.com/open?id=0B_4NpoQW1xfpQXVMb2xjRXJPdUU)
 
 **Коммиты:**
@@ -627,7 +627,7 @@ https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson04.md
 ---
 
 * [x] Задание разобрал
-## Работа со строками <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 72; read: 2019-12-16 23:33:36; revision: 45; modified: 2019-12-16 23:33:36; -->
+## Работа со строками <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 100; read: 2019-12-16 23:51:59; revision: 50; modified: 2019-12-16 23:50:46; progress: 50%; -->
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. [Работа со строками](https://drive.google.com/open?id=0B_4NpoQW1xfpSWVLYk51M2JpRnM)
 
 **Коммиты:**
@@ -643,9 +643,8 @@ https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson04.md
   - [String vs StringBuffer vs StringBuilder](https://www.journaldev.com/538/string-vs-stringbuffer-vs-stringbuilder)
   - [String literal pool](http://java67.blogspot.ru/2014/08/difference-between-string-literal-and-new-String-object-Java.html)
 
-***
 
- ## Видео
+### Аннотация видео <!-- Metadata: type: Note; created: 2019-12-16 23:49:06; reads: 24; read: 2019-12-16 23:52:17; revision: 11; modified: 2019-12-16 23:52:17; progress: 100%; -->
 * Важно пользоваться преимуществом Java - возможностью разобраться с реализацией API
 
 Чаще смотреть src API
@@ -673,8 +672,7 @@ Spring в себе содержит библиотеку
 * Примеры разобрал 
 
 https://github.com/voothi/java-my-experiments/commit/62c5410a8ba12ec41534fb02487f732d950e35f6
-
-## Исключения <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 12; read: 2019-12-16 17:15:23; revision: 2; modified: 2019-12-16 17:06:12; -->
+## Исключения <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 24; read: 2019-12-16 23:51:56; revision: 2; modified: 2019-12-16 17:06:12; -->
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 2. [Исключения](https://drive.google.com/open?id=0B_4NpoQW1xfpQ1BaQjc3Y3N1MTQ)
 
 **Коммиты:**
@@ -692,7 +690,7 @@ https://github.com/voothi/java-my-experiments/commit/62c5410a8ba12ec41534fb02487
 
 ![image](https://cloud.githubusercontent.com/assets/18701152/15581283/4c2f5348-2374-11e6-8fd2-e4de02d2c389.png)
 
-## Reflection. Аннотации. Модульное тестирование <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 16; read: 2019-12-16 17:15:26; revision: 2; modified: 2019-12-16 17:06:26; -->
+## Reflection. Аннотации. Модульное тестирование <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 18; read: 2019-12-16 23:48:30; revision: 2; modified: 2019-12-16 17:06:26; -->
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. [Reflection. Аннотации. Модульное тестирование](https://drive.google.com/open?id=0B_4NpoQW1xfpT0dGZWlJbnN3bU0)
 
 **Коммиты:**
@@ -711,11 +709,11 @@ https://github.com/voothi/java-my-experiments/commit/62c5410a8ba12ec41534fb02487
  - [Тестирование с помощью JUnit (Test Case)](http://www.javenue.info/post/19)
  - [Тестирование кода Java с помощью фреймворка JUnit](https://www.youtube.com/watch?v=z9jEVLCF5_w) (youtube)
 
-## Домашнее задание HW4 <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 41; read: 2019-12-16 17:15:29; revision: 4; modified: 2019-12-16 17:10:06; -->
+## Домашнее задание HW4 <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 49; read: 2019-12-16 23:51:54; revision: 4; modified: 2019-12-16 17:10:06; -->
 - Реализуйте тесты: `AbstractArrayStorageTest`, `ArrayStorageTest` и `SortedArrayStorageTest`
 - В `MainReflection` сделайте вызов метода `toString` через отражение, и выведите результат
 
-### Подсказки по HW4 <!-- Metadata: type: Note; created: 2019-12-16 17:10:06; reads: 11; read: 2019-12-16 17:15:31; revision: 2; modified: 2019-12-16 17:11:23; -->
+### Подсказки по HW4 <!-- Metadata: type: Note; created: 2019-12-16 17:10:06; reads: 19; read: 2019-12-16 23:51:55; revision: 2; modified: 2019-12-16 17:11:23; -->
 
 - `SortedArrayStorageTest` должен запускаться с `SortedArrayStorage`
 - `ArrayStorageTest` c `ArrayStorage`
