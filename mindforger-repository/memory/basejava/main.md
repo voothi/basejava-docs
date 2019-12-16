@@ -1,10 +1,12 @@
-# BaseJava <!-- Metadata: type: Outline; created: 2019-12-16 14:39:43; reads: 142; read: 2019-12-16 17:17:00; revision: 138; modified: 2019-12-16 17:15:52; importance: 0/5; urgency: 0/5; -->
+# BaseJava <!-- Metadata: type: Outline; tags: mindforger-home; created: 2019-12-16 14:39:43; reads: 217; read: 2019-12-16 23:29:42; revision: 217; modified: 2019-12-16 23:29:42; importance: 0/5; urgency: 0/5; -->
 
-# Занятие 1 <!-- Metadata: type: Note; created: 2019-12-16 16:02:49; reads: 18; read: 2019-12-16 16:49:11; revision: 4; modified: 2019-12-16 16:03:31; -->
+# Занятие 1 <!-- Metadata: type: Note; created: 2019-12-16 16:02:49; reads: 33; read: 2019-12-16 22:43:39; revision: 5; modified: 2019-12-16 22:43:39; -->
+Вступительное
 
-# Занятие 2 <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 11; read: 2019-12-16 16:49:18; revision: 3; modified: 2019-12-16 15:36:27; -->
+Сдал HW1
+# Занятие 2 <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 15; read: 2019-12-16 22:43:42; revision: 3; modified: 2019-12-16 15:36:27; -->
 
-## Видео 1. Принципы ООП <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 10; read: 2019-12-16 16:50:05; revision: 1; modified: 2019-12-16 14:39:43; -->
+## Видео 1. Принципы ООП <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 16; read: 2019-12-16 22:43:43; revision: 1; modified: 2019-12-16 14:39:43; -->
 * Что-то щелкает на видео у меня
 * ?fix: 1 19 Свойства -> Принципы
 * Григорий - оптик по образованию (?)
@@ -36,10 +38,10 @@ Alt F8 можно посмотреть объекты в режиме debug
 
         * композиция
 
-## Видео 2. Структура памяти: куча, стек, регистры, константы <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 9; read: 2019-12-16 16:49:56; revision: 1; modified: 2019-12-16 14:39:43; -->
+## Видео 2. Структура памяти: куча, стек, регистры, константы <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 13; read: 2019-12-16 22:45:09; revision: 1; modified: 2019-12-16 14:39:43; -->
 * getClass() 
 
-## Видео 3. Типы данных. Пакеты <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 9; read: 2019-12-16 16:49:57; revision: 1; modified: 2019-12-16 14:39:43; -->
+## Видео 3. Типы данных. Пакеты <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 13; read: 2019-12-16 22:45:10; revision: 1; modified: 2019-12-16 14:39:43; -->
 * Типы данных 
     * Ссылочные
         * Данные хранятся в Heap
@@ -157,7 +159,7 @@ public
         Можно накладывать ограничения на уровне пакетов - общение между ними.
 ```
 
-## Видео 4. Домашнее задание HW2 <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 5; read: 2019-12-16 16:49:57; revision: 1; modified: 2019-12-16 14:39:43; -->
+## Видео 4. Домашнее задание HW2 <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 7; read: 2019-12-16 22:43:54; revision: 1; modified: 2019-12-16 14:39:43; -->
 ```
 
 Не храним дырки
@@ -182,7 +184,7 @@ public
 https://www.youtube.com/watch?v=DrQqZj5OIZc
 
 
-## Домашнее задание HW2 <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 7; read: 2019-12-16 16:49:58; revision: 1; modified: 2019-12-16 16:07:08; -->
+## Домашнее задание HW2 <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 9; read: 2019-12-16 22:43:54; revision: 1; modified: 2019-12-16 16:07:08; -->
 + Еще раз прочитайте, как правильно оформлять код
 + Настройте IDEA на автоматическое удаление неиспользуемых импортов
 + Поместите классы в пакеты, как это показано в уроке.
@@ -242,7 +244,7 @@ index  0 1 2 3
                     resume = new ru.voothi.webapp.model.Resume();
 . get ru.voothi.webapp.storage.ArrayStorage.java @Overwrite toString(), кастомно, для вывода массива резюме.
 
-## Ревью <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 3; read: 2019-12-16 16:49:59; revision: 1; modified: 2019-12-16 16:07:08; -->
+## Ревью <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 5; read: 2019-12-16 22:40:59; revision: 1; modified: 2019-12-16 16:07:08; -->
 Resume
 + toStringSuper - в классах модели принято переопределять метод toString, чтобы он кастомизировал вывод объекта модели, метод toStringSuper это избыточно и неправильно, он только усложняет восприятие кода
 ArrayStorage
@@ -602,7 +604,7 @@ System.out.println("Get dummy: " + ARRAY_STORAGE.get("dummy"));
 ***
 - Синтаксически if (uuid.equals(Optional.ofNullable(element.getUuid).orElse(null)) { ... }
 - Переход на ArrayList
-# Занятие 4 <!-- Metadata: type: Note; created: 2019-12-16 16:51:07; reads: 25; read: 2019-12-16 17:15:12; revision: 7; modified: 2019-12-16 16:53:45; -->
+# Занятие 4 <!-- Metadata: type: Note; created: 2019-12-16 16:51:07; reads: 29; read: 2019-12-16 22:41:02; revision: 7; modified: 2019-12-16 16:53:45; -->
 https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson04.md
 
 * Разбор домашнего задания
@@ -616,13 +618,16 @@ https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson04.md
 * Введение в модульное тестирование. JUnit
 * Домашнее задание
 
-## Разбор домашнего задания <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 28; read: 2019-12-16 17:15:52; revision: 6; modified: 2019-12-16 17:15:52; -->
+## Разбор домашнего задания <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 39; read: 2019-12-16 22:45:07; revision: 9; modified: 2019-12-16 22:44:40; progress: 100%; -->
 [Разбор домашнего задания](https://drive.google.com/open?id=0B_4NpoQW1xfpQXVMb2xjRXJPdUU)
 
 **Коммиты:**
  - [`lesson04 HW03`](https://github.com/JavaWebinar/basejava/tree/afc0cc5111434375f9da00e225ed7cbb15bbd4b7/src/ru/javawebinar/basejava/storage)
 
-## Работа со строками <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 30; read: 2019-12-16 17:15:11; revision: 9; modified: 2019-12-16 17:14:59; -->
+---
+
+* [x] Задание разобрал
+## Работа со строками <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 69; read: 2019-12-16 23:29:42; revision: 42; modified: 2019-12-16 23:29:42; -->
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. [Работа со строками](https://drive.google.com/open?id=0B_4NpoQW1xfpSWVLYk51M2JpRnM)
 
 **Коммиты:**
@@ -637,6 +642,34 @@ https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson04.md
   - [StringBuilder vs StringBuffer](https://stackoverflow.com/questions/355089/difference-between-stringbuilder-and-stringbuffer?rq=1)
   - [String vs StringBuffer vs StringBuilder](https://www.journaldev.com/538/string-vs-stringbuffer-vs-stringbuilder)
   - [String literal pool](http://java67.blogspot.ru/2014/08/difference-between-string-literal-and-new-String-object-Java.html)
+
+***
+
+ ## Видео
+* Важно пользоваться преимуществом Java - возможностью разобраться с реализацией API
+
+Чаще смотреть src API
+
+* Проговорили, что есть 3 основные большие библиотеки Java, в которых также есть методы работы со строками
+capitalize, например
+
+Apache Commons
+
+Guava
+
+Spring в себе содержит библиотеку
+
+* Иммутабельность String
+* MetaSpace - место, где хранятся String qu уточнить.
+* Наружу - браузер, др. кодировка уже UTF-8
+1-6 байт на символ
+
+Так просто не получится определить позицию символа как во внутреннем представлении Java, в которой используется формат кодировки UTF-16, занимающей строго 2 байта на 1 символ.
+
+Сколько каждый символ занимает нужно уже знать.
+
+Загрузки процессора, который работает с вебом - 80% CPU занимает процесс конвертации на сервере в Java.
+
 ## Исключения <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 12; read: 2019-12-16 17:15:23; revision: 2; modified: 2019-12-16 17:06:12; -->
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 2. [Исключения](https://drive.google.com/open?id=0B_4NpoQW1xfpQ1BaQjc3Y3N1MTQ)
 
