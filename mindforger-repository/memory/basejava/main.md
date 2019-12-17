@@ -1,12 +1,12 @@
-# BaseJava <!-- Metadata: type: Outline; tags: mindforger-home; created: 2019-12-16 14:39:43; reads: 253; read: 2019-12-16 23:52:17; revision: 253; modified: 2019-12-16 23:52:17; importance: 0/5; urgency: 0/5; -->
+# BaseJava
 
-# Занятие 1 <!-- Metadata: type: Note; created: 2019-12-16 16:02:49; reads: 33; read: 2019-12-16 22:43:39; revision: 5; modified: 2019-12-16 22:43:39; -->
+# Занятие 1
 Вступительное
 
 Сдал HW1
-# Занятие 2 <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 15; read: 2019-12-16 22:43:42; revision: 3; modified: 2019-12-16 15:36:27; -->
+# Занятие 2
 
-## Видео 1. Принципы ООП <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 16; read: 2019-12-16 22:43:43; revision: 1; modified: 2019-12-16 14:39:43; -->
+## Видео 1. Принципы ООП
 * Что-то щелкает на видео у меня
 * ?fix: 1 19 Свойства -> Принципы
 * Григорий - оптик по образованию (?)
@@ -38,10 +38,10 @@ Alt F8 можно посмотреть объекты в режиме debug
 
         * композиция
 
-## Видео 2. Структура памяти: куча, стек, регистры, константы <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 13; read: 2019-12-16 22:45:09; revision: 1; modified: 2019-12-16 14:39:43; -->
+## Видео 2. Структура памяти: куча, стек, регистры, константы
 * getClass() 
 
-## Видео 3. Типы данных. Пакеты <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 13; read: 2019-12-16 22:45:10; revision: 1; modified: 2019-12-16 14:39:43; -->
+## Видео 3. Типы данных. Пакеты
 * Типы данных 
     * Ссылочные
         * Данные хранятся в Heap
@@ -159,7 +159,7 @@ public
         Можно накладывать ограничения на уровне пакетов - общение между ними.
 ```
 
-## Видео 4. Домашнее задание HW2 <!-- Metadata: type: Note; created: 2019-12-16 14:39:43; reads: 7; read: 2019-12-16 22:43:54; revision: 1; modified: 2019-12-16 14:39:43; -->
+## Видео 4. Домашнее задание HW2
 ```
 
 Не храним дырки
@@ -184,7 +184,7 @@ public
 https://www.youtube.com/watch?v=DrQqZj5OIZc
 
 
-## Домашнее задание HW2 <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 9; read: 2019-12-16 22:43:54; revision: 1; modified: 2019-12-16 16:07:08; -->
+## Домашнее задание HW2
 + Еще раз прочитайте, как правильно оформлять код
 + Настройте IDEA на автоматическое удаление неиспользуемых импортов
 + Поместите классы в пакеты, как это показано в уроке.
@@ -244,7 +244,7 @@ index  0 1 2 3
                     resume = new ru.voothi.webapp.model.Resume();
 . get ru.voothi.webapp.storage.ArrayStorage.java @Overwrite toString(), кастомно, для вывода массива резюме.
 
-## Ревью <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 5; read: 2019-12-16 22:40:59; revision: 1; modified: 2019-12-16 16:07:08; -->
+## Ревью
 Resume
 + toStringSuper - в классах модели принято переопределять метод toString, чтобы он кастомизировал вывод объекта модели, метод toStringSuper это избыточно и неправильно, он только усложняет восприятие кода
 ArrayStorage
@@ -265,9 +265,9 @@ Util
 + Комментарии должны использоваться, чтобы дать краткий обзор кода и предоставить дополнительную информацию, которую нельзя легко получить из кода непосредственно, удали комментарии которые описывают очевидное
 + пиши в начале коммита номер ДЗ - WH2
 
-# Занятие 3 <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 1; read: 2019-12-16 16:07:08; revision: 1; modified: 2019-12-16 16:07:08; -->
+# Занятие 3
 
-## Видео. Разбор домашнего задания <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 6; read: 2019-12-16 16:57:27; revision: 2; modified: 2019-12-16 16:57:27; -->
+## Видео. Разбор домашнего задания
 + Просмотр видео
 - Коммиты:
     HW1
@@ -281,7 +281,7 @@ $hack: IDEA Control Alt N (inline обратная операция)
 Восстановление проекта из-за ошибки Git merge
 $hack: IDEA ПКМ - Local history, можно на файле, можно на каталоге в проекте вызывать.
 
-## Видео 1. Объектная модель в Java <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 3; read: 2019-12-16 16:49:59; revision: 1; modified: 2019-12-16 16:07:08; -->
+## Видео 1. Объектная модель в Java
 +- Просмотр видео
 - Коммиты:
     Lesson03 equals&hashCode, static
@@ -397,7 +397,7 @@ this
 это контракт
 по умолчанию интерфейсы public
 
-## Видео 2. Сложность алгоритмов <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 1; read: 2019-12-16 16:07:08; revision: 1; modified: 2019-12-16 16:07:08; -->
+## Видео 2. Сложность алгоритмов
 +- Просмотр видео
 Временная сложность алгоритма (wiki)
 Вычислительная сложность (wiki)
@@ -453,7 +453,7 @@ SortedArrayStorage - реализация на основе отсортиров
 
 перенесли метод size в абстракт
 
-## Видео 3. Паттерн проектирования Шаблонный метод <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 1; read: 2019-12-16 16:07:08; revision: 1; modified: 2019-12-16 16:07:08; -->
+## Видео 3. Паттерн проектирования Шаблонный метод
 +- Просмотр видео
 - Коммиты:
     Lesson03 abstract storage & sorted storage
@@ -518,7 +518,7 @@ insert binary search
 $hack: IDEA
 Ctrl Shift R - Replace замена по проекту
 
-## Видео 4. Домашнее задание HW3 <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 1; read: 2019-12-16 16:07:08; revision: 1; modified: 2019-12-16 16:07:08; -->
+## Видео 4. Домашнее задание HW3
 + Просмотр видео
 + Перед тем, как приступить к ДЗ, приведите свой проект в соответствии с коммитами. Обратите внимание, что packages в видео и коммитах — отличаются
 - Закончите реализацию AbstractArrayStorage, ArrayStorage, SortedArrayStorage, используя паттерн Шаблонный метод
@@ -557,9 +557,9 @@ getAll()
 
 ! LENGTH = 10_000
 
-## Ошибка NPE в реализованном методе get() для массива <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 3; read: 2019-12-16 16:50:00; revision: 1; modified: 2019-12-16 16:07:08; -->
+## Ошибка NPE в реализованном методе get() для массива
 
-### Ошибка <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 5; read: 2019-12-16 16:50:00; revision: 1; modified: 2019-12-16 16:07:08; -->
+### Ошибка
 ```log
 Get r1: uuid1
 Size: 3
@@ -571,7 +571,7 @@ Process finished with exit code 1
 ```
 
 
-### Код <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 7; read: 2019-12-16 16:50:02; revision: 1; modified: 2019-12-16 16:07:08; -->
+### Код
 
 Класс
 https://github.com/voothi/basejava/blob/e8f0bf45ffc8289970c19d48f2a4dcd17030af9e/src/ru.voothi.webapp.storage.ArrayStorage.java
@@ -596,7 +596,7 @@ https://github.com/voothi/basejava/blob/d8d4b370e9b9b7075ee3193eb1046fc37f891e5f
 System.out.println("Get dummy: " + ARRAY_STORAGE.get("dummy"));
 ```
 
-### Решения <!-- Metadata: type: Note; created: 2019-12-16 16:07:08; reads: 11; read: 2019-12-16 16:54:50; revision: 1; modified: 2019-12-16 16:07:08; -->
+### Решения
 - Хранить количество реально добавленных объектов 
     и при переборке массива через for 
         до количества вставленных объектов
@@ -604,7 +604,7 @@ System.out.println("Get dummy: " + ARRAY_STORAGE.get("dummy"));
 ***
 - Синтаксически if (uuid.equals(Optional.ofNullable(element.getUuid).orElse(null)) { ... }
 - Переход на ArrayList
-# Занятие 4 <!-- Metadata: type: Note; created: 2019-12-16 16:51:07; reads: 31; read: 2019-12-16 23:51:45; revision: 7; modified: 2019-12-16 16:53:45; -->
+# Занятие 4
 https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson04.md
 
 * Разбор домашнего задания
@@ -618,7 +618,7 @@ https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson04.md
 * Введение в модульное тестирование. JUnit
 * Домашнее задание
 
-## Разбор домашнего задания <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 45; read: 2019-12-16 23:51:45; revision: 9; modified: 2019-12-16 22:44:40; progress: 100%; -->
+## Разбор домашнего задания
 [Разбор домашнего задания](https://drive.google.com/open?id=0B_4NpoQW1xfpQXVMb2xjRXJPdUU)
 
 **Коммиты:**
@@ -627,7 +627,7 @@ https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson04.md
 ---
 
 * [x] Задание разобрал
-## Работа со строками <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 100; read: 2019-12-16 23:51:59; revision: 50; modified: 2019-12-16 23:50:46; progress: 50%; -->
+## Работа со строками
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. [Работа со строками](https://drive.google.com/open?id=0B_4NpoQW1xfpSWVLYk51M2JpRnM)
 
 **Коммиты:**
@@ -644,7 +644,7 @@ https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson04.md
   - [String literal pool](http://java67.blogspot.ru/2014/08/difference-between-string-literal-and-new-String-object-Java.html)
 
 
-### Аннотация видео <!-- Metadata: type: Note; created: 2019-12-16 23:49:06; reads: 24; read: 2019-12-16 23:52:17; revision: 11; modified: 2019-12-16 23:52:17; progress: 100%; -->
+### Аннотация видео
 * Важно пользоваться преимуществом Java - возможностью разобраться с реализацией API
 
 Чаще смотреть src API
@@ -672,7 +672,7 @@ Spring в себе содержит библиотеку
 * Примеры разобрал 
 
 https://github.com/voothi/java-my-experiments/commit/62c5410a8ba12ec41534fb02487f732d950e35f6
-## Исключения <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 24; read: 2019-12-16 23:51:56; revision: 2; modified: 2019-12-16 17:06:12; -->
+## Исключения
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 2. [Исключения](https://drive.google.com/open?id=0B_4NpoQW1xfpQ1BaQjc3Y3N1MTQ)
 
 **Коммиты:**
@@ -690,7 +690,42 @@ https://github.com/voothi/java-my-experiments/commit/62c5410a8ba12ec41534fb02487
 
 ![image](https://cloud.githubusercontent.com/assets/18701152/15581283/4c2f5348-2374-11e6-8fd2-e4de02d2c389.png)
 
-## Reflection. Аннотации. Модульное тестирование <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 18; read: 2019-12-16 23:48:30; revision: 2; modified: 2019-12-16 17:06:26; -->
+### Аннотация видео
+Классы исключений наследуются от __Класса__ Throwable
+
+Есть у него
+* Методы 
+* Конструкторы
+
+Семейство небольшое
+* Error
+  * checked
+
+Ошибки, не поддающиеся обработке
+JVM
+
+* Exception
+  * RuntimeException (lang)
+    * unchecked
+  * sql
+    * checked
+  * io
+    * checked
+  
+checked - была ошибкой. Во многих других языках этот подход не применяется - Scala, др.
+
+Книга Дж. Блох.
+
+Сделать - Exception дорогая операция.
+* Используется только для исключительных ситуаций.
+* Бывает, делают для перехода вверх по вызовам.
+С Java 6 бошлее-менее не дорогая стала.
+
+Можем сделать базовый класс
+* Отнаследовать от него для более конкретного Exception
+
+07 24 Пример наследования
+## Reflection. Аннотации. Модульное тестирование
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. [Reflection. Аннотации. Модульное тестирование](https://drive.google.com/open?id=0B_4NpoQW1xfpT0dGZWlJbnN3bU0)
 
 **Коммиты:**
@@ -709,11 +744,11 @@ https://github.com/voothi/java-my-experiments/commit/62c5410a8ba12ec41534fb02487
  - [Тестирование с помощью JUnit (Test Case)](http://www.javenue.info/post/19)
  - [Тестирование кода Java с помощью фреймворка JUnit](https://www.youtube.com/watch?v=z9jEVLCF5_w) (youtube)
 
-## Домашнее задание HW4 <!-- Metadata: type: Note; created: 2019-12-16 16:57:33; reads: 49; read: 2019-12-16 23:51:54; revision: 4; modified: 2019-12-16 17:10:06; -->
+## Домашнее задание HW4
 - Реализуйте тесты: `AbstractArrayStorageTest`, `ArrayStorageTest` и `SortedArrayStorageTest`
 - В `MainReflection` сделайте вызов метода `toString` через отражение, и выведите результат
 
-### Подсказки по HW4 <!-- Metadata: type: Note; created: 2019-12-16 17:10:06; reads: 19; read: 2019-12-16 23:51:55; revision: 2; modified: 2019-12-16 17:11:23; -->
+### Подсказки по HW4
 
 - `SortedArrayStorageTest` должен запускаться с `SortedArrayStorage`
 - `ArrayStorageTest` c `ArrayStorage`
