@@ -846,6 +846,8 @@ field.setAccessible(true);
 
 14 40 JUnit Долбавляем
 
+Тесты не идут в прод. В артификт.
+
 
 ## Домашнее задание HW4
 - Реализуйте тесты: `AbstractArrayStorageTest`, `ArrayStorageTest` и `SortedArrayStorageTest`
