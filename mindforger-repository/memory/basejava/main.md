@@ -780,6 +780,72 @@ IDEA Alt Enter
  - [Тестирование кода Java с помощью фреймворка JUnit](https://www.youtube.com/watch?v=z9jEVLCF5_w) (youtube)
 
 ### Аннотация видео
+Аннотации
+
+@Overrite
+* переопределение метода в subclass
+* проверка на этапе компиляции
+
+
+@Overload
+* перегруженные методы
+* сигнатуры одинаковые
+
+Reflection
+* Аннотации в runtime можно получить через отражения
+* Смотрели, когда делали getClass
+
+04 30 MainReflection
+
+IDEA Alt F8 debug
+Evaluate Expression
+
+Класс как болванка
+
+Все поля класса
+* resume.getClass().getDeclaredFields()
+* Получить имя
+resume.getClass().getDeclaredFields()[0].getName()
+
+IDEA Ctrl F2 stop debug
+
+IDEA Ctrl Alt V сделать переменную из значения
+
+07 22 Unhandled (checked) Exception должны быть объявлены
+
+Если checked в методе, тогда нужно
+* Оборачивать в методе и ловить или
+* Добавить в сигнатуру метода throws, т.е. пробросить выше (?)
+
+* Можнго добавлять unchecked через , вместе с checked
+
+08 36 
+Потеря инкапсуляции
+Есть интерфейс
+Имплементируем
+В одной из реализаций в методе есть checked
+Здесь обрабатывать его неможем, нужно пробросить выше
+
+Меняем интерфейс, он становится зависимым от реализации
+теряется инкапсуляция
+
+Ловить и преоборачивать в RuntimeException.
+Проглатывает, логирует+проглатывает, переоборачивает - что делают программисты.
+
+10 51
+Позволяет менять private final поля
+Шутка про собеседование
+field.setAccessible(true);
+
+13 08 Менять поля - сериализация, может использоваться.
+
+13 10 ДЗ resume.toString взять через reflection
+Взять getAnnotation - вызять анннотацию у объекта
+
+До Java 5 было без аннотаций
+
+14 40 JUnit Долбавляем
+
 
 ## Домашнее задание HW4
 - Реализуйте тесты: `AbstractArrayStorageTest`, `ArrayStorageTest` и `SortedArrayStorageTest`
