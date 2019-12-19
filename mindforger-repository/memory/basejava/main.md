@@ -846,7 +846,74 @@ field.setAccessible(true);
 
 14 40 JUnit Долбавляем
 
-Тесты не идут в прод. В артификт.
+Тесты не идут в прод. В артефикт.
+
+Создали test в том же пакете, но другом каталоге (корень)
+* Пометил как root test
+
+Могут запускаться при сборке проекта
+
+15 55 Модульные JUnit тесты - самые простые
+
+IDEA Shift Ctrl N
+Navigate
+
+Тесты одинаковы для всех реализаций
+
+Будем использовать наследование тестов
+
+IDEA Shift Ctrl T
+Create Test
+
+23 50 
+@Before
+
+25 55 get not found (Exist)
+* Проверяем, что резюме отсутствует в нашем storage
+* getNotExist
+  * По правильному должен броситься Exception, тогда не прошел
+
+Смотреть какие еще есть
+
+После каждого JUnit
+* @After
+
+Единственный раз до создания класса и после
+* @BeforeClass
+* @AfterClass
+
+28 40 HW
+* Реализовать тесты
+
+* Подать реализацию storage в AbstractArrayStorageTest
+* Делаем abstract AbstractArrayStorageTest
+* Делаем ArrayStorageTest extend AbstractStorageTest
+
+JUnit понимает, что нельзя создать от него объект
+
+* Делаем SortedArrayStorageTest extend AbstractStorageTest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Домашнее задание HW4
