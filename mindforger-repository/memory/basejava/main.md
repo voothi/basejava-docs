@@ -893,32 +893,9 @@ JUnit понимает, что нельзя создать от него объ�
 
 * Делаем SortedArrayStorageTest extend AbstractStorageTest
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Домашнее задание HW4
-- Реализуйте тесты: `AbstractArrayStorageTest`, `ArrayStorageTest` и `SortedArrayStorageTest`
-- В `MainReflection` сделайте вызов метода `toString` через отражение, и выведите результат
+- [x] Реализуйте тесты: `AbstractArrayStorageTest`, `ArrayStorageTest` и `SortedArrayStorageTest`
+- [x] В `MainReflection` сделайте вызов метода `toString` через отражение, и выведите результат
 
 ### Подсказки по HW4
 
