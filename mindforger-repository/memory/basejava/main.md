@@ -171,16 +171,16 @@ import добавляет с FQDN класса
 public 
 открыт
   всем
-    protected
-    открыт только
-      пакет
-      наследники
-        default
-        открыт только
-          пакет
-            private
-            открыт только
-              класс
+protected
+открыт только
+    пакет
+    наследники
+default
+открыт только
+    пакет
+private
+открыт только
+    класс
 
 Пакетами 
     реализуется инкапсуляция
@@ -1113,6 +1113,9 @@ LIFO
 
 На собеседованиях Set, List  
 
+33 20 ArrayList
+
+35 31 Сравнение ArrayList и LinkedList
 ArrayList  
 CRUD  
 
@@ -1120,7 +1123,8 @@ CRUD
 
 Хорош для хранения, без удаления/добавления(вставки) в середину, т.к. происходит сдвиг
 
-Смотрим HashMap, на мапы, т.к. Set-ы реализованы на мапах  
+37 00 Смотрим HashMap, на мапы, т.к. Set-ы реализованы на мапах  
+37 38 Map
 
 Как устроен HashMap - нужно знать. Собеседование.
 
@@ -1128,10 +1132,7 @@ CRUD
 
 IDEA Shift Alt Ins - выделение по вертикали
 
-
-
-
-
+Ассоциативный массив
 
 **Ресурсы:**  
 - [Контейнеры/коллекции](http://en.wikipedia.org/wiki/Java_collections_framework)
@@ -1146,17 +1147,117 @@ IDEA Shift Alt Ins - выделение по вертикали
 
 ## Домашнее задание
 домашнее задание состоит из двух частей:
-- [ ] 1) Выделите общий класс `AbstractStorage` и реализуйте подкласс `ListStorage`. Для этого вам необходимо вынести в `AbstractStorage` максимум кода, исключив тем самым его дублирование.
+- [x] 1) Выделите общий класс `AbstractStorage` и реализуйте подкласс `ListStorage`. Для этого вам необходимо вынести в `AbstractStorage` максимум кода, исключив тем самым его дублирование.
+- [x] 2) Приступать только после проверки первой части наставником. Реализуйте подкласс `MapStorage`. Сделайте классы для тестирования `ListStorage` и `MapStorage`.
 
-- [ ] 2) Приступать только после проверки первой части наставником. Реализуйте подкласс `MapStorage`. Сделайте классы для тестирования `ListStorage` и `MapStorage`.
-
-- [ ] Выбор реализации `List` и `Map` за вами
-- [ ]  [Шаблонный метод (шаблон проектирования)](https://ru.wikipedia.org/wiki/Шаблонный_метод_(шаблон_проектирования))
+- [x] Выбор реализации `List` и `Map` за вами
+- [x]  [Шаблонный метод (шаблон проектирования)](https://ru.wikipedia.org/wiki/Шаблонный_метод_(шаблон_проектирования))
 >  Поведенческий шаблон проектирования, определяющий основу алгоритма и позволяющий наследникам переопределять некоторые шаги алгоритма, не изменяя его структуру в целом
 
-- [ ] В итоге у вас должна получиться подобная иерархия наследования классов
+- [x] В итоге у вас должна получиться подобная иерархия наследования классов
 ![image](https://user-images.githubusercontent.com/29703461/34365360-6dae30b2-eaa0-11e7-89d2-e7630ae73827.png)
 
 ### Замечания к выполнению домашнего задания
-- [ ]  int size и STORAGE_LIMIT относятся только к массивам, в List и Map нет необходимости их использовать, будем считать их условно безразмерными
-- [ ]  при поиске uuid не надо использовать методы, который сравнивают объекты Resume по equals, в следующих уроках добавим еще поля в Resume и в equals и данный вариант не подойдет
+- [x]  int size и STORAGE_LIMIT относятся только к массивам, в List и Map нет необходимости их использовать, будем считать их условно безразмерными
+- [x]  при поиске uuid не надо использовать методы, которые сравнивают объекты Resume по equals, в следующих уроках добавим еще поля в Resume и в equals и данный вариант не подойдет
+
+Занятие 6
+=========
+
+[Шестое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson06.md)
+
+- Разбор домашнего задания
+- Autoboxing and Unboxing
+- Паттерн проектирования Итератор
+- Вложенные классы
+- Внутренние классы
+- Локальные классы
+- Анонимные классы
+- Введение в лямбды
+- Функциональный интерфейс
+- Домашнее задание
+
+***
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор домашнего задания](https://drive.google.com/open?id=0B_4NpoQW1xfpUFJpRVZvNVVpeDg)
+**Коммиты:**
+- [`lesson06 HW05`](https://github.com/JavaWebinar/basejava/tree/82748583a0454aa3dd2cbf38d83de1cb49fa3ee3)
+
+**Ресурсы:**
+- [Автоупаковка и распаковка в Java](https://habrahabr.ru/post/329498/)
+- [Преобразования Integer и int](https://habrahabr.ru/post/104231/)
+- [Класс-обертка](https://www.youtube.com/watch?v=T99Dpp29jrU) (youtube)
+- **Дополнительно:**
+  - [Autoboxing and Unboxing](https://docs.oracle.com/javase/tutorial/java/data/autoboxing.html)
+  - [Why do we use autoboxing and unboxing in Java?](https://stackoverflow.com/questions/27647407/why-do-we-use-autoboxing-and-unboxing-in-java)
+
+### Аннотация видео
+Создать AbstractStorage  
+вынести в него  
+Проверки  
+- exist
+- notexist  
+  
+Реализовать ListStorage  
+
+Ctrl N нахожим aas
+
+Alt F1 выбор в
+
+01 05 делаем не метод, а класс  
+04 08 Shift F6 getIndex - getSearchKey  
+05 50 isExist  
+07 50 Ctrl R replace замена int index на searchKey  
+08 13 Sile limits убираем, т.к. в мапах и др. у нас нет ограничений   
+09 47  
+17 13 Ctrl I AbstractArrayStorage  
+19 00 Ковариация. Сужаем возвращаемый тип  
+20 16 Явное преобразование  
+21 15 Почему кастить Object не хорошо - ошибка Runtime  
+36 26 Тесты пройдены
+50 06 Создать новый тест Ctrl Shift T  
+
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. Iterator / Iterable. Вложенные, внутренние, локальные и анонимные классы](https://drive.google.com/file/d/1htZCFoU8j47a00yy-OOvnC27Ktmn1_Hz)
+**Коммиты:**
+- [`Lesson06 Iterator, Comparator and Inner Classes`](https://github.com/JavaWebinar/basejava/tree/e7531643b410435c07a998a1428fb9a4de2d30bb/src/ru/javawebinar/basejava)
+
+**Ресурсы:**
+- [Паттерн проектирования Итератор](https://refactoring.guru/ru/design-patterns/iterator/java/example)
+- [Iterator / Iterable](http://www.javenue.info/post/101)
+- **Дополнительно:**
+  - [Iterator in Java](https://www.journaldev.com/13460/java-iterator)
+- [Вложенные классы в Java](https://habrahabr.ru/post/342090/) 
+- [Вложенные, внутренние, локальные и анонимные классы](http://pr0java.blogspot.ru/2015/08/1.html)
+- [Локальные и анонимные классы](http://easy-code.ru/lesson/local-anonymous-nested-classes-java). 
+- [Интерфейсы Comparable и Comparator](https://metanit.com/java/tutorial/5.6.php)
+- [Анонимные классы в Java](https://www.youtube.com/watch?v=P3uicghNPLg) (youtube)
+- [Nested (static) классы в Java](https://www.youtube.com/watch?v=svOwVvSWeus) (youtube)
+- [Inner (non-static) классы в Java](https://www.youtube.com/watch?v=LflAy_LOwwQ) (youtube)
+- **Дополнительно**
+  - [Вложенные, внутренние, локальные и анонимные классы [eng]](https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html)
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [2. Новое в Java 8](https://drive.google.com/open?id=0B_4NpoQW1xfpcVJFa2ljeEloTXc)
+**Коммиты:**
+- [`Lesson06 Lambda`](https://github.com/JavaWebinar/basejava/blob/7a80322a4861ccc1e1eacaef2aac078820699667/src/ru/javawebinar/basejava/storage/SortedArrayStorage.java)
+
+**Ресурсы:**
+- [Нововведения в java 8](https://habrahabr.ru/post/216431/)
+- [Лямбда-выражения в Java 8](https://www.youtube.com/watch?v=DNC6Lknn2AE) (youtube)
+- [Функциональный интерфейс](https://geekbrains.ru/posts/java_interfaces)
+- [Лямбды в Java 8](https://habrahabr.ru/post/224593/)
+- **Дополнительно:**
+  - [Java 8 Functional Interfaces](https://www.journaldev.com/2763/java-8-functional-interfaces)
+  - [Lambda expressions](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html)
+
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Домашнее задание HW6](https://drive.google.com/open?id=0B_4NpoQW1xfpbm9PMXFDN0RuR1k)
+
+- Рефакторинг:
+  - метод `saveOverflow()` должен исполняться только для массивов
+  - в конструктор `Resume` добавьте второй параметр — `fullName`
+  - во всех реализациях `Storage` замените метод `Resume[] getAll()` на `List<Resume> getAllSorted()`
+- Подумайте, что еще, может выступать в качестве `search key` в реализации на основе `Map` (не путайте `key` и `search key` - это разные сущности). Выразите свои идеи в коде (в итоге у вас в проекте должны быть два класса, реализованных на основе мапы)
+- Переделайте компаратор, учтя тот случай, что `fullName` разных людей может совпадать
+- Из-за того, что количество тестовых классов растет, воспользуйтесь [аннотациями](http://javastudy.ru/junit/junit-suite-tests/) JUnit, которые помогут упростить их запуск. Форматируйте класс-запуска тестов в соответствии с [этой](https://drive.google.com/file/d/1XHFbxNLekyAWCPJROPJcxmJydjg0K3eH/view?usp=sharing) картинкой
+
