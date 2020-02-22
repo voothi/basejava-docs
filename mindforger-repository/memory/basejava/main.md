@@ -1313,17 +1313,16 @@ Alt F1 выбор в
 оставляем 
 - конструктор
   - супер
-- stackOverflow
+- stackOverflow  
 
 AbstractStorageTest  
 удаляем  
 - stackOverflow
 
-0248 JUnit группируем тесты AllStorageTest
-
+0248 JUnit группируем тесты AllStorageTest  
 ~~?: Откуда взялся MapUuidStorage?~~
 
-0500 Диаграммы
+0500 Диаграммы  
 
 
 
@@ -1499,3 +1498,363 @@ AbstractStorageTest
 - Сделать реализации `Storage` сохранения в файл через `File` и `Path` с возможностью выбора стратегии сериализации (посмотрите на [паттерн стратегия](https://refactoring.guru/ru/design-patterns/strategy)). Кроме сохранения через `ObjectOutputStream/ObjectInputStream` у нас будут еще несколько вариантов сериализации. Сделать тесты для тестирования сохранения через `ObjectOutputStream/ObjectInputStream` для `File` и `Path`.
 
 
+# Десятое занятие
+
+Разбор домашнего задания
+Паттерн проектирования Стратегия
+Работа с XML
+Работа с JSON: Google GSON и Jackson
+Введение в REST
+DataInputStream/DataOutputStream
+Домашнее задание
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор домашнего задания](https://drive.google.com/open?id=0B_4NpoQW1xfpZDVJdGlDRlBlUEU)
+**Коммиты:**
+- [`Lesson10 HW09`](https://github.com/JavaWebinar/basejava/tree/cf532714164239d7d99909f92ba52cb79cb0694a)
+
+**Ресурсы:**
+- [Паттерн - Стратегия](https://www.youtube.com/watch?v=rsB2exGsR4I)
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. Формат XML. Работа с XML в Java](https://drive.google.com/open?id=0B_4NpoQW1xfpUEtzQjhtQ0c3cFU)
+**Коммиты:**
+- [`Lesson10 xml`](https://github.com/JavaWebinar/basejava/tree/c36b41e468df8a82bb1e8ba668f3d00e76989fd9)
+
+**Ресурсы:**
+- <a href="http://www.duct-tape-architect.ru/?p=315">XML формат и технологии</a>
+- Wiki: <a href="https://ru.wikipedia.org/wiki/XML">XML</a>, <a href="https://ru.wikipedia.org/wiki/XSL">XSL</a> , <a href="https://ru.wikipedia.org/wiki/Document_Object_Model">DOM</a>, <a href="https://ru.wikipedia.org/wiki/SAX">SAX</a>, <a href="https://en.wikipedia.org/wiki/StAX">StAX</a>, <a href="https://ru.wikipedia.org/wiki/Java_Architecture_for_XML_Binding">JAXB</a>
+- <a href="http://www.vogella.com/tutorials/JavaXML/article.html">Работа с XML в Java</a>. Реализация хранения в XML. 
+ 
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [2. JSON](https://drive.google.com/open?id=0B_4NpoQW1xfpRUlvMU54a2hMR3c)
+**Коммиты:**
+- [`Lesson10 json`](https://github.com/JavaWebinar/basejava/tree/ba409e3666f1a5086182a736784c4362a1979b7f)
+
+**Ресурсы:**
+- <a href="https://ru.wikipedia.org/wiki/JSON">JSON</a>. <a href="https://learn.javascript.ru/json">JSON в JavaScript</a>
+- Работа с JSON в Java: <a href="https://code.google.com/p/google-gson/">Google GSON</a> и <a href="https://github.com/FasterXML/jackson">Jackson</a>. Реализация хранения в JSON
+- [Введение в JSON](https://www.youtube.com/watch?v=syuIHCMHQgc) (youtube)
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [3. DataInputStream / DataOutputStream](https://drive.google.com/open?id=0B_4NpoQW1xfpczVtenBCSDlKWU0)
+**Коммиты:**
+- [`Lesson10 DataStream`](https://github.com/JavaWebinar/basejava/tree/6f699cb5d804b3d033a06cc1173cd1076b0553f9)
+
+## Домашнее задание
+- Сделать и протестировать реализацию `DataStreamSerializer`
+
+
+# Одиннадцатое занятие
+
+Процессы и потоки
+Синхронизация методов и блоков
+Закон Мура
+Закон Амдала
+Обзор методов класса Object
+Ленивая инициализация
+Java Memory Model
+Взаимная блокировка
+Домашнее задание
+
+## Разбор Домашнего Задания-10 будет на следующем уроке
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. Многопоточность. Параллельное выполнение.](https://drive.google.com/open?id=0B_4NpoQW1xfpSmVjRzl6c3ctTTA)
+[см. коммит Lesson11](https://github.com/JavaWebinar/basejava/blob/6a626f61722af844663860d1af284c53a9adf423/src/ru/javawebinar/basejava/MainConcurrency.java)
+ 
+![Закон Мура](https://www.karlrupp.net/wp-content/uploads/2015/06/40-years-processor-trend.png)
+- <a href="https://ru.wikipedia.org/wiki/Закон_Мура">Закон Мура</a>
+- <a href="https://ru.wikipedia.org/wiki/Закон_Амдала">Закон Амдала</a>
+- [Фундаментальный поворот к параллелизму в программировании](https://habrahabr.ru/post/145432/)
+
+![Concurrent vs Parallel](https://joearms.github.io/images/con_and_par.jpg)
+
+## Потоки. Синхронизация
+-  <a href="http://www.intuit.ru/studies/courses/16/16/lecture/27127">Потоки выполнения. Синхронизация.</a>
+-  <a href="http://www.intuit.ru/studies/courses/16/16/lecture/27127?page=4">Методы wait(), notify(), notifyAll() класса Object</a>
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [2. Ленивая инициализация, JMM.](https://drive.google.com/file/d/1kAoLlGhsHAyl_Vtak5R_VuNiQp5cYUx3)
+[см. коммит Lesson11](https://github.com/JavaWebinar/basejava/blob/6a626f61722af844663860d1af284c53a9adf423/src/ru/javawebinar/basejava/LazySingleton.java)
+
+- <a href="https://ru.wikipedia.org/wiki/Параллелизм_в_Java">Параллелизм в Java</a>
+- <a href="https://habrahabr.ru/post/27108/">Реализация Singleton в JAVA</a>
+- <a href="https://ru.wikipedia.org/wiki/Double_checked_locking">Double checked locking</a>
+-  <a href="http://www.javaspecialist.ru/2011/06/java-memory-model.html">Java Memory Model</a>. final, volatile
+- <a href="https://en.wikipedia.org/wiki/Initialization-on-demand_holder_idiom">Initialization-on-demand holder idiom</a>
+
+### Ресурсы
+- Алексей Владыкин, <a href="https://www.youtube.com/watch?v=zxZ0BXlTys0&list=PLlb7e2G7aSpRSBWi5jbGjIe-v_CjRO_Ug">Основы многопоточность в Java</a>
+- Виталий Чибриков, <a href="https://www.youtube.com/watch?v=dLDhB6SRXzw&list=PLrCZzMib1e9qkzxEuU_huxtSAxrW1t9NZ">Java. Многопоточность</a>
+- Computer Science Center, курс <a href="https://compscicenter.ru/courses/hp-course/2016-spring">Параллельное программирование</a>
+- Юрий Ткач, курс <a href="https://www.youtube.com/playlist?list=PL6jg6AGdCNaXo06LjCBmRao-qJdf38oKp">Advanced Java - Concurrency</a>
+- Головач, курс <a href="https://www.youtube.com/playlist?list=PLoij6udfBncgVRq487Me6yQa1kqtxobZS">Java Multithreading</a>
+
+## Домашнее задание
+- Реализовать deadlock
+- <a href="https://ru.wikipedia.org/wiki/%D0%92%D0%B7%D0%B0%D0%B8%D0%BC%D0%BD%D0%B0%D1%8F_%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0">Взаимная блокировка</a>
+
+
+
+
+
+# Двенадцатое занятие
+Разбор домашнего задания
+Обзор java.util.concurrent
+Синхронизаторы
+ThreadLocal переменные
+Сравнение с обменом (Compare-and-swap)
+Домашнее задание
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор Домашнего Задания-11](https://drive.google.com/open?id=0B_4NpoQW1xfpcWNMeHQ1Y0JoaUU)
+[см. коммит Lesson12 HW11](https://github.com/JavaWebinar/basejava/blob/50388920c5e29e70208df572dc34208b46bcdd1a/src/ru/javawebinar/basejava/MainConcurrency.java)
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Concurrency](https://drive.google.com/open?id=0B_4NpoQW1xfpRkdBLW81a1AtWDg)
+[см. коммит Lesson12 Concurrency](https://github.com/JavaWebinar/basejava/blob/a34c2eec5a4b96d7ef7cd1fce140b0398e00a197/src/ru/javawebinar/basejava/MainConcurrency.java)
+
+- <a href="http://habrahabr.ru/company/luxoft/blog/157273/">Обзор java.util.concurrent.*</a></li>
+- <a href="https://en.wikipedia.org/wiki/Compare-and-swap">Compare-and-swap</a>
+- <a href="https://habrahabr.ru/post/277669/"> Справочник по синхронизаторам java.util.concurrent.*</a>
+- <a href="http://articles.javatalks.ru/articles/17">Использование ThreadLocal переменных</a>
+
+>  Замечания по видео:
+
+    ThreadLocal<SimpleDateFormat> DATE_FORMAT = new ThreadLocal<SimpleDateFormat>() {
+       @Override
+       protected SimpleDateFormat initialValue() {
+            return new SimpleDateFormat("dd.MM.yyyy HH:mm:ss");
+       };
+    };
+
+можно написать через лямбду:
+
+    ThreadLocal.withInitial(() -> new SimpleDateFormat("dd.MM.yyyy HH:mm:ss"));
+
+А лучше использовать потокобезопасный `DateTimeFormatter` Java 8 Time API:
+
+    DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm:ss");
+
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор Домашнего Задания-10](https://drive.google.com/open?id=0B_4NpoQW1xfpY3d6R204ZXplb00)
+[см. коммит Lesson12 HW10](https://github.com/JavaWebinar/basejava/tree/4e75634fa4670a71a60f5643fa995295c4fb959d/src/ru/javawebinar/basejava)
+
+## Домашнее задание:
+- <a href="http://java-course.ru/begin/postgresql">Установить PostgreSQL</a>
+- Посмотреть на реляционные базы данных и SQL:
+  - <a href="http://www.codenet.ru/progr/vbasic/vb_db/1.php">Введение в базы данных</a>
+  - <a href="http://www.intuit.ru/studies/courses/5/5/info">Основы SQL</a>
+- Java 8 Streams:
+    1) реализовать метод через стрим `int minValue(int[] values)`.  
+Метод принимает массив цифр от 1 до 9, надо выбрать уникальные и вернуть минимально возможное число, составленное из этих уникальных цифр. Не использовать преобразование в строку и обратно. Например {1,2,3,3,2,3} вернет 123, а {9,8} вернет 89
+
+    2)  реализовать метод `List<Integer> oddOrEven(List<Integer> integers)`
+если сумма всех чисел нечетная - удалить все нечетные, если четная - удалить все четные. Сложность алгоритма должна быть O(N). 
+Optional - решение в один стрим.
+
+# Тринадцатое занятие
+Разбор домашнего задания
+Введение в реляционные базы данных
+Язык SQL
+Обзор NoSQL баз данных
+Установка и настройка СУБД PostgreSQL
+Работа с базами данных из IDEA
+Конфигурирование базы данных и каталога хранения
+Подключение базы данных к проекту
+Обзор JDBC-архитектуры
+Домашнее задание
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. Базы данных. Реляционные СУБД. PostgreSQL](https://drive.google.com/open?id=0B_4NpoQW1xfpOHFGQTUydzdKaFE)
+**Коммиты:**
+
+- [`Lesson13 Init DB`](https://github.com/JavaWebinar/basejava/blob/79f4e1d3ecc9ce306504a991fcca00c81c992f8c/config/init_db.sql)
+
+**Ресурсы:**
+- [DB-Engines Ranking](http://db-engines.com/en/ranking)
+- [Реляционная СУБД](https://ru.wikipedia.org/wiki/Реляционная_СУБД) (wiki)
+- [Введение в базы данных](http://www.codenet.ru/progr/vbasic/vb_db/1.php)
+- [Реляционные базы vs NoSQL](http://habrahabr.ru/post/103021). SQL. Денормализация. PK, FK, Cascade
+- [PostgreSQL: надёжность](https://ru.wikipedia.org/wiki/PostgreSQL#Качество_исходного_кода)
+- [Работа с базами данных из IDEA](https://habrahabr.ru/company/JetBrains/blog/204064)
+- [IDEA Database tools](https://www.jetbrains.com/datagrip/features)
+- [Как работает реляционная БД](https://habrahabr.ru/company/mailru/blog/266811)
+- [SQL ключи во всех подробностях](https://habrahabr.ru/company/oleg-bunin/blog/348172)
+- [Книги по postgreSQL](https://postgrespro.ru/education/books)
+- [Интерактивная обучалка по postgreSQL](https://www.pgexercises.com/)
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [2. Конфигурирование данных в Java проекте](https://drive.google.com/open?id=0B_4NpoQW1xfpQUpkVTJiQnpBNnM)
+**Коммиты:**
+
+[`Lesson13 properties`](https://github.com/JavaWebinar/basejava/tree/25f4dd3b23790cc74c30d3703b16fa6af09c3905)
+
+**Ресурсы:**
+
+- [Properties sample](https://www.mkyong.com/java/java-properties-file-examples)
+- Конфигурирование DB и каталога хранения  
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [3.Подключение DB в проект](https://drive.google.com/open?id=0B_4NpoQW1xfpWVVSOURIeDNEMUk)
+**Коммиты:**
+
+[`Lesson13 SqlStorage`](https://github.com/JavaWebinar/basejava/tree/62705ea7e24dda66647b47971f83f1507dd80016)
+
+**Ресурсы:**
+
+- [JDBC](http://ru.wikipedia.org/wiki/Java_Database_Connectivity)
+- [JDBC Architecture](http://www.developersbook.com/jdbc/interview-questions/jdbc-interview-questions-faqs.php)
+- [Книга: Семь баз данных за семь недель. Введение в современные базы данных и идеологию NoSQL](http://www.ozon.ru/context/detail/id/19383907)
+- [Работа с базами данных с помощью JDBC драйвера](https://devcolibri.com/работа-с-бд-mysql-postgresql-с-помощью-jdbc-драйвера)
+- [Уроки по JDBC](https://www.youtube.com/playlist?list=PLIU76b8Cjem5qdMQLXiIwGLTLyUHkTqi2)
+
+### ![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) Домашнее задание HW13
+- Доделать `SqlStorage` без контактов и секций
+- Для работы с DB надо в lib и проект добавить [драйвер базы данных](http://repo1.maven.org/maven2/org/postgresql/postgresql/42.2.1)
+- Запустить `SqlStorageTest` (в `AbstractStorageTest` контакты и секции закоменченны), креденшелы к базе взять из `Config`
+- Вынести общий код (`getConnection(), prepareStatement, catch SQLException`) в класс `SqlHelper`
+(https://dzone.com/articles/removing-duplicate-code-with-lambda-expressions)
+
+
+# Четырнадцатое занятие
+Разбор домашнего задания
+Операции соединения таблиц. JOIN
+Транзакции
+Требования к транзакциям. ACID
+Уровни изоляции транзакций в SQL
+Установка и настройка контейнера сервлетов Tomcat
+Домашнее задание
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор Домашнего Задания-13](https://drive.google.com/open?id=0B_4NpoQW1xfpREpRYm5ZLWN2RWc)
+[см. коммит Lesson14 HW13](https://github.com/JavaWebinar/basejava/tree/aa4dd3537275cc3be0d68aeb902d28c0ef94e747)
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. JOIN](https://drive.google.com/open?id=0B_4NpoQW1xfpT3R6WFBBbmVGXzA)
+[см. коммит Lesson14 JOIN](https://github.com/JavaWebinar/basejava/blob/57c5687e276d4fb3bfcf8d7b0c7b301db1a0095b/src/ru/javawebinar/basejava/storage/SqlStorage.java)
+- <a href="http://www.skillz.ru/dev/php/article-Obyasnenie_SQL_obedinenii_JOIN_INNER_OUTER.html">LEFT, RIGHT, INNER JOIN</a>
+- [SQL Join](https://www.youtube.com/watch?v=EHvzvwAv7RU&index=1&list=PLY7PmJJFH5nT-lbFKxfbp3rw5BBuq5Azo) (youtube)
+- Добавляем в `SqlStorage` контакты
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [2. Транзакции](https://drive.google.com/open?id=0B_4NpoQW1xfpTm43Z2hnZkV4c2M)
+[см. коммит Lesson14 Transaction_Batch](https://github.com/JavaWebinar/basejava/tree/0901c3a80ce8150524f2513c7ba148fdd03e49b2/src/ru/javawebinar/basejava)
+- <a href="http://ru.wikipedia.org/wiki/Транзакция_(информатика)">Транзакция. ACID.</a> <a href="https://ru.wikipedia.org/wiki/Уровень_изолированности_транзакций">Уровни изоляции транзакций.</a>
+- <a href="http://www.osp.ru/pcworld/2009/07/9708191/">Уровни изоляции транзакций в SQL</a>
+- Добавляем в `SqlStorage` транзакции
+- Batch execute.
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [3. Установка/запуск Tomcat](https://drive.google.com/open?id=0B_4NpoQW1xfpZU9QQ25VTkRmSjg)
+- Скачать и установить <a href="http://tomcat.apache.org/download-80.cgi">Tomcat 8</a>. Устанавливать лучше простым копированием из архива в каталог (в том числе и для unix). Следите чтобы в пути не было пробелов и национальных букв.
+- Для доступа к <a href="http://localhost:8080/manager">Tomсat Manager</a> добавьте в конфигурацию Tomcat `TOMCAT_HOME\conf\tomcat-users.xml` права:
+```
+<user username="tomcat" password="tomcat" roles="tomcat,manager-gui,admin-gui"/>
+```
+- Запуск из `TOMCAT_HOME\bin\`: `catalina.bat start`
+ 
+## Домашнее задание HW14
+- Закончить реализацию `SqlStorage` с контактами
+- Выделить общие части <a href="https://ru.wikipedia.org/wiki/Don%E2%80%99t_repeat_yourself">( DRY )</a>
+
+# Пятнадцатое занятие
+Разбор домашнего задания
+Введение в HTML
+Основы протокола HTTP
+Настройка web.xml
+Развертывание (деплой) web-приложения в Tomcat
+Сервлеты
+Домашнее задание
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор Домашнего Задания-14](https://drive.google.com/open?id=0B_4NpoQW1xfpY1hTY282dzhuOFU)
+[см. коммит Lesson15 HW14](https://github.com/JavaWebinar/basejava/tree/02aee9744d7512dfa9ffbebe00ad415ffe5f71ea)
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. HTML, Tomcat](https://drive.google.com/open?id=0B_4NpoQW1xfpZk1pQ1h4dEJBVEE)
+[см. коммит Lesson15 web](https://github.com/JavaWebinar/basejava/tree/2fe01af02b7ba82c3f0c8fa29dc3effb5b575531/src/ru/javawebinar/basejava)
+
+- <a href="http://java-course.ru/student/book1/servlet/">Протокол HTTP</a>. Смотрим <a href="http://topjava.herokuapp.com/">демо приложение<a/> в Chrome -> Инструменты разработчика
+- Добавление в проект Web Facet. web.xml. Постороение/cтруктура WAR. Статические ресурсы.
+- Настройка и деплой в Tomcat. Tomcat manager.
+- Запуск Tomcat из IDEA. Динамическое обновление без передеплоя.
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [2. Сервлеты](https://drive.google.com/open?id=0B_4NpoQW1xfpUWw3NWo0SVFBRjg)
+[см. коммит Lesson15 static_content](https://github.com/JavaWebinar/basejava/tree/e9a4a68e8e360f9cbcd3ff12d27876cee1b9f8cd/src/ru/javawebinar/basejava/web)
+
+[см. коммит Lesson15 servlets](https://github.com/JavaWebinar/basejava/tree/4d1043a3a45d27eda11fdc9c68ac46aa68fdd563)
+
+- <a href="http://devcolibri.com/как-создать-servlet-полное-руководство/">Создаем Servlet</a>. Параметры. Кодировка. 
+- Дополнительно:
+    - <a href="http://stackoverflow.com/questions/3106452/how-do-servlets-work-instantiation-shared-variables-and-multithreading">How do servlets work?</a>
+    - <a href="http://www.intuit.ru/studies/courses/569/425/lecture/9683">Язык программирования Java: введение в сетевое программирование</a>
+    - <a href="http://www.intuit.ru/studies/courses/1102/134/info">Основы работы с HTML</a>
+    - <a href="http://ru.html.net/tutorials/html/">Учебник HTML</a>
+    - [Ссылки по HTML, JavaScript, CSS](https://github.com/JavaOPs/topjava#html-javascript-css)
+
+## Домашнее задание HW15
+- Сделать реализацию `SqlStorage.getAllSorted` через 2 отдельных запроса: отдельно резюме и отдельно контакты.
+- Добавить в реализацию `SqlStorage` и в базу секции (кроме `OrganizationSection`). Для `ListSection` склеиваем строки через `\n`.
+- Сделать отображение таблицы резюме в сервлете (табл resume, т.е. только uuid и fullName).
+  - <a href="http://www.webremeslo.ru/html/glava4.html">HTML таблицы</a>
+
+# Шестнадцатое занятие
+Разбор домашнего задания
+Жизненный цикл сервлета
+Создание динамических страниц. JSP
+Расширенные возможности JSP: JSTL
+Redirect и Forward
+CRUD
+Домашнее задание
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор Домашнего Задания-15. DB](https://drive.google.com/open?id=0B9Ye2auQ_NsFS0J4TEN2cjdtWjQ)
+[см. коммит Lesson16 HW16 DB](https://github.com/JavaWebinar/basejava/tree/39775ee817be0da26ce111db9ba475bfd97b5a4c)
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор Домашнего Задания-15. Servlet](https://drive.google.com/open?id=0B_4NpoQW1xfpZWVSX0tCTjRiU28)
+[см. коммит Lesson16 HW16 servlet](https://github.com/JavaWebinar/basejava/tree/46a5500bc1060ca7ab90ceb4de7979d0cefa3824)
+
+- <a href="https://habrahabr.ru/post/231213/">Почему вы никогда не должны использовать MongoDB</a>
+- <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B2%D0%BB%D0%B5%D1%82_(Java)#.D0.96.D0.B8.D0.B7.D0.BD.D0.B5.D0.BD.D0.BD.D1.8B.D0.B9_.D1.86.D0.B8.D0.BA.D0.BB_.D0.A1.D0.B5.D1.80.D0.B2.D0.BB.D0.B5.D1.82.D0.B0">Жизненный цикл сервлета</a>
+- <a href="http://tomcat-configure.blogspot.ru/2009/01/tomcat-maxthreads-configuration.html">Tomcat maxThreads configuration</a>
+- [Веб-приложение с Java Servlets](https://tproger.ru/translations/building-a-web-app-with-java-servlets/)
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. JSP](https://drive.google.com/open?id=0B_4NpoQW1xfpQ2hYRWJ2TWd2QjA)
+[см. коммит Lesson16 jsp](https://github.com/JavaWebinar/basejava/tree/b29ed85e8a99432de317dcae0780ecedc37981ac)
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [2. include](https://drive.google.com/open?id=0B_4NpoQW1xfpRy1DbWhRVXhTbHc)
+[см. коммит Lesson16 include](https://github.com/JavaWebinar/basejava/tree/28f305b52abb96f237b4e30447b102f9b67d12a5/web/WEB-INF/jsp)
+
+- <a href="http://java-course.ru/student/book1/jsp/">Что такое JSP</a>. <a href="https://ru.wikipedia.org/wiki/JSP">Wiki JSP</a>
+- <a href="https://www.hscripts.com/tutorials/jsp/variables.php">Predefined Variables in JSP</a>
+- <a href="http://www.javaportal.ru/java/articles/Java_Server_Pages.html">Стандартные элементы action</a>
+- <a href="http://stackoverflow.com/questions/4764405/how-to-use-relative-paths-without-including-the-context-root-name">How to use relative paths in JSP</a>
+- Отличие Redirect от Forward
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [3. JSTL](https://drive.google.com/open?id=0B_4NpoQW1xfpSHdUNE9TZWNJV1k)
+[см. коммит Lesson16 jstl](https://github.com/JavaWebinar/basejava/blob/a909d0854c47753d8f278a9d6e930411992762ac/web/WEB-INF/jsp/list.jsp)
+
+- <a href="https://ru.wikipedia.org/wiki/JSTL">JSTL</a>
+- <a href="https://devcolibri.com/jstl-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D1%8F-jsp-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86">JSTL для написания JSP страниц</a>
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [4. CRUD](https://drive.google.com/open?id=0B_4NpoQW1xfpak9nZS1BXzBTbEU)
+[см. коммит Lesson16 crud](https://github.com/JavaWebinar/basejava/tree/3e07257a33d1ba51508e315d6021aa1b78849fca)
+
+## Домашнее задание HW16
+- Доделать логику сервлета
+- Дополнить отображение и редактирование JSP секциями
+
+# Семнадцатое занятие
+Разбор домашнего задания
+Деплой приложения в облачный сервис Heroku
+Загрузка классов в Java. Classloader
+Домашнее задание
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор Домашнего Задания-16](https://drive.google.com/open?id=0B_4NpoQW1xfpR2U1OUJEM0hzc1k)
+[см. коммит Lesson17 HW16](https://github.com/JavaWebinar/basejava/tree/dc678d613ecdf18d9973e7464ddc997ad316c22f)
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор Домашнего Задания-16 добавление резюме](https://drive.google.com/open?id=0B_4NpoQW1xfpQ1d3VmN1RHA1Q1k)
+[см. коммит Lesson17 HW16_add_resume](https://github.com/JavaWebinar/basejava/tree/10c521a8d412b3a4b3256d3044504fb269e16a26)
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. Деплой в Heroku](https://drive.google.com/open?id=0B_4NpoQW1xfpS2JSSDByQ2xGWm8)
+[см. коммит Lesson17 DB_credentials_as_resources](https://github.com/JavaWebinar/basejava/tree/9b8552f6957ae48440685cba5a24afd592e60fba)
+- <a href="https://devcenter.heroku.com/articles/war-deployment#deployment-with-the-heroku-cli">Deployment with the Heroku CLI</a>
+- для доступа к удаленной БД используйте следующие настройки SSL `ssl=true&sslmode=verify-ca&sslfactory=org.postgresql.ssl.NonValidatingFactory`
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [2. Classloader](https://drive.google.com/open?id=0B_4NpoQW1xfpQnJQZ0d2ajJNWlU)
+- <a href="https://habrahabr.ru/post/103830/">Загрузка классов в Java</a>
+- <a href="https://tomcat.apache.org/tomcat-8.0-doc/class-loader-howto.html">Apache Tomcat Class Loader</a>
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [3. Вебинар "Осваиваем Java String/JPA Enterprise"](https://drive.google.com/file/d/0B9Ye2auQ_NsFY1ZDNXRCd1NCTG8)
+- [Слайды вебинара](https://goo.gl/XNVOj4)
+- <a href="https://habrahabr.ru/post/308104/">Из юниоров в разработчики: получаем первую работу</a>
+- <a href="http://zeroturnaround.com/rebellabs/java-tools-and-technologies-landscape-2016/">Java Tools and Technologies Landscape Report 2016</a>
+
+#### Java Enterprise project Topjava
+- <a href="http://javaops.ru/reg/topjava">Стажировка Spring/JPA Enterprise (Topjava)</a>
+- <a href="http://javaops.ru/view/test">Ссылки по темам интервью, тестовое интервью</a>
+- <a href="https://github.com/JavaOPs/topjava/blob/master/cv.md">Составление резюме, подготовка к интервью, поиск работы</a>
+- [Как стать профессиональным Java разработчиком (Яков Фaйн)](https://www.youtube.com/watch?v=ft0Nj8Cm9kk)
