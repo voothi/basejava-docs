@@ -1227,6 +1227,7 @@ Alt F1 выбор в
 
 ## Iterator / Iterable. Вложенные, внутренние, локальные и анонимные классы
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. Iterator / Iterable. Вложенные, внутренние, локальные и анонимные классы](https://drive.google.com/file/d/1htZCFoU8j47a00yy-OOvnC27Ktmn1_Hz)
+
 **Коммиты:**
 - [`Lesson06 Iterator, Comparator and Inner Classes`](https://github.com/JavaWebinar/basejava/tree/e7531643b410435c07a998a1428fb9a4de2d30bb/src/ru/javawebinar/basejava)
 
@@ -1255,6 +1256,7 @@ Alt F1 выбор в
 
 ## Новое в Java 8
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [2. Новое в Java 8](https://drive.google.com/open?id=0B_4NpoQW1xfpcVJFa2ljeEloTXc)
+
 **Коммиты:**
 - [`Lesson06 Lambda`](https://github.com/JavaWebinar/basejava/blob/7a80322a4861ccc1e1eacaef2aac078820699667/src/ru/javawebinar/basejava/storage/SortedArrayStorage.java)
 
@@ -1297,14 +1299,38 @@ Alt F1 выбор в
 
 ## Разбор домашнего задания
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор домашнего задания](https://drive.google.com/open?id=0B_4NpoQW1xfpT1BwLUNBanVfd1E)
+
 **Коммиты:**
 - [`Lesson07_HW06 test refactoring`](https://github.com/JavaWebinar/basejava/tree/b47cadba8f2fb2da61ef6b9f6b245f5c358ea5d8/test/ru/javawebinar/basejava/storage)
 - [`Lesson07_HW06 add fullName`](https://github.com/JavaWebinar/basejava/tree/fb608dd824abda1f15bbc437e4d0d5e094fc1680)
 - [`Lesson07_HW06 getAllSorted`](https://github.com/JavaWebinar/basejava/tree/bd8e5f4f4582c9f65e1d6a82da1311d6b0efe294)
 - [`Lesson07_HW06 mapStorage`](https://github.com/JavaWebinar/basejava/tree/6d0dbdc64e257452662d65f76edf6d9d07328a79)
 
+### Аннотация видео
+#### stackOverflow
+Паттерн Шаблонный метод (Template Method)  
+0130 AbstractArrayStorageTest extend AbstractStorageTest  
+оставляем 
+- конструктор
+  - супер
+- stackOverflow
+
+AbstractStorageTest  
+удаляем  
+- stackOverflow
+
+0248 JUnit группируем тесты AllStorageTest
+
+~~?: Откуда взялся MapUuidStorage?~~
+
+0500 Диаграммы
+
+
+
+
 ## Параметризация. Стирание типов
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. Параметризация. Стирание типов](https://drive.google.com/open?id=0B_4NpoQW1xfpbXotWEFrYVVGUWc)
+
 **Коммиты:**
 - [`Lesson07 generic`](https://github.com/JavaWebinar/basejava/tree/1cb2a6bc0bbbb43285b8ca6b297588e9984fa84b/src/ru/javawebinar/basejava/storage)
 
@@ -1317,6 +1343,7 @@ Alt F1 выбор в
 
 ## Логирование
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [2. Логирование](https://drive.google.com/open?id=0B_4NpoQW1xfpM1J5NkVqNHd1MlU)
+
 **Коммиты:**
 - [`Lesson07 logging`](https://github.com/JavaWebinar/basejava/blob/63674b7f246bf6bc4e509cc1241c7b6340477d18/src/ru/javawebinar/basejava/storage/AbstractStorage.java)
 
@@ -1329,6 +1356,7 @@ Alt F1 выбор в
 
 ## Синглтон. Enum
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [3. Синглтон. Enum](https://drive.google.com/open?id=0B_4NpoQW1xfpZ3lmWVhUSXprQXc)
+
 **Коммиты:**
 - [`Lesson07 enum`](https://github.com/JavaWebinar/basejava/tree/a1fe80b00444b6c8d8af149c5e82137c312fee22/src/ru/javawebinar/basejava)
 
