@@ -2,8 +2,9 @@
 
 Занятие 1
 =========
+[Общий список занятий](https://github.com/JavaWebinar/basejava)
 
-https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson01.md  
+[Первое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson01.md)
 
  - Обзор курса и методики обучения
  - Подготовка и настройка рабочего окружения
@@ -20,9 +21,10 @@ https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson01.md
 
 Занятие 2
 =========
+[Общий список занятий](https://github.com/JavaWebinar/basejava)
 
-https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson02.md  
-
+[Второе занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson02.md)
+ 
  - Введение в объектно-ориентированное программирование
  - Принципы ООП
  - Модификаторы доступа
@@ -296,8 +298,9 @@ Util
 
 Занятие 3
 =========
+[Общий список занятий](https://github.com/JavaWebinar/basejava)
 
-https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson03.md  
+[Третье занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson03.md)
 
  - Разбор домашнего задания
  - Обзор суперкласса Object
@@ -651,8 +654,9 @@ System.out.println("Get dummy: " + ARRAY_STORAGE.get("dummy"));
 
 Занятие 4
 =========
+[Общий список занятий](https://github.com/JavaWebinar/basejava)
 
-https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson04.md
+[Четвертое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson04.md)
 
 * Разбор домашнего задания
 * Работа со строками: String, StringBuilder, StringBuffer
@@ -978,8 +982,9 @@ JUnit понимает, что нельзя создать от него объ�
 
 Занятие 5
 =========
+[Общий список занятий](https://github.com/JavaWebinar/basejava)
 
-https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson05.md  
+[Пятое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson05.md)
 
  - Разбор домашнего задания
  - Иерархия классов Коллекций
@@ -1163,6 +1168,7 @@ IDEA Shift Alt Ins - выделение по вертикали
 
 Занятие 6
 =========
+[Общий список занятий](https://github.com/JavaWebinar/basejava)
 
 [Шестое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson06.md)
 
@@ -1180,6 +1186,7 @@ IDEA Shift Alt Ins - выделение по вертикали
 ***
 
 ## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор домашнего задания](https://drive.google.com/open?id=0B_4NpoQW1xfpUFJpRVZvNVVpeDg)
+
 **Коммиты:**
 - [`lesson06 HW05`](https://github.com/JavaWebinar/basejava/tree/82748583a0454aa3dd2cbf38d83de1cb49fa3ee3)
 
@@ -1217,7 +1224,6 @@ Alt F1 выбор в
 36 26 Тесты пройдены
 50 06 Создать новый тест Ctrl Shift T  
 
-
 ## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. Iterator / Iterable. Вложенные, внутренние, локальные и анонимные классы](https://drive.google.com/file/d/1htZCFoU8j47a00yy-OOvnC27Ktmn1_Hz)
 **Коммиты:**
 - [`Lesson06 Iterator, Comparator and Inner Classes`](https://github.com/JavaWebinar/basejava/tree/e7531643b410435c07a998a1428fb9a4de2d30bb/src/ru/javawebinar/basejava)
@@ -1236,6 +1242,29 @@ Alt F1 выбор в
 - [Inner (non-static) классы в Java](https://www.youtube.com/watch?v=LflAy_LOwwQ) (youtube)
 - **Дополнительно**
   - [Вложенные, внутренние, локальные и анонимные классы [eng]](https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html)
+
+### Аннотация видео
+0546 Нестатический внутренний класс  
+связан с родительским невидимой ссылкой 
+У вложенного есть ссылка на родителя  
+У него есть спрятанное поле  
+Можно посмотреть в байт-коде  
+0810 ArrayList.this.cursor  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [2. Новое в Java 8](https://drive.google.com/open?id=0B_4NpoQW1xfpcVJFa2ljeEloTXc)
 **Коммиты:**
@@ -1260,4 +1289,185 @@ Alt F1 выбор в
 - Подумайте, что еще, может выступать в качестве `search key` в реализации на основе `Map` (не путайте `key` и `search key` - это разные сущности). Выразите свои идеи в коде (в итоге у вас в проекте должны быть два класса, реализованных на основе мапы)
 - Переделайте компаратор, учтя тот случай, что `fullName` разных людей может совпадать
 - Из-за того, что количество тестовых классов растет, воспользуйтесь [аннотациями](http://javastudy.ru/junit/junit-suite-tests/) JUnit, которые помогут упростить их запуск. Форматируйте класс-запуска тестов в соответствии с [этой](https://drive.google.com/file/d/1XHFbxNLekyAWCPJROPJcxmJydjg0K3eH/view?usp=sharing) картинкой
+
+
+Занятие 7
+=========
+[Общий список занятий](https://github.com/JavaWebinar/basejava)
+
+[Седьмое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson07.md)
+
+- Разбор домашнего задания
+- Дженерики (Generic)
+- Введение в логирование. Log4J
+- Стандартный логер - Java Logging API
+- Паттерн проектирования - Синглтон
+- Перечисляемые типы (Enum)
+- Объектная модель
+- Домашнее задание
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор домашнего задания](https://drive.google.com/open?id=0B_4NpoQW1xfpT1BwLUNBanVfd1E)
+**Коммиты:**
+- [`Lesson07_HW06 test refactoring`](https://github.com/JavaWebinar/basejava/tree/b47cadba8f2fb2da61ef6b9f6b245f5c358ea5d8/test/ru/javawebinar/basejava/storage)
+- [`Lesson07_HW06 add fullName`](https://github.com/JavaWebinar/basejava/tree/fb608dd824abda1f15bbc437e4d0d5e094fc1680)
+- [`Lesson07_HW06 getAllSorted`](https://github.com/JavaWebinar/basejava/tree/bd8e5f4f4582c9f65e1d6a82da1311d6b0efe294)
+- [`Lesson07_HW06 mapStorage`](https://github.com/JavaWebinar/basejava/tree/6d0dbdc64e257452662d65f76edf6d9d07328a79)
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. Параметризация. Стирание типов](https://drive.google.com/open?id=0B_4NpoQW1xfpbXotWEFrYVVGUWc)
+**Коммиты:**
+- [`Lesson07 generic`](https://github.com/JavaWebinar/basejava/tree/1cb2a6bc0bbbb43285b8ca6b297588e9984fa84b/src/ru/javawebinar/basejava/storage)
+
+**Ресурсы:**
+- [Дженерики (Java, обучающая статья)](http://www.quizful.net/post/java-generics-tutorial)
+- [Обобщения (Generic)](http://developer.alexanderklimov.ru/android/java/generic.php)
+- [Ограничения](http://docs.oracle.com/javase/tutorial/java/generics/restrictions.html)
+- **Дополнительно**
+  - [Java Generics Example Tutorial](https://www.journaldev.com/1663/java-generics-example-method-class-interface)
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [2. Логирование](https://drive.google.com/open?id=0B_4NpoQW1xfpM1J5NkVqNHd1MlU)
+**Коммиты:**
+- [`Lesson07 logging`](https://github.com/JavaWebinar/basejava/blob/63674b7f246bf6bc4e509cc1241c7b6340477d18/src/ru/javawebinar/basejava/storage/AbstractStorage.java)
+
+**Ресурсы:**
+- [Log4J (Apache logging)](https://logging.apache.org/)
+- [Java Logging API - Tutorial](http://www.vogella.com/tutorials/Logging/article.html)
+- [Логирование в Java / quick start](https://habrahabr.ru/post/130195/)
+- [Ведение лога приложения](http://skipy.ru/useful/logging.html)
+- [Java Logging: история кошмара](http://habrahabr.ru/post/113145/)
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [3. Синглтон. Enum](https://drive.google.com/open?id=0B_4NpoQW1xfpZ3lmWVhUSXprQXc)
+**Коммиты:**
+- [`Lesson07 enum`](https://github.com/JavaWebinar/basejava/tree/a1fe80b00444b6c8d8af149c5e82137c312fee22/src/ru/javawebinar/basejava)
+
+**Ресурсы:**
+- [Одиночка (шаблон проектирования)](https://ru.wikipedia.org/wiki/Одиночка_(шаблон_проектирования))
+- [Перечисляемые типы (enum) в Java](http://easy-code.ru/lesson/enum-types-java)
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Домашнее задание:](https://drive.google.com/open?id=0B_4NpoQW1xfpVjhZTzhqemlYZUU)
+[Доменный объект](https://ru.wikipedia.org/wiki/Доменный_объект)
+
+- Начните выполнение ДЗ с рисования UML-диаграммы классов модели, описывающих резюме. Покажите ее наставнику
+- Сделать объектную модель резюме (диаграмма и классы). [**Образец резюме**](https://javawebinar.github.io)
+  - Resume - главный класс. Делать только классы, включаемые в Resume (тип [отношения](https://github.com/ichimax/Java-Interview-Questions/blob/master/Questions/1.%20OOP.md#Типы-отношений-между-классами) - композиция)
+  - Схожие по структуре и функциональности сущности делаем одним классом
+  - Модель максимально упрощаем, и храним в ней только необходимые данные, а также функционал для вывода и редактирования резюме
+  - В модели резюме должны быть представлены контакты и следующие секции:
+    - PERSONAL("Личные качества")
+    - OBJECTIVE("Позиция")
+    - ACHIEVEMENT("Достижения")
+    - QUALIFICATIONS("Квалификация")
+    - EXPERIENCE("Опыт работы")
+    - EDUCATION("Образование")
+  - В секциях Достижения и Квалификация хранить список строк
+  - Учесть в классах модели, что обработка резюме (вывод в html, сохранение, чтение) будет происходить следующим образом:
+обработка `fullName`, цикл обработки по контактам, цикл обработки по секциям (для секций использовать полиморфизм, как для фигур: круг, квадрат...)
+  - При добавлении / удалении новых видов контактов (например домашний телефон) или разделов изменения в коде (и БД) должны быть минимальны
+- **ПРОВЕРЬТЕ свою модель: создайте класс ResumeTestData с методом main, а в нем объект `Resume` и заполните все его разделы данными, взятыми из [**Образца резюме**](https://javawebinar.github.io)**  
+- **Не размещайте в AbstractStorageTest код, связанный с заполнением резюме данными. Делайте это в ResumeTestData**
+
+#### Инструменты для рисования UML-диаграмм:
+
+- [Generate class diagram in IntelliJ IDEA](http://stackoverflow.com/questions/8942751/use-intellij-to-generate-class-diagram#26926334) ([Help: working with Diagrams](https://www.jetbrains.com/help/idea/2016.1/working-with-diagrams.html?origin=old_help))
+- Нарисовать и сфотографировать
+- [Online: www.draw.io](http://www.draw.io)
+- [yEd - Graph Editor](https://www.yworks.com/)
+
+Занятие 8
+=========
+[Общий список занятий](https://github.com/JavaWebinar/basejava)
+
+[Восьмое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson08.md)
+
+- Разбор домашнего задания
+- Классы работы с датами: Date, Calendar, TimeZone
+- Дата и время в Java 8
+- Внешние библиотеки: Joda Time library
+- Работа с файловой системой: класс File
+- try-with-resources
+- Домашнее задание
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор Домашнего Задания-7](https://drive.google.com/open?id=0B_4NpoQW1xfpSXBDR3NndlFXSFE)
+[см. коммит Lesson08 HW07 model implementation](https://github.com/JavaWebinar/basejava/tree/8ba1997667b33253df132eb5aef1fc618298687b/src/ru/javawebinar/basejava/model)
+
+- <a href="https://drive.google.com/open?id=1P2qn_bW7hNclKr-J9Yb5LJmbZEwM3IyK">Объектная модель резюме</a>
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. Работа с датами и временем.](https://drive.google.com/open?id=0B_4NpoQW1xfpV3hZMk85djRfeVk)
+[см. коммит Lesson08 DateTime api ](https://github.com/JavaWebinar/basejava/tree/f4844c291cf82387a14088ab3eed112b3102a607/src/ru/javawebinar/basejava)
+
+- <a href="http://www.intuit.ru/studies/courses/16/16/lecture/27131?page=1">Класс Date, Calendar, TimeZone</a>
+- <a href="https://www.mkyong.com/java/java-convert-date-and-time-between-timezone/">Java – Convert date and time between timezone</a>
+- <a href="http://www.joda.org/joda-time">Joda Time library</a>
+- <a href="https://github.com/winterbe/java8-tutorial#date-api">Java 8 Date API</a>
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [2. Работа с файлами и ресурсами.](https://drive.google.com/open?id=0B_4NpoQW1xfpWjJFazJQT0Y2SHc)
+[см. коммит Lesson08 File and Resources ](https://github.com/JavaWebinar/basejava/blob/c4011b8d0a07aa0cbc07731809b6b0de61cd767b/src/ru/javawebinar/basejava/MainFile.java)
+
+ - <a href="http://www.intuit.ru/studies/courses/16/16/lecture/27133?page=4#sect23">File. Работа с файловой системой.</a>
+ - Работа с ресурсами. <a href="https://habrahabr.ru/post/178405/">Правильно освобождаем ресурсы в Java</a>
+ - <a href="http://info.javarush.ru/translation/2013/08/19/Java-7-try-with-resources.html">Java 7 try-with-resources</a>
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Домашнее задание:](https://drive.google.com/open?id=0B_4NpoQW1xfpRV8xMnpDV0VBUGc)
+[см. коммит Lesson08 HW08 ](https://github.com/JavaWebinar/basejava/tree/126be641f9cf8202956817d26279a7af0cdf6845/src/ru/javawebinar/basejava)
+
+1) Переделать модель резюме: учесть, что на одной работе (в одном учебном заведении) можно работать/ учиться в разные периоды и при этом имя организации не дублируется
+2) Сделать рекурсивный обход и вывод имени файлов в каталогах и подкаталогах (корневой каталог- ваш проект)
+3) Для создания и заполнения данными резюме из класса `AbstractStorageTest` используйте `ResumeTestData`. Не делайте это в  `AbstractStorageTest`!
+4) Реализовать `AbstractFileStorage`, базовый класс для хранения резюме в файлах.
+
+Занятие 9
+=========
+[Общий список занятий](https://github.com/JavaWebinar/basejava)
+
+[Девятое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson09.md)
+
+- Разбор домашнего задания
+- Классы работы с датами: Date, Calendar, TimeZone
+- Дата и время в Java 8
+- Внешние библиотеки: Joda Time library
+- Работа с файловой системой: класс File
+- try-with-resources
+- Домашнее задание
+
+
+# Девятое занятие
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор Домашнего Задания](https://drive.google.com/open?id=0B_4NpoQW1xfpeENDOVdQbUpIWEU)
+>Для создания и заполнения данными резюме из класса AbstractStorageTest используйте ResumeTestData. Не делайте это в AbstractStorageTest!
+
+**Коммиты:**
+- [`Lesson09 HW08`](https://github.com/JavaWebinar/basejava/tree/150e15f99c35d53e0c43c9f64d7833b5e7184768)
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. Ввод/вывод](https://drive.google.com/open?id=0B_4NpoQW1xfpZHk3TnYyaDRjY3M)
+
+**Ресурсы:**
+- <a href="http://www.intuit.ru/studies/courses/16/16/lecture/27133">Пакет java.io</a>
+- <a href="http://ru.wikipedia.org/wiki/Декоратор_(шаблон_проектирования)">Паттерн Декоратор</a>.
+- <a href="http://www.intuit.ru/studies/courses/16/16/lecture/27133?page=4">Классы Reader и Writer.</a>
+ 
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [2. Сериализация](https://drive.google.com/open?id=0B_4NpoQW1xfpb0dRNjI1S2tOUjA)
+**Коммиты:**
+- [`Lesson09 ObjectStreamStorage`](https://github.com/JavaWebinar/basejava/tree/7a80d1d7feba08d433e55417bfd26ac0b3fa5298)
+
+**Ресурсы:**
+- <a href="http://www.intuit.ru/studies/courses/16/16/lecture/27133?page=3">Сериализация объектов (serialization)</a>
+- Реализация Storage используя <a href="https://habrahabr.ru/post/60317/">сериализацию</a>.
+- Сериализация: [1](https://www.youtube.com/watch?v=dBcqizwOWLg), [2](https://www.youtube.com/watch?v=nr4_JRKCGBU) (youtube)
+ 
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [3. NIO](https://drive.google.com/open?id=0B_4NpoQW1xfpMzBqSWI3eEI2RGs)
+**Коммиты:**
+- [`Lesson09 AbstractPathStorage`](https://github.com/JavaWebinar/basejava/commit/4b37c38fb980e315c5ec5f1b2b868fbb5935fe6d)
+
+**Ресурсы:**
+- <a href="http://www.quizful.net/post/java-nio-tutorial">NIO Java 7</a>
+- <a href="https://habrahabr.ru/post/269667/">Чтения строк из файла</a>
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [4. Основы Java 8 Stream API](https://drive.google.com/open?id=0B_4NpoQW1xfpMHd6VDJjS28tRmM)
+**Ресурсы:**
+- <a href="https://annimon.com/article/2778">Потоки</a>
+
+## Домашнее задание
+- Сделать рекурсивный вывод каталогов и файлов с отступами
+- Реализовать `ObjectStreamPathStorage` (через `java.nio.file.Path`) и добавить `ObjectStreamPathStorageTest`
+- Сделать реализации `Storage` сохранения в файл через `File` и `Path` с возможностью выбора стратегии сериализации (посмотрите на [паттерн стратегия](https://refactoring.guru/ru/design-patterns/strategy)). Кроме сохранения через `ObjectOutputStream/ObjectInputStream` у нас будут еще несколько вариантов сериализации. Сделать тесты для тестирования сохранения через `ObjectOutputStream/ObjectInputStream` для `File` и `Path`.
+
 
