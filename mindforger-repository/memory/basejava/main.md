@@ -1531,13 +1531,13 @@ AbstractStorageTest
 
 [Десятое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson10.md)
 
-Разбор домашнего задания
-Паттерн проектирования Стратегия
-Работа с XML
-Работа с JSON: Google GSON и Jackson
-Введение в REST
-DataInputStream/DataOutputStream
-Домашнее задание
+- Разбор домашнего задания
+- Паттерн проектирования Стратегия
+- Работа с XML
+- Работа с JSON: Google GSON и Jackson
+- Введение в REST
+- DataInputStream/DataOutputStream
+- Домашнее задание
 
 ## Разбор домашнего задания
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор домашнего задания](https://drive.google.com/open?id=0B_4NpoQW1xfpZDVJdGlDRlBlUEU)
@@ -1579,23 +1579,34 @@ DataInputStream/DataOutputStream
 ## Домашнее задание
 - Сделать и протестировать реализацию `DataStreamSerializer`
 
-# Одиннадцатое занятие
+# Занятие 11
+=========
+[Общий список занятий](https://github.com/JavaWebinar/basejava)
 
-Процессы и потоки
-Синхронизация методов и блоков
-Закон Мура
-Закон Амдала
-Обзор методов класса Object
-Ленивая инициализация
-Java Memory Model
-Взаимная блокировка
-Домашнее задание
+[Одиннадцатое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson11.md)
+
+- Процессы и потоки
+- Синхронизация методов и блоков
+- Закон Мура
+- Закон Амдала
+- Обзор методов класса Object
+- Ленивая инициализация
+- Java Memory Model
+- Взаимная блокировка
+- Домашнее задание
 
 ## Разбор Домашнего Задания-10 будет на следующем уроке
 
-## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. Многопоточность. Параллельное выполнение.](https://drive.google.com/open?id=0B_4NpoQW1xfpSmVjRzl6c3ctTTA)
+## Многопоточность. Параллельное выполнение
+![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. Многопоточность. Параллельное выполнение.](https://drive.google.com/open?id=0B_4NpoQW1xfpSmVjRzl6c3ctTTA)
 [см. коммит Lesson11](https://github.com/JavaWebinar/basejava/blob/6a626f61722af844663860d1af284c53a9adf423/src/ru/javawebinar/basejava/MainConcurrency.java)
- 
+
+### Аннотация
+?: 0815 У потока/нити/thread -а у каждого в приложении своя область выделенной памяти или общая Stack?
+
+2050 Порядок выполнения между thread не определен - по усмотрению ОС. Это проблема для тестирования и написания многопоточного кода в Java. (Решается Конечными автоматами?)  
+https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%82%D0%BE%D0%BA_%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F
+
 ![Закон Мура](https://www.karlrupp.net/wp-content/uploads/2015/06/40-years-processor-trend.png)
 - <a href="https://ru.wikipedia.org/wiki/Закон_Мура">Закон Мура</a>
 - <a href="https://ru.wikipedia.org/wiki/Закон_Амдала">Закон Амдала</a>
@@ -1607,7 +1618,8 @@ Java Memory Model
 -  <a href="http://www.intuit.ru/studies/courses/16/16/lecture/27127">Потоки выполнения. Синхронизация.</a>
 -  <a href="http://www.intuit.ru/studies/courses/16/16/lecture/27127?page=4">Методы wait(), notify(), notifyAll() класса Object</a>
 
-## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [2. Ленивая инициализация, JMM.](https://drive.google.com/file/d/1kAoLlGhsHAyl_Vtak5R_VuNiQp5cYUx3)
+## Ленивая инициализация, JMM
+![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [2. Ленивая инициализация, JMM.](https://drive.google.com/file/d/1kAoLlGhsHAyl_Vtak5R_VuNiQp5cYUx3)
 [см. коммит Lesson11](https://github.com/JavaWebinar/basejava/blob/6a626f61722af844663860d1af284c53a9adf423/src/ru/javawebinar/basejava/LazySingleton.java)
 
 - <a href="https://ru.wikipedia.org/wiki/Параллелизм_в_Java">Параллелизм в Java</a>
@@ -1627,22 +1639,25 @@ Java Memory Model
 - Реализовать deadlock
 - <a href="https://ru.wikipedia.org/wiki/%D0%92%D0%B7%D0%B0%D0%B8%D0%BC%D0%BD%D0%B0%D1%8F_%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0">Взаимная блокировка</a>
 
+# Занятие 12
+=========
+[Общий список занятий](https://github.com/JavaWebinar/basejava)
 
+[Двенадцатое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson12.md)
 
+- Разбор домашнего задания
+- Обзор java.util.concurrent
+- Синхронизаторы
+- ThreadLocal переменные
+- Сравнение с обменом (Compare-and-swap)
+- Домашнее задание
 
-
-# Двенадцатое занятие
-Разбор домашнего задания
-Обзор java.util.concurrent
-Синхронизаторы
-ThreadLocal переменные
-Сравнение с обменом (Compare-and-swap)
-Домашнее задание
-
-## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор Домашнего Задания-11](https://drive.google.com/open?id=0B_4NpoQW1xfpcWNMeHQ1Y0JoaUU)
+## Разбор Домашнего Задания-11 
+![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор Домашнего Задания-11](https://drive.google.com/open?id=0B_4NpoQW1xfpcWNMeHQ1Y0JoaUU)
 [см. коммит Lesson12 HW11](https://github.com/JavaWebinar/basejava/blob/50388920c5e29e70208df572dc34208b46bcdd1a/src/ru/javawebinar/basejava/MainConcurrency.java)
 
-## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Concurrency](https://drive.google.com/open?id=0B_4NpoQW1xfpRkdBLW81a1AtWDg)
+## Concurrency
+![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Concurrency](https://drive.google.com/open?id=0B_4NpoQW1xfpRkdBLW81a1AtWDg)
 [см. коммит Lesson12 Concurrency](https://github.com/JavaWebinar/basejava/blob/a34c2eec5a4b96d7ef7cd1fce140b0398e00a197/src/ru/javawebinar/basejava/MainConcurrency.java)
 
 - <a href="http://habrahabr.ru/company/luxoft/blog/157273/">Обзор java.util.concurrent.*</a></li>
@@ -1668,7 +1683,8 @@ ThreadLocal переменные
     DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm:ss");
 
 
-## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор Домашнего Задания-10](https://drive.google.com/open?id=0B_4NpoQW1xfpY3d6R204ZXplb00)
+## Разбор Домашнего Задания-10 
+![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор Домашнего Задания-10](https://drive.google.com/open?id=0B_4NpoQW1xfpY3d6R204ZXplb00)
 [см. коммит Lesson12 HW10](https://github.com/JavaWebinar/basejava/tree/4e75634fa4670a71a60f5643fa995295c4fb959d/src/ru/javawebinar/basejava)
 
 ## Домашнее задание:
