@@ -1526,7 +1526,7 @@ AbstractStorageTest
 - Сделать реализации `Storage` сохранения в файл через `File` и `Path` с возможностью выбора стратегии сериализации (посмотрите на [паттерн стратегия](https://refactoring.guru/ru/design-patterns/strategy)). Кроме сохранения через `ObjectOutputStream/ObjectInputStream` у нас будут еще несколько вариантов сериализации. Сделать тесты для тестирования сохранения через `ObjectOutputStream/ObjectInputStream` для `File` и `Path`.
 
 Занятие 10
-=========
+==========
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
 [Десятое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson10.md)
@@ -1579,8 +1579,8 @@ AbstractStorageTest
 ## Домашнее задание
 - Сделать и протестировать реализацию `DataStreamSerializer`
 
-# Занятие 11
-=========
+Занятие 11
+==========
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
 [Одиннадцатое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson11.md)
@@ -1639,7 +1639,7 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%82%D0%BE%D0%BA_%D0%B2%D1%8B%D0%BF%
 - Реализовать deadlock
 - <a href="https://ru.wikipedia.org/wiki/%D0%92%D0%B7%D0%B0%D0%B8%D0%BC%D0%BD%D0%B0%D1%8F_%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0">Взаимная блокировка</a>
 
-# Занятие 12
+Занятие 12
 =========
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
@@ -1654,10 +1654,12 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%82%D0%BE%D0%BA_%D0%B2%D1%8B%D0%BF%
 
 ## Разбор Домашнего Задания-11 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор Домашнего Задания-11](https://drive.google.com/open?id=0B_4NpoQW1xfpcWNMeHQ1Y0JoaUU)
+
 [см. коммит Lesson12 HW11](https://github.com/JavaWebinar/basejava/blob/50388920c5e29e70208df572dc34208b46bcdd1a/src/ru/javawebinar/basejava/MainConcurrency.java)
 
 ## Concurrency
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Concurrency](https://drive.google.com/open?id=0B_4NpoQW1xfpRkdBLW81a1AtWDg)
+
 [см. коммит Lesson12 Concurrency](https://github.com/JavaWebinar/basejava/blob/a34c2eec5a4b96d7ef7cd1fce140b0398e00a197/src/ru/javawebinar/basejava/MainConcurrency.java)
 
 - <a href="http://habrahabr.ru/company/luxoft/blog/157273/">Обзор java.util.concurrent.*</a></li>
@@ -1685,6 +1687,7 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%82%D0%BE%D0%BA_%D0%B2%D1%8B%D0%BF%
 
 ## Разбор Домашнего Задания-10 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор Домашнего Задания-10](https://drive.google.com/open?id=0B_4NpoQW1xfpY3d6R204ZXplb00)
+
 [см. коммит Lesson12 HW10](https://github.com/JavaWebinar/basejava/tree/4e75634fa4670a71a60f5643fa995295c4fb959d/src/ru/javawebinar/basejava)
 
 ## Домашнее задание:
@@ -1700,19 +1703,26 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%82%D0%BE%D0%BA_%D0%B2%D1%8B%D0%BF%
 если сумма всех чисел нечетная - удалить все нечетные, если четная - удалить все четные. Сложность алгоритма должна быть O(N). 
 Optional - решение в один стрим.
 
-# Тринадцатое занятие
-Разбор домашнего задания
-Введение в реляционные базы данных
-Язык SQL
-Обзор NoSQL баз данных
-Установка и настройка СУБД PostgreSQL
-Работа с базами данных из IDEA
-Конфигурирование базы данных и каталога хранения
-Подключение базы данных к проекту
-Обзор JDBC-архитектуры
-Домашнее задание
+Занятие 13
+==========
+[Общий список занятий](https://github.com/JavaWebinar/basejava)
 
-## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. Базы данных. Реляционные СУБД. PostgreSQL](https://drive.google.com/open?id=0B_4NpoQW1xfpOHFGQTUydzdKaFE)
+[Тринадцатое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson13.md)
+
+- Разбор домашнего задания
+- Введение в реляционные базы данных
+- Язык SQL
+- Обзор NoSQL баз данных
+- Установка и настройка СУБД PostgreSQL
+- Работа с базами данных из IDEA
+- Конфигурирование базы данных и каталога хранения
+- Подключение базы данных к проекту
+- Обзор JDBC-архитектуры
+- Домашнее задание
+
+## Базы данных. Реляционные СУБД. PostgreSQL
+![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. Базы данных. Реляционные СУБД. PostgreSQL](https://drive.google.com/open?id=0B_4NpoQW1xfpOHFGQTUydzdKaFE)
+
 **Коммиты:**
 
 - [`Lesson13 Init DB`](https://github.com/JavaWebinar/basejava/blob/79f4e1d3ecc9ce306504a991fcca00c81c992f8c/config/init_db.sql)
@@ -1730,7 +1740,9 @@ Optional - решение в один стрим.
 - [Книги по postgreSQL](https://postgrespro.ru/education/books)
 - [Интерактивная обучалка по postgreSQL](https://www.pgexercises.com/)
 
-## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [2. Конфигурирование данных в Java проекте](https://drive.google.com/open?id=0B_4NpoQW1xfpQUpkVTJiQnpBNnM)
+## Конфигурирование данных в Java проекте
+![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [2. Конфигурирование данных в Java проекте](https://drive.google.com/open?id=0B_4NpoQW1xfpQUpkVTJiQnpBNnM)
+
 **Коммиты:**
 
 [`Lesson13 properties`](https://github.com/JavaWebinar/basejava/tree/25f4dd3b23790cc74c30d3703b16fa6af09c3905)
@@ -1740,7 +1752,9 @@ Optional - решение в один стрим.
 - [Properties sample](https://www.mkyong.com/java/java-properties-file-examples)
 - Конфигурирование DB и каталога хранения  
 
-## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [3.Подключение DB в проект](https://drive.google.com/open?id=0B_4NpoQW1xfpWVVSOURIeDNEMUk)
+## Подключение DB в проект
+![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [3.Подключение DB в проект](https://drive.google.com/open?id=0B_4NpoQW1xfpWVVSOURIeDNEMUk)
+
 **Коммиты:**
 
 [`Lesson13 SqlStorage`](https://github.com/JavaWebinar/basejava/tree/62705ea7e24dda66647b47971f83f1507dd80016)
@@ -1753,7 +1767,9 @@ Optional - решение в один стрим.
 - [Работа с базами данных с помощью JDBC драйвера](https://devcolibri.com/работа-с-бд-mysql-postgresql-с-помощью-jdbc-драйвера)
 - [Уроки по JDBC](https://www.youtube.com/playlist?list=PLIU76b8Cjem5qdMQLXiIwGLTLyUHkTqi2)
 
-### ![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) Домашнее задание HW13
+## Домашнее задание HW13
+![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) Домашнее задание HW13
+
 - Доделать `SqlStorage` без контактов и секций
 - Для работы с DB надо в lib и проект добавить [драйвер базы данных](http://repo1.maven.org/maven2/org/postgresql/postgresql/42.2.1)
 - Запустить `SqlStorageTest` (в `AbstractStorageTest` контакты и секции закоменченны), креденшелы к базе взять из `Config`
@@ -1761,32 +1777,45 @@ Optional - решение в один стрим.
 (https://dzone.com/articles/removing-duplicate-code-with-lambda-expressions)
 
 
-# Четырнадцатое занятие
-Разбор домашнего задания
-Операции соединения таблиц. JOIN
-Транзакции
-Требования к транзакциям. ACID
-Уровни изоляции транзакций в SQL
-Установка и настройка контейнера сервлетов Tomcat
-Домашнее задание
+Занятие 14
+==========
+[Общий список занятий](https://github.com/JavaWebinar/basejava)
 
-## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор Домашнего Задания-13](https://drive.google.com/open?id=0B_4NpoQW1xfpREpRYm5ZLWN2RWc)
+[Четырнадцатое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson14.md)
+
+- Разбор домашнего задания
+- Операции соединения таблиц. JOIN
+- Транзакции
+- Требования к транзакциям. ACID
+- Уровни изоляции транзакций в SQL
+- Установка и настройка контейнера сервлетов Tomcat
+- Домашнее задание
+
+## Разбор Домашнего Задания-13
+![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор Домашнего Задания-13](https://drive.google.com/open?id=0B_4NpoQW1xfpREpRYm5ZLWN2RWc)
+
 [см. коммит Lesson14 HW13](https://github.com/JavaWebinar/basejava/tree/aa4dd3537275cc3be0d68aeb902d28c0ef94e747)
 
-## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. JOIN](https://drive.google.com/open?id=0B_4NpoQW1xfpT3R6WFBBbmVGXzA)
+## JOIN
+![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. JOIN](https://drive.google.com/open?id=0B_4NpoQW1xfpT3R6WFBBbmVGXzA)
+
 [см. коммит Lesson14 JOIN](https://github.com/JavaWebinar/basejava/blob/57c5687e276d4fb3bfcf8d7b0c7b301db1a0095b/src/ru/javawebinar/basejava/storage/SqlStorage.java)
 - <a href="http://www.skillz.ru/dev/php/article-Obyasnenie_SQL_obedinenii_JOIN_INNER_OUTER.html">LEFT, RIGHT, INNER JOIN</a>
 - [SQL Join](https://www.youtube.com/watch?v=EHvzvwAv7RU&index=1&list=PLY7PmJJFH5nT-lbFKxfbp3rw5BBuq5Azo) (youtube)
 - Добавляем в `SqlStorage` контакты
 
-## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [2. Транзакции](https://drive.google.com/open?id=0B_4NpoQW1xfpTm43Z2hnZkV4c2M)
+## Транзакции
+![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [2. Транзакции](https://drive.google.com/open?id=0B_4NpoQW1xfpTm43Z2hnZkV4c2M)
+
 [см. коммит Lesson14 Transaction_Batch](https://github.com/JavaWebinar/basejava/tree/0901c3a80ce8150524f2513c7ba148fdd03e49b2/src/ru/javawebinar/basejava)
 - <a href="http://ru.wikipedia.org/wiki/Транзакция_(информатика)">Транзакция. ACID.</a> <a href="https://ru.wikipedia.org/wiki/Уровень_изолированности_транзакций">Уровни изоляции транзакций.</a>
 - <a href="http://www.osp.ru/pcworld/2009/07/9708191/">Уровни изоляции транзакций в SQL</a>
 - Добавляем в `SqlStorage` транзакции
 - Batch execute.
 
-## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [3. Установка/запуск Tomcat](https://drive.google.com/open?id=0B_4NpoQW1xfpZU9QQ25VTkRmSjg)
+## Установка/запуск Tomcat
+![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [3. Установка/запуск Tomcat](https://drive.google.com/open?id=0B_4NpoQW1xfpZU9QQ25VTkRmSjg)
+
 - Скачать и установить <a href="http://tomcat.apache.org/download-80.cgi">Tomcat 8</a>. Устанавливать лучше простым копированием из архива в каталог (в том числе и для unix). Следите чтобы в пути не было пробелов и национальных букв.
 - Для доступа к <a href="http://localhost:8080/manager">Tomсat Manager</a> добавьте в конфигурацию Tomcat `TOMCAT_HOME\conf\tomcat-users.xml` права:
 ```
