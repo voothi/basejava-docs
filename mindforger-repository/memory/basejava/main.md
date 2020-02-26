@@ -1443,6 +1443,11 @@ Java 8 появились ссылки на методы, ссылки
 Не можем добавлять, удалять из такого, но можем изменять.  
 Нам подходит, т.к. это уровень представления.  
 
+2514 Остановился
+ошибка uuid  
+
+
+
 **Коммиты:**
 - [`Lesson07_HW06 test refactoring`](https://github.com/JavaWebinar/basejava/tree/b47cadba8f2fb2da61ef6b9f6b245f5c358ea5d8/test/ru/javawebinar/basejava/storage)
 - [`Lesson07_HW06 add fullName`](https://github.com/JavaWebinar/basejava/tree/fb608dd824abda1f15bbc437e4d0d5e094fc1680)
