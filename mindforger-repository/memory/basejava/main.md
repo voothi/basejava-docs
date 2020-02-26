@@ -1429,6 +1429,20 @@ Java 8 появились ссылки на методы, ссылки
 ## Разбор домашнего задания
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор домашнего задания](https://drive.google.com/open?id=0B_4NpoQW1xfpT1BwLUNBanVfd1E)
 
+### Аннотация видео
+7_1_HW6  
+- Рефакторинг:
+  - метод `saveOverflow()` должен исполняться только для массивов
+
+0617 IDEA Ctrl F6 Change Signature  
+0830 Прекондишны  
+
+1846 IDEA Ctrl I Implement Method  
+
+2145 Arrays.toList  
+Не можем добавлять, удалять из такого, но можем изменять.  
+Нам подходит, т.к. это уровень представления.  
+
 **Коммиты:**
 - [`Lesson07_HW06 test refactoring`](https://github.com/JavaWebinar/basejava/tree/b47cadba8f2fb2da61ef6b9f6b245f5c358ea5d8/test/ru/javawebinar/basejava/storage)
 - [`Lesson07_HW06 add fullName`](https://github.com/JavaWebinar/basejava/tree/fb608dd824abda1f15bbc437e4d0d5e094fc1680)
