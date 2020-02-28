@@ -1420,7 +1420,7 @@ Java 8 появились ссылки на методы, ссылки
 + AbstractStorage  
 - [x] getAllSorted - перенеси к остальным публичным методам  
 
-Comparator.comparing   
+#### Comparator.comparing   
 Статический метод comparing() принимает  
 функцию извлечения ключей,  
 приво­дящую обобщенный тип Т к сравниваемому типу (например, String). 
@@ -1441,14 +1441,14 @@ https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html
 
 [Седьмое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson07.md)
 
-- Разбор домашнего задания
-- Дженерики (Generic)
-- Введение в логирование. Log4J
-- Стандартный логер - Java Logging API
-- Паттерн проектирования - Синглтон
-- Перечисляемые типы (Enum)
-- Объектная модель
-- Домашнее задание
+- [ ] Разбор домашнего задания
+- [ ] Дженерики (Generic)
+- [ ] Введение в логирование. Log4J
+- [ ] Стандартный логер - Java Logging API
+- [ ] Паттерн проектирования - Синглтон
+- [ ] Перечисляемые типы (Enum)
+- [ ] Объектная модель
+- [ ] Домашнее задание
 
 ## Разбор домашнего задания
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор домашнего задания](https://drive.google.com/open?id=0B_4NpoQW1xfpT1BwLUNBanVfd1E)
@@ -1506,6 +1506,67 @@ AbstractStorageTest
 - [Ограничения](http://docs.oracle.com/javase/tutorial/java/generics/restrictions.html)
 - **Дополнительно**
   - [Java Generics Example Tutorial](https://www.journaldev.com/1663/java-generics-example-method-class-interface)
+
+
+### Аннотация видео
+Работает на этапе компиляции  
+Затем, в байт-коде стирается  
+0642 Можно ввоодить  
+Значения с типом хранить    
+Аргументы типа принимать  
+Когда мы объявляем экземпляр этого типа  
+или  
+делаем наследника (как в нашей программе,  
+тогда вводим конкретный тип  
+В конструкторе мы кроме заданного типа уже не сможем ничего передать  
+Будем ошибка времени компиляции  
+Метод проверки типов на уровне компиляции  
+Стирание типов. В рантайме мы не знаем какого типа был  
+(Можно через отражения посмотреть)
+- Не могут быть примитивными  
+- Нельзя использовать как инстанс  
+
+1245 Параметризация метода  
+
+В 7 версии появился <> diamond - алмаз
+
+1505 Ключевые слова super, extend  
+Collections  
+
+```java
+1523 unmodifiableSet  
+public static <T> Set<T> unmodifiableSet (Set<? extends T> s) {
+}
+```
+
+что это
+Set<? extend T> s
+значит
+? - можем подавать любой тип, который  
+экстендит  
+параметризованный тип T  
+Т - яблоки
+? extends T - конкретный тип, который наследуется от яблока, например,  
+Антоновка  
+
+как аргумент можем подать происводные от Яблок и на выходе метода  
+получим именно Сет с яблоками.  
+
+когда мы как параметр передаем какой-то Сет,  
+а на выходе получаем какой-то другой сет, который нельзя изменить  
+
+```java
+public static <T> void sort (List<T> list, Compatator<? super T> c) {
+} 
+super
+```
+super обозначает, что наоборот мы имеем родительским классом этот T  
+любой, кто перекрывает T  
+Пример с Фрукты/Яблоки  
+Фрукты - родитель от Яблока  
+Фрукты super Яблоки  
+Соответственно,  
+Comporator, котоырй умеет сравнивать Фрукты (Фукты super Яблоки )  
 
 ## Логирование
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [2. Логирование](https://drive.google.com/open?id=0B_4NpoQW1xfpM1J5NkVqNHd1MlU)
@@ -1566,13 +1627,13 @@ AbstractStorageTest
 
 [Восьмое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson08.md)
 
-- Разбор домашнего задания
-- Классы работы с датами: Date, Calendar, TimeZone
-- Дата и время в Java 8
-- Внешние библиотеки: Joda Time library
-- Работа с файловой системой: класс File
-- try-with-resources
-- Домашнее задание
+- [ ] Разбор домашнего задания
+- [ ]  Классы работы с датами: Date, Calendar, TimeZone
+- [ ] Дата и время в Java 8
+- [ ] Внешние библиотеки: Joda Time library
+- [ ] Работа с файловой системой: класс File
+- [ ] try-with-resources
+- [ ] Домашнее задание
 
 ## Разбор Домашнего Задания-7
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор Домашнего Задания-7](https://drive.google.com/open?id=0B_4NpoQW1xfpSXBDR3NndlFXSFE)
