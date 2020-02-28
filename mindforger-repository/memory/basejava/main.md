@@ -1403,14 +1403,37 @@ Java 8 появились ссылки на методы, ссылки
 ## Домашнее задание HW6
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Домашнее задание HW6](https://drive.google.com/open?id=0B_4NpoQW1xfpbm9PMXFDN0RuR1k)
 
-- [ ] Рефакторинг:
+- [x] Рефакторинг:
   - [x] метод `saveOverflow()` должен исполняться только для массивов
   - [x] в конструктор `Resume` добавьте второй параметр — `fullName`
-  - [ ] во всех реализациях `Storage` замените метод `Resume[] getAll()` на `List<Resume> getAllSorted()`
+  - [x] во всех реализациях `Storage` замените метод `Resume[] getAll()` на `List<Resume> getAllSorted()`
 - [ ] Подумайте, что еще, может выступать в качестве `search key` в реализации на основе `Map` (не путайте `key` и `search key` - это разные сущности). Выразите свои идеи в коде (в итоге у вас в проекте должны быть два класса, реализованных на основе мапы)
 - [ ] Переделайте компаратор, учтя тот случай, что `fullName` разных людей может совпадать
-- [ ] Из-за того, что количество тестовых классов растет, воспользуйтесь [аннотациями](http://javastudy.ru/junit/junit-suite-tests/) JUnit, которые помогут упростить их запуск. Форматируйте класс-запуска тестов в соответствии с [этой](https://drive.google.com/file/d/1XHFbxNLekyAWCPJROPJcxmJydjg0K3eH/view?usp=sharing) картинкой
+- [x] Из-за того, что количество тестовых классов растет, воспользуйтесь [аннотациями](http://javastudy.ru/junit/junit-suite-tests/) JUnit, которые помогут упростить их запуск. Форматируйте класс-запуска тестов в соответствии с [этой](https://drive.google.com/file/d/1XHFbxNLekyAWCPJROPJcxmJydjg0K3eH/view?usp=sharing) картинкой
 
+### Ревью 1
++ Resume  
+- [x] включи поле fullName в equals, hashCode  
++ SortedArrayStorage  
+- [x] RESUME_COMPARATOR - попробуй переписать при помощи   
+- [x] строка 9 лишняя  
++ AbstractStorage  
+- [x] getAllSorted - перенеси к остальным публичным методам  
+
+Comparator.comparing   
+Статический метод comparing() принимает  
+функцию извлечения ключей,  
+приво­дящую обобщенный тип Т к сравниваемому типу (например, String). 
+
+Эта функция 
+применяется к сравниваемым объектам, а  
+сравнение производится  
+по возвращаемым ею ключам.  
+Допустим, имеется массив объектов типа Person.  
+Ниже показано, как отсортировать их по имени.  
+
+Arrays.sort(people, Comparator.comparing(Person::getName)); 
+https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html
 
 Занятие 7
 =========
@@ -1447,8 +1470,6 @@ Java 8 появились ссылки на методы, ссылки
 2514 Остановился
 ошибка uuid  
 
-
-
 **Коммиты:**
 - [`Lesson07_HW06 test refactoring`](https://github.com/JavaWebinar/basejava/tree/b47cadba8f2fb2da61ef6b9f6b245f5c358ea5d8/test/ru/javawebinar/basejava/storage)
 - [`Lesson07_HW06 add fullName`](https://github.com/JavaWebinar/basejava/tree/fb608dd824abda1f15bbc437e4d0d5e094fc1680)
@@ -1472,9 +1493,6 @@ AbstractStorageTest
 ~~?: Откуда взялся MapUuidStorage?~~
 
 0500 Диаграммы  
-
-
-
 
 ## Параметризация. Стирание типов
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. Параметризация. Стирание типов](https://drive.google.com/open?id=0B_4NpoQW1xfpbXotWEFrYVVGUWc)
