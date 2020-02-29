@@ -1737,6 +1737,18 @@ TextSection
 
 - <a href="https://drive.google.com/open?id=1P2qn_bW7hNclKr-J9Yb5LJmbZEwM3IyK">Объектная модель резюме</a>
 
+### Аннотация видео
+Секции  
+ListSection  
+0630 Выбор реализации - не List для Секции  
+0615 Рассмотр Resume  
+1357 ListSection  
+1600 Программирование по контракту  
+2340 Почему final - обязательное поле?
+?:  
+2445 Не понял про глубокое сравнивание
+?:  
+
 ## Работа с датами и временем
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. Работа с датами и временем.](https://drive.google.com/open?id=0B_4NpoQW1xfpV3hZMk85djRfeVk)
 [см. коммит Lesson08 DateTime api ](https://github.com/JavaWebinar/basejava/tree/f4844c291cf82387a14088ab3eed112b3102a607/src/ru/javawebinar/basejava)
