@@ -1718,6 +1718,27 @@ TextSection
 - [Online: www.draw.io](http://www.draw.io)
 - [yEd - Graph Editor](https://www.yworks.com/)
 
+### Ревью 1
++ SectionType
+- [ ] title - сделай поле приватным
+- [ ] abstract public class Section  - первым принято писать модификатор доступа public abstract class Section
++ Organization
+- [ ] description != null ? description.equals(that.description) : that.description == null - идея предлагает заменить на
+ Objects.equals(description, that.description); - соглашайся
+- [ ] hashCode - можно переписать при помощи Objects.hashCode
++ Link
+- [ ] url != null ? url.equals(link.url) : link.url == null
+можно заменить на
+Objects.equals(url, link.url)
+- [ ] hashCode - можно переписать при помощи Objects.hashCode
++ ResumeTestData
+- [ ] LocalDate.of(2016, 01, 01) - ноль не нужно писать перед числом
+LocalDate.of(2016, 1, 1)
+- [ ] List<Organization> listOrganizationsExperience;
+        listOrganizationsExperience = new ArrayList<>();
+в таком разделении нет смысла
+- [ ] желательно заполнить все резюме с примера, т.к. потом не будет с чем работать на UI
+
 Занятие 8
 =========
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
