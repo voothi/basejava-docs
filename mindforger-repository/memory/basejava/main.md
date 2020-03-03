@@ -1745,8 +1745,8 @@ LocalDate.of(2016, 1, 1)
 
 [Восьмое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson08.md)
 
-- [ ] Разбор домашнего задания
-- [ ]  Классы работы с датами: Date, Calendar, TimeZone
+- [x] Разбор домашнего задания
+- [ ] Классы работы с датами: Date, Calendar, TimeZone
 - [ ] Дата и время в Java 8
 - [ ] Внешние библиотеки: Joda Time library
 - [ ] Работа с файловой системой: класс File
