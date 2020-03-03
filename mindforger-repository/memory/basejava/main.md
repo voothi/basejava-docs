@@ -1994,6 +1994,12 @@ SimpleDateFormat
       Stacktrace - самый нижний нужно смотреть
         нужно смотреть причину cause
 
+1723
+    try-with-resources
+    В блоке try создаем ресурс, который наследует
+    AutoClosable (должны наследовать)
+    
+
     
 
 
