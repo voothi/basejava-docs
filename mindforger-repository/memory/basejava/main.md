@@ -1441,14 +1441,14 @@ https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html
 
 [Седьмое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson07.md)
 
-- [ ] Разбор домашнего задания
-- [ ] Дженерики (Generic)
-- [ ] Введение в логирование. Log4J
-- [ ] Стандартный логер - Java Logging API
-- [ ] Паттерн проектирования - Синглтон
-- [ ] Перечисляемые типы (Enum)
-- [ ] Объектная модель
-- [ ] Домашнее задание
+- [x] Разбор домашнего задания
+- [x] Дженерики (Generic)
+- [x] Введение в логирование. Log4J
+- [x] Стандартный логер - Java Logging API
+- [x] Паттерн проектирования - Синглтон
+- [x] Перечисляемые типы (Enum)
+- [x] Объектная модель
+- [x] Домашнее задание
 
 ## Разбор домашнего задания
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Разбор домашнего задания](https://drive.google.com/open?id=0B_4NpoQW1xfpT1BwLUNBanVfd1E)
@@ -1720,24 +1720,24 @@ TextSection
 
 ### Ревью 1
 + SectionType
-- [ ] title - сделай поле приватным
-- [ ] abstract public class Section  - первым принято писать модификатор доступа public abstract class Section
+- [x] title - сделай поле приватным
+- [x] abstract public class Section  - первым принято писать модификатор доступа public abstract class Section
 + Organization
-- [ ] description != null ? description.equals(that.description) : that.description == null - идея предлагает заменить на
+- [x] description != null ? description.equals(that.description) : that.description == null - идея предлагает заменить на
  Objects.equals(description, that.description); - соглашайся
-- [ ] hashCode - можно переписать при помощи Objects.hashCode
+- [x] hashCode - можно переписать при помощи Objects.hashCode
 + Link
-- [ ] url != null ? url.equals(link.url) : link.url == null
+- [x] url != null ? url.equals(link.url) : link.url == null
 можно заменить на
 Objects.equals(url, link.url)
-- [ ] hashCode - можно переписать при помощи Objects.hashCode
+- [x] hashCode - можно переписать при помощи Objects.hashCode
 + ResumeTestData
-- [ ] LocalDate.of(2016, 01, 01) - ноль не нужно писать перед числом
+- [x] LocalDate.of(2016, 01, 01) - ноль не нужно писать перед числом
 LocalDate.of(2016, 1, 1)
-- [ ] List<Organization> listOrganizationsExperience;
+- [x] List<Organization> listOrganizationsExperience;
         listOrganizationsExperience = new ArrayList<>();
 в таком разделении нет смысла
-- [ ] желательно заполнить все резюме с примера, т.к. потом не будет с чем работать на UI
+- [x] желательно заполнить все резюме с примера, т.к. потом не будет с чем работать на UI
 
 Занятие 8
 =========
