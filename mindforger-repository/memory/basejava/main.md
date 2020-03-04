@@ -2036,6 +2036,8 @@ SimpleDateFormat
 - [`Lesson09 HW08`](https://github.com/JavaWebinar/basejava/tree/150e15f99c35d53e0c43c9f64d7833b5e7184768)
 
 ### Аннотация видео
+8_5_HW8.mp4 - Shortcut
+
 0655
 
     Person делаем статическим
@@ -2052,8 +2054,35 @@ SimpleDateFormat
         Константа в DateUtil
           LocalDate NOW
       
+0943
 
-0725
+1119 
+
+    Для сериализации в Java придется делать конструкторы по умолчанию
+
+1142
+
+    IDEA
+      Как разворачивать скобки
+      Expand All
+      Shift Ctrl NumPad +
+
+1203
+
+    Добавление методов 
+      addContact
+      addSection
+
+1323
+
+    Инициализация
+
+1725
+
+    Рекурсивный обход - начало решения
+
+
+
 
 
 ## Ввод/вывод
