@@ -1914,9 +1914,9 @@ SimpleDateFormat
  - <a href="http://info.javarush.ru/translation/2013/08/19/Java-7-try-with-resources.html">Java 7 try-with-resources</a>
 
 ### Аннотация видео
-    8_3_file_resource.mp4
+8_3_file_resource.mp4  
 
-    Пакет io
+Пакет io
 
     Дальше будем рассматривать nio,  
       Работает через Path  
@@ -1995,6 +1995,7 @@ SimpleDateFormat
         нужно смотреть причину cause
 
 1723
+
     try-with-resources
     В блоке try создаем ресурс, который наследует
     AutoClosable (должны наследовать)
@@ -2009,6 +2010,7 @@ SimpleDateFormat
 - [ ] 4) Реализовать `AbstractFileStorage`, базовый класс для хранения резюме в файлах.
 
 ### Аннотация видео
+    Не нужно дублировать Имя орг
 
 Занятие 9
 =========
@@ -2034,7 +2036,10 @@ SimpleDateFormat
 - [`Lesson09 HW08`](https://github.com/JavaWebinar/basejava/tree/150e15f99c35d53e0c43c9f64d7833b5e7184768)
 
 ### Аннотация видео
+0700
 
+    Person делаем статическим
+      
 ## Ввод/вывод
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. Ввод/вывод](https://drive.google.com/open?id=0B_4NpoQW1xfpZHk3TnYyaDRjY3M)
 
