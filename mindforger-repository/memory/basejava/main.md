@@ -2178,7 +2178,28 @@ SimpleDateFormat
         Компоратор
         Шаблонный метод
         Декоратор
+          BufferedInputStream оборачивает FileInputStream (ниже уровнем иерархии)
+            Получается InputStream, который читает из файла и буферизированный 
+              
+java.io.InputStream (implements java.io.Closeable)
+  java.io.ByteArrayInputStream
+  java.io.FileInputStream
+  java.io.FilterInputStream
+    java.io.BufferedInputStream
+    java.io.DataInputStream (implements java.io.
 
+0645
+
+    https://docs.oracle.com/javase/8/docs/api/java/io/BufferedInputStream.html
+
+https://docs.oracle.com/javase/8/docs/api/java/io/FileInputStream.html
+
+0710
+
+    Мы будем работать с буферизированным потоком
+      Для любой работы с нашими сериализациями
+    
+    Это лучше, чем с побайтовым потоком - с обычным файлом
 
 
     
