@@ -2128,7 +2128,63 @@ SimpleDateFormat
 - <a href="http://www.intuit.ru/studies/courses/16/16/lecture/27133">Пакет java.io</a>
 - <a href="http://ru.wikipedia.org/wiki/Декоратор_(шаблон_проектирования)">Паттерн Декоратор</a>.
 - <a href="http://www.intuit.ru/studies/courses/16/16/lecture/27133?page=4">Классы Reader и Writer.</a>
- 
+
+### Аннотация видео
+2_IO.mp4
+
+0031
+    
+    Открыли ссылку на Интуите
+
+    Классы основые пакета io
+      InputStream
+      OutputStream
+      чтение вывод 1 байта или массива байтов
+      
+      Reader
+      Writer
+
+    Поток байтов и чарактеров (char)
+      Входной
+      Выходной
+
+    Есть классы оболочки
+      Для доп. функциональности
+        BufferedInputStream
+          Можем применить его к любому 
+          InStr
+          Не важно, какой вид операции и по какому каналу
+
+          InStr есть для архива, массивов, сети, др.
+            Для любого
+
+0520
+
+    Иерархия бесконечная получилась бы
+    Реализация сделана на основе паттерна
+      Декоратор
+      Враппер Wrapper
+        Он Реализует тот же интерфейс 
+        Добавляет свою функц-сть
+        Делегирует вызов в метод класса, который 
+        он обертывает
+
+      Есть еще паттерн Адаптер
+
+0640
+
+      Книга GoF
+        Стратегия
+        Компоратор
+        Шаблонный метод
+        Декоратор
+
+
+
+    
+    
+
+
 ## Сериализация
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [2. Сериализация](https://drive.google.com/open?id=0B_4NpoQW1xfpb0dRNjI1S2tOUjA)
 **Коммиты:**
@@ -2138,7 +2194,9 @@ SimpleDateFormat
 - <a href="http://www.intuit.ru/studies/courses/16/16/lecture/27133?page=3">Сериализация объектов (serialization)</a>
 - Реализация Storage используя <a href="https://habrahabr.ru/post/60317/">сериализацию</a>.
 - Сериализация: [1](https://www.youtube.com/watch?v=dBcqizwOWLg), [2](https://www.youtube.com/watch?v=nr4_JRKCGBU) (youtube)
- 
+
+### Аннотация видео
+
 ## NIO
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [3. NIO](https://drive.google.com/open?id=0B_4NpoQW1xfpMzBqSWI3eEI2RGs)
 **Коммиты:**
@@ -2148,10 +2206,14 @@ SimpleDateFormat
 - <a href="http://www.quizful.net/post/java-nio-tutorial">NIO Java 7</a>
 - <a href="https://habrahabr.ru/post/269667/">Чтения строк из файла</a>
 
+### Аннотация видео
+
 ## Основы Java 8 Stream API
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [4. Основы Java 8 Stream API](https://drive.google.com/open?id=0B_4NpoQW1xfpMHd6VDJjS28tRmM)
 **Ресурсы:**
 - <a href="https://annimon.com/article/2778">Потоки</a>
+
+### Аннотация видео
 
 ## Домашнее задание
 - Сделать рекурсивный вывод каталогов и файлов с отступами
@@ -2180,6 +2242,8 @@ SimpleDateFormat
 
 **Ресурсы:**
 - [Паттерн - Стратегия](https://www.youtube.com/watch?v=rsB2exGsR4I)
+
+### Аннотация видео
 
 ## Формат XML. Работа с XML в Java
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. Формат XML. Работа с XML в Java](https://drive.google.com/open?id=0B_4NpoQW1xfpUEtzQjhtQ0c3cFU)
