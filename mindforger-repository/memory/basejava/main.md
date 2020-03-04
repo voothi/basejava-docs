@@ -2201,9 +2201,32 @@ https://docs.oracle.com/javase/8/docs/api/java/io/FileInputStream.html
     
     Это лучше, чем с побайтовым потоком - с обычным файлом
 
+IDEA
 
+    Keyboard shortcut for Ctrl+LeftClick?
+
+        https://intellij-support.jetbrains.com/hc/en-us/community/posts/206379269-Keyboard-shortcut-for-Ctrl-LeftClick-
+
+          The shortcut is Goto | Declaration (Ctrl+B)
+          After using it you might be interested in Goto | Back (Alt+Back) and Search | Find Usages Popup (Ctrl+Alt+F7) 
+
+    Alt Left Right - переключение между вкладками
     
-    
+0846
+
+    Сделаем OutputStream буферизированным прямо в методе класса AbstractFileStorage
+      Не в каждом наследнике
+
+0858
+
+    Делаем обертку BufferOutputStream
+    и в нее подаем то, что будем обертывать - поток FiOuStr
+
+
+
+
+
+
 
 
 ## Сериализация
