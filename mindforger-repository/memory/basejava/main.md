@@ -1998,25 +1998,6 @@ SimpleDateFormat
     try-with-resources
     В блоке try создаем ресурс, который наследует
     AutoClosable (должны наследовать)
-    
-
-    
-
-
-
-      
-
-
-
-    
-
-
-
-
-
-
-    
-
 
 ## Домашнее задание
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Домашнее задание:](https://drive.google.com/open?id=0B_4NpoQW1xfpRV8xMnpDV0VBUGc)
