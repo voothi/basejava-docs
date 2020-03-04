@@ -2076,6 +2076,8 @@ SimpleDateFormat
 1323
 
     Инициализация
+    Заполнение тестовыми данными в 
+      AbstractStorageTest
 
 1725
 
@@ -2083,10 +2085,37 @@ SimpleDateFormat
 
 1942
 
-    pringDirectoryDeeply
-    
+    printDirectoryDeeply
 
+2537
 
+    Параметры в методе - оба одинаковые - стринги
+      В проекте ID-ки таска и пользователя чтобы не путать
+        Оборачивали в отдельные классы - типы
+          UserId
+          TaskId
+
+      Введение новых типов - UserId примитивный int, но 
+      в программе есть проверка на тип.
+        Ожидается в 
+          Java 9
+          Kotlin
+        Есть в 
+          Scala
+
+      Сложность с работой с врапперами в коллекциях и др.
+
+3355
+
+3226
+
+3306
+
+    IDEA - Alt и стрелки - пролистывание по методам
+
+?:
+
+    Можно ли свернуть группу коммитов и оставить историю коммитов?
 
 ## Ввод/вывод
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. Ввод/вывод](https://drive.google.com/open?id=0B_4NpoQW1xfpZHk3TnYyaDRjY3M)
