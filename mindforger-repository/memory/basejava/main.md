@@ -2213,7 +2213,11 @@ IDEA
           After using it you might be interested in Goto | Back (Alt+Back) and Search | Find Usages Popup (Ctrl+Alt+F7) 
 
     Alt Left Right - переключение между вкладками
-    
+
+0824
+
+    FileOutputStream
+
 0846
 
     Сделаем OutputStream буферизированным прямо в методе класса AbstractFileStorage
