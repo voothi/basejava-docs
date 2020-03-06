@@ -2385,6 +2385,36 @@ IDEA
 
 ### Аннотация видео
 
+IDEA
+
+    Что возвращает
+    Ctrl Задержать над методом
+    Ctrl Shift P
+    Ctrl Q
+    Ctrl Space
+    Ctrl Shift I
+
+    Преобразования
+    F6
+
+    Extract variable
+    Ctrl Alt V
+
+    Diagram
+    Ctrl Alt Shift U
+
+    Развернуть
+    Shift Ctrl +/-
+
+0637
+
+    Разбор clear
+    Lambda
+
+0700
+
+    Для на Stream<> - это как Collection
+
 ## Основы Java 8 Stream API
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [4. Основы Java 8 Stream API](https://drive.google.com/open?id=0B_4NpoQW1xfpMHd6VDJjS28tRmM)
 **Ресурсы:**
