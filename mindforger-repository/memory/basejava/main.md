@@ -2322,6 +2322,7 @@ IDEA
 ## Сериализация
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [2. Сериализация](https://drive.google.com/open?id=0B_4NpoQW1xfpb0dRNjI1S2tOUjA)
+
 **Коммиты:**
 - [`Lesson09 ObjectStreamStorage`](https://github.com/JavaWebinar/basejava/tree/7a80d1d7feba08d433e55417bfd26ac0b3fa5298)
 
