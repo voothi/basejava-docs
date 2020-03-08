@@ -2575,6 +2575,7 @@ IDEA
       0240 size()
 
       0524 StorageException constructor
+      2118
 
       0552 getSeaKey
 
@@ -2597,7 +2598,26 @@ IDEA
 
     ObjectStreamStorage
 
+      2118 StorageException constructor
+
+      2214 Тест создаем копированием
+
+      2301 Смотрим Local History
+
+      2335 Избавиться от дублирования  
+        3 доп. сериализации  
       
+        2615 Стратегия
+
+      IDEA  
+
+        Alt Ins - создать.. пакет  
+
+      
+
+
+
+
 
 
 
