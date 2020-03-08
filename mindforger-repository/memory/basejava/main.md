@@ -2524,9 +2524,9 @@ IDEA
 
 ## Домашнее задание
 - [x] Сделать рекурсивный вывод каталогов и файлов с отступами
-- [ ] Реализовать `ObjectStreamPathStorage` (через `java.nio.file.Path`) 
+- [x] Реализовать `ObjectStreamPathStorage` (через `java.nio.file.Path`) 
 и добавить `ObjectStreamPathStorageTest`
-- [ ] Сделать реализации `Storage` сохранения в файл через `File` и `Path` с 
+- [x] Сделать реализации `Storage` сохранения в файл через `File` и `Path` с 
 возможностью выбора стратегии 
 - [ ] сериализации (посмотрите на [паттерн стратегия](https://refactoring.guru/ru/design-patterns/strategy)). 
 Кроме сохранения через `ObjectOutputStream/ObjectInputStream` у нас будут еще 
@@ -2587,7 +2587,7 @@ IDEA
 
       0935 doGet
 
-      1124 dpDe;ete
+      1124 dpDelete
 
       1152 copyAll
       1715
@@ -2612,13 +2612,6 @@ IDEA
       IDEA  
 
         Alt Ins - создать.. пакет  
-
-      
-
-
-
-
-
 
 
 ## Формат XML. Работа с XML в Java
