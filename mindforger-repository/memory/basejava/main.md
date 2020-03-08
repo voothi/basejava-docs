@@ -2516,6 +2516,7 @@ IDEA
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [4. Основы Java 8 Stream API](https://drive.google.com/open?id=0B_4NpoQW1xfpMHd6VDJjS28tRmM)
+
 **Ресурсы:**
 - <a href="https://annimon.com/article/2778">Потоки</a>
 
@@ -2551,6 +2552,8 @@ IDEA
 ***
 
 ## Разбор домашнего задания
+- [ ] Пройдено
+
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [Разбор домашнего задания](https://drive.google.com/open?id=0B_4NpoQW1xfpZDVJdGlDRlBlUEU)
 
@@ -2561,7 +2564,42 @@ IDEA
 - [Паттерн - Стратегия](https://www.youtube.com/watch?v=rsB2exGsR4I)
 
 ### Аннотация видео
-0044 Делаем обход файлов
+0044 
+
+    Делаем обход файлов
+
+0205
+
+    Реализация AbstractPathStorage
+
+      0240 size()
+
+      0524 StorageException constructor
+
+      0552 getSeaKey
+
+      0624 doUpd
+
+      0738 isExist
+
+      0755 doSave
+
+      0935 doGet
+
+      1124 dpDe;ete
+
+      1152 copyAll
+      1715
+
+      1126 Refactor try
+
+1925
+
+    ObjectStreamStorage
+
+      
+
+
 
 ## Формат XML. Работа с XML в Java
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
