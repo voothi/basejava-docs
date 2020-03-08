@@ -2110,6 +2110,8 @@ SimpleDateFormat
 ***
 
 ## Разбор Домашнего Задания
+- [x] Пройдено
+
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [Разбор Домашнего Задания](https://drive.google.com/open?id=0B_4NpoQW1xfpeENDOVdQbUpIWEU)
 >Для создания и заполнения данными резюме из класса AbstractStorageTest используйте ResumeTestData. 
@@ -2205,6 +2207,8 @@ SimpleDateFormat
     Можно ли свернуть группу коммитов и оставить историю коммитов?
 
 ## Ввод/вывод
+- [x] Пройдено
+
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [1. Ввод/вывод](https://drive.google.com/open?id=0B_4NpoQW1xfpZHk3TnYyaDRjY3M)
 
@@ -2344,6 +2348,8 @@ IDEA
       https://www.intuit.ru/studies/courses/16/16/lecture/27133?page=4
 
 ## Сериализация
+- [x] Пройдено
+
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [2. Сериализация](https://drive.google.com/open?id=0B_4NpoQW1xfpb0dRNjI1S2tOUjA)
 
@@ -2462,6 +2468,8 @@ IDEA
             XML
 
 ## NIO
+- [x] Пройдено
+
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [3. NIO](https://drive.google.com/open?id=0B_4NpoQW1xfpMzBqSWI3eEI2RGs)
 **Коммиты:**
@@ -2504,6 +2512,8 @@ IDEA
     Для на Stream<> - это как Collection
 
 ## Основы Java 8 Stream API
+- [x] Пройдено
+
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [4. Основы Java 8 Stream API](https://drive.google.com/open?id=0B_4NpoQW1xfpMHd6VDJjS28tRmM)
 **Ресурсы:**
