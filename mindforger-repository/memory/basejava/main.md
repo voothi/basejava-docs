@@ -2606,7 +2606,33 @@ IDEA
 
       2335 Избавиться от дублирования  
         3 доп. сериализации  
-      
+
+      2403 
+
+          Реализация Storage
+            AbFiSto
+            AbPaSto
+          У нас есть работа с 
+            ObjStreStor
+              C File
+            ObjStrePathStor
+              C Path
+          У нас есть 4 сериализации 
+            В бинарном виде - Java
+            Json
+            XML
+            DataStreamStorage
+          Для каждого Storage получается по 4 файла
+
+          Stor
+            AbStor
+              AbFiSto
+                ObjStreStor
+                  4 сериализации 
+              AbPaSto
+                ObjStrePathStor
+                  4 сериализации 
+
         2615 Стратегия
 
       IDEA  
