@@ -32,6 +32,8 @@
 
 Занятие 1
 =========
+- [x] Пройдено
+  
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
 [Первое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson01.md)
@@ -51,6 +53,8 @@
 
 Занятие 2
 =========
+- [x] Пройдено
+
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
 [Второе занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson02.md)
@@ -332,6 +336,8 @@ Util
 
 Занятие 3
 =========
+- [x] Пройдено
+
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
 [Третье занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson03.md)
@@ -693,6 +699,8 @@ System.out.println("Get dummy: " + ARRAY_STORAGE.get("dummy"));
 
 Занятие 4
 =========
+- [x] Пройдено
+
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
 [Четвертое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson04.md)
@@ -1029,6 +1037,8 @@ JUnit понимает, что нельзя создать от него объ�
 
 Занятие 5
 =========
+- [x] Пройдено
+
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
 [Пятое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson05.md)
@@ -1223,6 +1233,8 @@ IDEA Shift Alt Ins - выделение по вертикали
 
 Занятие 6
 =========
+- [x] Пройдено
+
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
 [Шестое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson06.md)
@@ -1473,6 +1485,8 @@ https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html
 
 Занятие 7
 =========
+- [x] Пройдено
+
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
 [Седьмое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson07.md)
@@ -1793,6 +1807,8 @@ LocalDate.of(2016, 1, 1)
 
 Занятие 8
 =========
+- [x] Пройдено
+
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
 [Восьмое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson08.md)
@@ -2075,6 +2091,8 @@ SimpleDateFormat
 
 Занятие 9
 =========
+- [ ] Пройдено
+
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
 [Девятое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson09.md)
@@ -2506,6 +2524,8 @@ IDEA
 
 Занятие 10
 ==========
+- [ ] Пройдено
+
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
 [Десятое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson10.md)
@@ -2579,6 +2599,8 @@ IDEA
 
 Занятие 11
 ==========
+- [ ] Пройдено
+
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
 [Одиннадцатое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson11.md)
@@ -2647,6 +2669,8 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%82%D0%BE%D0%BA_%D0%B2%D1%8B%D0%BF%
 
 Занятие 12
 ==========
+- [ ] Пройдено
+
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
 [Двенадцатое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson12.md)
@@ -2719,6 +2743,8 @@ Optional - решение в один стрим.
 
 Занятие 13
 ==========
+- [ ] Пройдено
+
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
 [Тринадцатое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson13.md)
@@ -2801,6 +2827,8 @@ Optional - решение в один стрим.
 
 Занятие 14
 ==========
+- [ ] Пройдено
+
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
 [Четырнадцатое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson14.md)
@@ -2861,6 +2889,8 @@ Optional - решение в один стрим.
 
 Занятие 15
 ==========
+- [ ] Пройдено
+
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
 [Пятнадцатое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson15.md)
@@ -2915,7 +2945,9 @@ Optional - решение в один стрим.
   - <a href="http://www.webremeslo.ru/html/glava4.html">HTML таблицы</a>
 
 Занятие 16
-========== 
+==========
+- [ ] Пройдено
+
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
 [Шестнадцатое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson16.md)
@@ -2981,6 +3013,8 @@ Optional - решение в один стрим.
 
 Занятие 17
 ==========
+- [ ] Пройдено
+
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
 [Семнадцатое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson17.md)
