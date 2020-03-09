@@ -2091,7 +2091,7 @@ SimpleDateFormat
 
 Занятие 9
 =========
-- [ ] Пройдено
+- [x] Пройдено
 
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
@@ -2552,7 +2552,7 @@ IDEA
 ***
 
 ## Разбор домашнего задания
-- [ ] Пройдено
+- [x] Пройдено
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [Разбор домашнего задания](https://drive.google.com/open?id=0B_4NpoQW1xfpZDVJdGlDRlBlUEU)
@@ -2671,6 +2671,8 @@ IDEA
         Alt Ins - создать.. пакет  
 
 ## Формат XML. Работа с XML в Java
+- [ ] Пройдено
+
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [1. Формат XML. Работа с XML в Java](https://drive.google.com/open?id=0B_4NpoQW1xfpUEtzQjhtQ0c3cFU)
 
@@ -2690,6 +2692,8 @@ IDEA
   Реализация хранения в XML. 
  
 ## JSON
+- [ ] Пройдено
+
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [2. JSON](https://drive.google.com/open?id=0B_4NpoQW1xfpRUlvMU54a2hMR3c)
 
@@ -2712,7 +2716,7 @@ IDEA
 - [`Lesson10 DataStream`](https://github.com/JavaWebinar/basejava/tree/6f699cb5d804b3d033a06cc1173cd1076b0553f9)
 
 ## Домашнее задание
-- Сделать и протестировать реализацию `DataStreamSerializer`
+- [ ] Сделать и протестировать реализацию `DataStreamSerializer`
 
 Занятие 11
 ==========
