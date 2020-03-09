@@ -2528,7 +2528,7 @@ IDEA
 и добавить `ObjectStreamPathStorageTest`
 - [x] Сделать реализации `Storage` сохранения в файл через `File` и `Path` с 
 возможностью выбора стратегии 
-- [ ] сериализации (посмотрите на [паттерн стратегия](https://refactoring.guru/ru/design-patterns/strategy)). 
+- [x] сериализации (посмотрите на [паттерн стратегия](https://refactoring.guru/ru/design-patterns/strategy)). 
 Кроме сохранения через `ObjectOutputStream/ObjectInputStream` у нас будут еще 
 несколько вариантов сериализации. Сделать тесты для тестирования сохранения через 
 `ObjectOutputStream/ObjectInputStream` для `File` и `Path`.
@@ -2664,10 +2664,11 @@ IDEA
             Когда делали сортировку мы предавали стратегию
             которой нужно сравнивать элементы 
 
+        3827 
+
       IDEA  
 
         Alt Ins - создать.. пакет  
-
 
 ## Формат XML. Работа с XML в Java
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
