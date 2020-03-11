@@ -2535,7 +2535,7 @@ IDEA
 
 Занятие 10
 ==========
-- [ ] Пройдено
+- [x] Пройдено
 
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
@@ -2671,7 +2671,7 @@ IDEA
         Alt Ins - создать.. пакет  
 
 ## Формат XML. Работа с XML в Java
-- [ ] Пройдено
+- [x] Пройдено
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [1. Формат XML. Работа с XML в Java](https://drive.google.com/open?id=0B_4NpoQW1xfpUEtzQjhtQ0c3cFU)
@@ -2694,7 +2694,7 @@ IDEA
 ### Аннотация видео
 
 ## JSON
-- [ ] Пройдено
+- [x] Пройдено
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [2. JSON](https://drive.google.com/open?id=0B_4NpoQW1xfpRUlvMU54a2hMR3c)
@@ -2816,6 +2816,8 @@ IDEA
                 Если большой документ и не все нужно из него, то нужно использвать его
 
 ## DataInputStream / DataOutputStream
+- [x] Пройдено
+
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [3. DataInputStream / DataOutputStream](https://drive.google.com/open?id=0B_4NpoQW1xfpczVtenBCSDlKWU0)
 
@@ -2825,7 +2827,7 @@ IDEA
 ### Аннотация видео
 
 ## Домашнее задание
-- [ ] Сделать и протестировать реализацию `DataStreamSerializer`
+- [x] Сделать и протестировать реализацию `DataStreamSerializer`
 
 Занятие 11
 ==========
@@ -2950,6 +2952,8 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%82%D0%BE%D0%BA_%D0%B2%D1%8B%D0%BF%
 
 
 ## Разбор Домашнего Задания-10 
+- [x] Пройдено
+
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [Разбор Домашнего Задания-10](https://drive.google.com/open?id=0B_4NpoQW1xfpY3d6R204ZXplb00)
 
