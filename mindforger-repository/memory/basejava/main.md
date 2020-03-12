@@ -2852,16 +2852,153 @@ IDEA
 ## Разбор Домашнего Задания-10 будет на следующем уроке
 
 ## Многопоточность. Параллельное выполнение
+- [ ] Пройдено
+
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [1. Многопоточность. Параллельное выполнение.](https://drive.google.com/open?id=0B_4NpoQW1xfpSmVjRzl6c3ctTTA)
 [см. коммит Lesson11](https://github.com/JavaWebinar/basejava/blob/6a626f61722af844663860d1af284c53a9adf423/src/ru/javawebinar/basejava/MainConcurrency.java)
 
 ### Аннотация
-?: 0815 У потока/нити/thread -а у каждого в приложении своя область выделенной памяти или общая Stack?
+1_multithread.mp4
 
-2050 Порядок выполнения между thread не определен - по усмотрению ОС. Это проблема для тестирования 
+0302
+
+    Concurrent
+      1 Кофе-машина
+      Синхронизация
+      Разграничение доступа
+    Parallel
+      2 Кофе-машины
+
+    Закон Амдала
+
+    2 JVM - 2 процесса в системе
+      Внутри JVM можно делать 
+        1000-ти потоков Thread-ов
+          Можно делать внутри них можно делать
+          с точки зрения пользователя
+          параллельные вычисления
+
+    Многопоточная архитектура
+      time-slicing - квантование времени
+        переключение процессора между потоками на заданные отрезки времени
+          эмуляция многопоточности
+
+        управляется ОС
+          планировщик процессов 
+        
+        операция переключения между потоками - переключение контекста
+
+    0859 
+        
+    В 1 процессе запускать множество потоков гораздо дешевле, чем запускать
+    множество процессов
+
+    У каждого потока своя память стека, в которой хранится весь контекст
+      локальные переменные
+      адреса возврата
+
+?: 
+
+    0815 
+    
+    У потока/нити/thread -а у каждого в приложении своя область выделенной памяти или общая Stack?
+
+    0933
+
+    Потоки могут быть
+      Демоны
+        Работают в фоне и, например, при завершении главного потока тоже завершается
+        ВМ работает, если работает хоть 1 демон-поток
+        Утильные, которые исполняются в фоне - библиотеки
+          Когда запущена ЖВМ, то запускается порядка
+          10-ти демон-потоков
+            GC
+      Не демоны
+
+      1051
+
+      Создаем MainConcurrency
+      new Thread()
+        в пакете package java.lang;
+          можно не импортировать
+        с помощью него можно запускать параллельный процесс
+
+        переопределяем метод run()
+          IDEA
+
+              Ctrl O Override
+
+          super.run();
+            Нулевой по умолчанию - target не задан
+
+          IDEA 
+          
+              surround with sout
+                https://blog.jetbrains.com/idea/2006/07/surround-with/
+                https://stackoverflow.com/questions/14112623/is-there-a-shortcut-for-wrapping-a-statement-with-system-out-println-in-intellij
+          
+        Параметризируем Thread и в конструктор передаем Runnable
+          Thread implements Runnable
+
+2050 
+
+    Порядок выполнения между thread не определен - по усмотрению ОС. Это проблема для тестирования 
 и написания многопоточного кода в Java. (Решается Конечными автоматами?)  
 https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%82%D0%BE%D0%BA_%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F
+
+    2107
+
+    Через Runnable считается более правильно
+      параметризация предпочительнее переопределения
+        Можно преедавать как интерфейс
+        он ведет себя как параметр
+          более предпочтительно, чем переопределение метода
+            можем использовать множественное наследование
+
+2237 
+
+    Синхронизация
+    Когда у нас есть зашаренный объект
+    Concurrency
+
+    Count -ер у Servlet-ов
+    Веб-контейнер Tomcat
+    150 пользователей-потоков по умолчанию, далее - ждут
+    Сервлеты - многопоточные приложения
+
+    2428
+
+    Задача
+
+    Есть счетчик
+    Каждый поток += к потоку
+
+    VSCode
+
+        Ctrl Up Down - прокрутка
+
+        Ctrl Shift V - превью markdown
+
+        Ctrl Alt R - Refresh Git
+        Ctrl Alt C - Commit
+        Ctrl Alt Shift C - Push Remote Repo
+
+    IDEA
+
+        fori
+
+        sout
+
+        psvm
+
+        psf
+
+        Ctrl Alt T Surround With
+
+    
+
+
 
 ![Закон Мура](https://www.karlrupp.net/wp-content/uploads/2015/06/40-years-processor-trend.png)
 - <a href="https://ru.wikipedia.org/wiki/Закон_Мура">Закон Мура</a>
@@ -2877,6 +3014,8 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%82%D0%BE%D0%BA_%D0%B2%D1%8B%D0%BF%
   Методы wait(), notify(), notifyAll() класса Object</a>
 
 ## Ленивая инициализация, JMM
+- [ ] Пройдено
+
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [2. Ленивая инициализация, JMM.](https://drive.google.com/file/d/1kAoLlGhsHAyl_Vtak5R_VuNiQp5cYUx3)
 [см. коммит Lesson11](https://github.com/JavaWebinar/basejava/blob/6a626f61722af844663860d1af284c53a9adf423/src/ru/javawebinar/basejava/LazySingleton.java)
@@ -2895,7 +3034,7 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%82%D0%BE%D0%BA_%D0%B2%D1%8B%D0%BF%
 - Головач, курс <a href="https://www.youtube.com/playlist?list=PLoij6udfBncgVRq487Me6yQa1kqtxobZS">Java Multithreading</a>
 
 ## Домашнее задание
-- Реализовать deadlock
+- [ ] Реализовать deadlock
 - <a href="https://ru.wikipedia.org/wiki/%D0%92%D0%B7%D0%B0%D0%B8%D0%BC%D0%BD%D0%B0%D1%8F_%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0">
   Взаимная блокировка</a>
 
