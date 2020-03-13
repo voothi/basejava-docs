@@ -3352,12 +3352,37 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%82%D0%BE%D0%BA_%D0%B2%D1%8B%D0%BF%
 ***
 
 ## Разбор Домашнего Задания-11 
+- [ ] Пройдено
+
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [Разбор Домашнего Задания-11](https://drive.google.com/open?id=0B_4NpoQW1xfpcWNMeHQ1Y0JoaUU)
 
 [см. коммит Lesson12 HW11](https://github.com/JavaWebinar/basejava/blob/50388920c5e29e70208df572dc34208b46bcdd1a/src/ru/javawebinar/basejava/MainConcurrency.java)
 
+### Аннотация видео
+1_HW11.mp4
+
+0000
+
+    Взаимная блокировка - deadlock
+
+    Несколько потоком заняли ресурсы
+      они ждут друг-друга
+        каждому нужен ресурс, который занят другим потоком
+          циклическая занятость ресурсов
+
+    Простейшая реализация 2 ресурса и 2 потока
+      Ресурсы делаем стринги
+        лочиться можно на любой объект
+    
+    С syncronized быть осторожным,
+      помогают
+        Ожидания с таймаутами
+
+
 ## Concurrency
+- [ ] Пройдено
+
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [Concurrency](https://drive.google.com/open?id=0B_4NpoQW1xfpRkdBLW81a1AtWDg)
 
