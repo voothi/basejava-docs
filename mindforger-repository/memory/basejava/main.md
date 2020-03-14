@@ -3410,6 +3410,32 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%82%D0%BE%D0%BA_%D0%B2%D1%8B%D0%BF%
 
     DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm:ss");
 
+### Аннотация видео
+2_concurrency2.mp4
+
+0120
+
+    С Java 1.5
+
+    Статься на хабре
+      https://www.google.com/search?q=Java+Concurrent+Animated&rlz=1C1GCEU_enRU844RU844&oq=Java+Concurrent+Animated&aqs=chrome..69i57j69i60&sourceid=chrome&ie=UTF-8
+
+      Nominal vs Structural Type System
+        Go, TS vs Java
+    
+    Doug Lea
+
+    java.util.concurrent
+      Concurrent Collections
+      Queues
+      Synchronizers
+      Executors
+      Locks
+      Atomics
+
+    CopyOnWrite
+      Write операции редки
+        Listeners механизм
 
 ## Разбор Домашнего Задания-10 
 - [x] Пройдено
