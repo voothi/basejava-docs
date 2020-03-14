@@ -3381,7 +3381,7 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%82%D0%BE%D0%BA_%D0%B2%D1%8B%D0%BF%
 
 
 ## Concurrency
-- [ ] Пройдено
+- [x] Пройдено
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [Concurrency](https://drive.google.com/open?id=0B_4NpoQW1xfpRkdBLW81a1AtWDg)
