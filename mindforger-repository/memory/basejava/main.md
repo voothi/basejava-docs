@@ -3679,17 +3679,17 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%82%D0%BE%D0%BA_%D0%B2%D1%8B%D0%BF%
 [см. коммит Lesson12 HW10](https://github.com/JavaWebinar/basejava/tree/4e75634fa4670a71a60f5643fa995295c4fb959d/src/ru/javawebinar/basejava)
 
 ## Домашнее задание:
-- <a href="http://java-course.ru/begin/postgresql">Установить PostgreSQL</a>
-- Посмотреть на реляционные базы данных и SQL:
-  - <a href="http://www.codenet.ru/progr/vbasic/vb_db/1.php">Введение в базы данных</a>
-  - <a href="http://www.intuit.ru/studies/courses/5/5/info">Основы SQL</a>
-- Java 8 Streams:
-    1) реализовать метод через стрим `int minValue(int[] values)`.  
+- [ ] <a href="http://java-course.ru/begin/postgresql">Установить PostgreSQL</a>
+- [ ] Посмотреть на реляционные базы данных и SQL:
+  - [ ] <a href="http://www.codenet.ru/progr/vbasic/vb_db/1.php">Введение в базы данных</a>
+  - [ ] <a href="http://www.intuit.ru/studies/courses/5/5/info">Основы SQL</a>
+- [ ] Java 8 Streams:
+    - [ ] 1) реализовать метод через стрим `int minValue(int[] values)`.  
 Метод принимает массив цифр от 1 до 9, надо выбрать уникальные и вернуть минимально возможное число, 
 составленное из этих уникальных цифр. Не использовать преобразование в строку и обратно. 
 Например {1,2,3,3,2,3} вернет 123, а {9,8} вернет 89
 
-    2)  реализовать метод `List<Integer> oddOrEven(List<Integer> integers)`
+    - [ ] 2)  реализовать метод `List<Integer> oddOrEven(List<Integer> integers)`
 если сумма всех чисел нечетная - удалить все нечетные, если четная - удалить все четные. 
 Сложность алгоритма должна быть O(N). 
 Optional - решение в один стрим.
