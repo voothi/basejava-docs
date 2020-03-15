@@ -3720,7 +3720,7 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%82%D0%BE%D0%BA_%D0%B2%D1%8B%D0%BF%
       Составной индекс строится на основе значений двух или более полей таблицы
         составного индекса, основанного, например, на следующих полях таблицы: имя, фамилия, отчество, город и номер телефона.
 
-  - [ ] <a href="http://www.intuit.ru/studies/courses/5/5/info">Основы SQL</a>
+  - [x] * <a href="http://www.intuit.ru/studies/courses/5/5/info">Основы SQL</a>
 
 ### Аннотация материала
 - [x] Лекция 1
@@ -3874,6 +3874,25 @@ Optional - решение в один стрим.
 - [SQL ключи во всех подробностях](https://habrahabr.ru/company/oleg-bunin/blog/348172)
 - [Книги по postgreSQL](https://postgrespro.ru/education/books)
 - [Интерактивная обучалка по postgreSQL](https://www.pgexercises.com/)
+
+### Аннотирование видео
+13_1_RDBMS.mp4
+
+    Рассматриваем популярность
+
+    MySQL PHP - LAMP
+      CGI Common Gateway Interface
+        ENV
+        Скрипты - в отдельных процессах, от серверного
+          Overhead в сравнении с потоками Java
+          PHP
+            https://en.wikipedia.org/wiki/LAMP_(software_bundle)
+          Perl
+      https://en.wikipedia.org/wiki/Netscape_Server_Application_Programming_Interface
+      
+      
+
+
 
 ## Конфигурирование данных в Java проекте
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
