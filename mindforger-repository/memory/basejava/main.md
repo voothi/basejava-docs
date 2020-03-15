@@ -3889,8 +3889,37 @@ Optional - решение в один стрим.
             https://en.wikipedia.org/wiki/LAMP_(software_bundle)
           Perl
       https://en.wikipedia.org/wiki/Netscape_Server_Application_Programming_Interface
+      https://en.wikipedia.org/wiki/Generator_(computer_programming)
+          https://en.wikipedia.org/wiki/FastCGI
+          Nginx
       
+    https://db-engines.com/en/ranking
       
+    0636 
+    
+    Рекомендация по Книжке
+
+    Кортеж - запись
+
+    Между таблицами - отношения
+
+    Приложение на базе данных
+      5 таблиц
+
+    Pg
+      Расширения
+        Py
+        Гео
+      Мало ошибок
+      На большой нагрузке - ок
+      В банках - Оракл
+        Миграция идет
+    
+    1120
+
+    pgAdmin
+
+    
 
 
 
