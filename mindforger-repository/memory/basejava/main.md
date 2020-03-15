@@ -3919,7 +3919,69 @@ Optional - решение в один стрим.
 
     pgAdmin
 
+1326
+
+    IDEA 
+      Options
+        Схемы
+          public
+            в ней наши создаются
+
+    1737
+
+    Создаем таблицу
+
+    1742
+
+    Именование таблицы
+      Без s
+        кроме users
+          user - системой занята
     
+    resume
+      uuid - primary key
+      fullName
+
+    Придерживаемся нормализации
+
+    Строки pg
+      Длины
+        переменной
+        фиксированной
+          CHAR(36)
+      
+    Генерится команда SQL
+
+    DDL есть
+
+    camelCase не пишем в названии полей
+      underscore вмето
+
+    ```sql
+    create table resume
+    (
+      uuid char(36)
+        constraint resume_pk
+          primary key,
+      full_name text
+    );
+
+    comment on table resume is 'Resume Table';
+
+    alter table resume
+      owner to postgres;
+    ```
+    
+    
+
+    
+
+
+
+
+
+
+
 
 
 
