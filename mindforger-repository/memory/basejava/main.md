@@ -4061,8 +4061,6 @@ Optional - решение в один стрим.
 
     Ошибка is
 
-    
-
 ## Подключение DB в проект
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [3.Подключение DB в проект](https://drive.google.com/open?id=0B_4NpoQW1xfpWVVSOURIeDNEMUk)
@@ -4078,6 +4076,39 @@ Optional - решение в один стрим.
 - [Книга: Семь баз данных за семь недель. Введение в современные базы данных и идеологию NoSQL](http://www.ozon.ru/context/detail/id/19383907)
 - [Работа с базами данных с помощью JDBC драйвера](https://devcolibri.com/работа-с-бд-mysql-postgresql-с-помощью-jdbc-драйвера)
 - [Уроки по JDBC](https://www.youtube.com/playlist?list=PLIU76b8Cjem5qdMQLXiIwGLTLyUHkTqi2)
+
+### Аннотация видео
+13_3_jdbc.mp4
+
+    JDBC Arch
+      Java App
+        JDBC API
+          Driver Manager
+            JDBC Driver написаны на Java
+            Driver
+              PostgreSQL
+            Driver
+              MySQL
+            Driver
+              MSSQL
+            Driver
+              ODBC Data Source
+    
+    Получить коннект
+
+    IDEA
+
+        Настроил keymap для Local History на 
+          Shift Alt H
+
+0614
+
+    
+
+    
+
+      
+
 
 ## Домашнее задание HW13
 ![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) 
