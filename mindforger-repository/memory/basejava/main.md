@@ -4161,17 +4161,6 @@ Optional - решение в один стрим.
 
     ДЗ
 
-    
-
-
-
-    
-
-    
-
-      
-
-
 ## Домашнее задание HW13
 ![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) 
 Домашнее задание HW13
@@ -4183,7 +4172,6 @@ Optional - решение в один стрим.
   креденшелы к базе взять из `Config`
 - Вынести общий код (`getConnection(), prepareStatement, catch SQLException`) в класс `SqlHelper`
 (https://dzone.com/articles/removing-duplicate-code-with-lambda-expressions)
-
 
 Занятие 14
 ==========
@@ -4208,6 +4196,26 @@ Optional - решение в один стрим.
 [Разбор Домашнего Задания-13](https://drive.google.com/open?id=0B_4NpoQW1xfpREpRYm5ZLWN2RWc)
 
 [см. коммит Lesson14 HW13](https://github.com/JavaWebinar/basejava/tree/aa4dd3537275cc3be0d68aeb902d28c0ef94e747)
+
+### Аннотация видео
+14_1_HW13.mp4 - Shortcut
+
+    SqlHelper
+    
+    0435 
+    
+    stackoverflow
+
+    0646
+
+    Создаем интерфейс SqlExecutor
+      паттерн Стратегия
+
+0746
+
+
+
+
 
 ## JOIN
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
