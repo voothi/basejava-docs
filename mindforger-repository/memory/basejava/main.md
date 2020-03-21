@@ -3835,7 +3835,7 @@ Optional - решение в один стрим.
 
 Занятие 13
 ==========
-- [ ] Пройдено
+- [x] Пройдено
 
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
@@ -3855,6 +3855,8 @@ Optional - решение в один стрим.
 ***
 
 ## Базы данных. Реляционные СУБД. PostgreSQL
+- [x] Пройдено
+
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [1. Базы данных. Реляционные СУБД. PostgreSQL](https://drive.google.com/open?id=0B_4NpoQW1xfpOHFGQTUydzdKaFE)
 
@@ -4024,6 +4026,8 @@ Optional - решение в один стрим.
     4159
 
 ## Конфигурирование данных в Java проекте
+- [x] Пройдено
+
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [2. Конфигурирование данных в Java проекте](https://drive.google.com/open?id=0B_4NpoQW1xfpQUpkVTJiQnpBNnM)
 
@@ -4062,6 +4066,8 @@ Optional - решение в один стрим.
     Ошибка is
 
 ## Подключение DB в проект
+- [x] Пройдено
+
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [3.Подключение DB в проект](https://drive.google.com/open?id=0B_4NpoQW1xfpWVVSOURIeDNEMUk)
 
@@ -4174,15 +4180,17 @@ Optional - решение в один стрим.
     ДЗ
 
 ## Домашнее задание HW13
+- [x] Пройдено
+
 ![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) 
 Домашнее задание HW13
 
-- Доделать `SqlStorage` без контактов и секций
-- Для работы с DB надо в lib и проект добавить 
+- [x] Доделать `SqlStorage` без контактов и секций
+- [x] Для работы с DB надо в lib и проект добавить 
   [драйвер базы данных](http://repo1.maven.org/maven2/org/postgresql/postgresql/42.2.1)
-- Запустить `SqlStorageTest` (в `AbstractStorageTest` контакты и секции закоменченны), 
+- [x] Запустить `SqlStorageTest` (в `AbstractStorageTest` контакты и секции закоменченны), 
   креденшелы к базе взять из `Config`
-- Вынести общий код (`getConnection(), prepareStatement, catch SQLException`) в класс `SqlHelper`
+- [x] Вынести общий код (`getConnection(), prepareStatement, catch SQLException`) в класс `SqlHelper`
 (https://dzone.com/articles/removing-duplicate-code-with-lambda-expressions)
 
 Занятие 14
@@ -4204,6 +4212,8 @@ Optional - решение в один стрим.
 ***
 
 ## Разбор Домашнего Задания-13
+- [x] Пройдено
+
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [Разбор Домашнего Задания-13](https://drive.google.com/open?id=0B_4NpoQW1xfpREpRYm5ZLWN2RWc)
 
@@ -4225,9 +4235,7 @@ Optional - решение в один стрим.
 
 0746
 
-
-
-
+1140
 
 ## JOIN
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
