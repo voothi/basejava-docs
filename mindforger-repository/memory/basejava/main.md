@@ -4238,6 +4238,8 @@ Optional - решение в один стрим.
 1140
 
 ## JOIN
+- [ ] Пройдено
+
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [1. JOIN](https://drive.google.com/open?id=0B_4NpoQW1xfpT3R6WFBBbmVGXzA)
 
@@ -4246,7 +4248,35 @@ Optional - решение в один стрим.
 - [SQL Join](https://www.youtube.com/watch?v=EHvzvwAv7RU&index=1&list=PLY7PmJJFH5nT-lbFKxfbp3rw5BBuq5Azo) (youtube)
 - Добавляем в `SqlStorage` контакты
 
+### Аннотация видео
+14_2_JOIN.mp4
+
+    Чаще всего встречаются
+      INNER JOIN - default JOIN
+
+      LEFT 
+
+      OUTER 
+
+    Склеивание таблиц по общему полю
+
+    0226
+
+    К талице резюме приконнекчиваем таблицу контактов
+      по полю алиасы используем
+        r.uuid = c.resume.uuid
+    
+0445
+
+    SQL нужно знать на среднем уровне
+      большие запросы - на экран
+        выравнивать с отступами
+
+    
+
 ## Транзакции
+- [ ] Пройдено
+
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [2. Транзакции](https://drive.google.com/open?id=0B_4NpoQW1xfpTm43Z2hnZkV4c2M)
 
@@ -4257,7 +4287,11 @@ Optional - решение в один стрим.
 - Добавляем в `SqlStorage` транзакции
 - Batch execute.
 
+### Аннотация видео
+
 ## Установка/запуск Tomcat
+- [ ] Пройдено
+
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [3. Установка/запуск Tomcat](https://drive.google.com/open?id=0B_4NpoQW1xfpZU9QQ25VTkRmSjg)
 
@@ -4271,9 +4305,11 @@ Optional - решение в один стрим.
 ```
 - Запуск из `TOMCAT_HOME\bin\`: `catalina.bat start`
  
+### Аннотация видео
+
 ## Домашнее задание HW14
-- Закончить реализацию `SqlStorage` с контактами
-- Выделить общие части <a href="https://ru.wikipedia.org/wiki/Don%E2%80%99t_repeat_yourself">( DRY )</a>
+- [ ] Закончить реализацию `SqlStorage` с контактами
+- [ ] Выделить общие части <a href="https://ru.wikipedia.org/wiki/Don%E2%80%99t_repeat_yourself">( DRY )</a>
 
 Занятие 15
 ==========
@@ -4293,12 +4329,19 @@ Optional - решение в один стрим.
 
 ***
 
-## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
+## Разбор Домашнего Задания-14
+- [ ] Пройдено
+
+![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [Разбор Домашнего Задания-14](https://drive.google.com/open?id=0B_4NpoQW1xfpY1hTY282dzhuOFU)
 
 [см. коммит Lesson15 HW14](https://github.com/JavaWebinar/basejava/tree/02aee9744d7512dfa9ffbebe00ad415ffe5f71ea)
 
-## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
+### Аннотация видео
+
+## HTML, Tomcat
+
+![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [1. HTML, Tomcat](https://drive.google.com/open?id=0B_4NpoQW1xfpZk1pQ1h4dEJBVEE)
 
 [см. коммит Lesson15 web](https://github.com/JavaWebinar/basejava/tree/2fe01af02b7ba82c3f0c8fa29dc3effb5b575531/src/ru/javawebinar/basejava)
@@ -4309,7 +4352,9 @@ Optional - решение в один стрим.
 - Настройка и деплой в Tomcat. Tomcat manager.
 - Запуск Tomcat из IDEA. Динамическое обновление без передеплоя.
 
-## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
+## Сервлеты
+
+![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [2. Сервлеты](https://drive.google.com/open?id=0B_4NpoQW1xfpUWw3NWo0SVFBRjg)
 
 [см. коммит Lesson15 static_content](https://github.com/JavaWebinar/basejava/tree/e9a4a68e8e360f9cbcd3ff12d27876cee1b9f8cd/src/ru/javawebinar/basejava/web)
