@@ -4278,7 +4278,18 @@ Optional - решение в один стрим.
 
 0508
 
+0526
+
+    Заполнение контактов
+
+        select *
+        from resume r
+                left join contact c
+                          on r.uuid = c.resume_uuid
+        where r.uuid = '22054d98-e6ab-4c46-a99a-c68a6ffcd3e5'
+
     
+
 
 
 ## Транзакции
