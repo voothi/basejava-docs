@@ -4107,6 +4107,28 @@ Optional - решение в один стрим.
         Настроил keymap для Local History на 
           Shift Alt H
 
+0416
+
+    Как работает JDBC API с БД
+      Основное - Получаем Connection к БД, далее можем 
+        отдавать sql комманду
+        получать данные
+        т.д.
+
+      Для получения Connection к БД
+        создаем интерфейс
+          connectionFactory
+            получает conn к БД
+              пакеты sql
+                checked
+
+      С этим conn будет работать
+        SqlStorage
+
+      
+      
+
+
 0614
 
     Реализация интерфейса Storage
