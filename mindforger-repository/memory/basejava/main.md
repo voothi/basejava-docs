@@ -4231,7 +4231,7 @@ Optional - решение в один стрим.
 
 Занятие 14
 ==========
-- [ ] Пройдено
+- [x] Пройдено
 
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
@@ -4470,7 +4470,7 @@ Optional - решение в один стрим.
     save
 
 ## Установка/запуск Tomcat
-- [ ] Пройдено
+- [x] Пройдено
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [3. Установка/запуск Tomcat](https://drive.google.com/open?id=0B_4NpoQW1xfpZU9QQ25VTkRmSjg)
