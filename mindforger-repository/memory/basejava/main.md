@@ -4486,10 +4486,13 @@ Optional - решение в один стрим.
 - Запуск из `TOMCAT_HOME\bin\`: `catalina.bat start`
  
 ### Аннотация видео
+14_4_Tomcat.mp4
+
+    работает
 
 ## Домашнее задание HW14
-- [ ] Закончить реализацию `SqlStorage` с контактами
-- [ ] Выделить общие части <a href="https://ru.wikipedia.org/wiki/Don%E2%80%99t_repeat_yourself">( DRY )</a>
+- [x] Закончить реализацию `SqlStorage` с контактами
+- [x] Выделить общие части <a href="https://ru.wikipedia.org/wiki/Don%E2%80%99t_repeat_yourself">( DRY )</a>
 
 Занятие 15
 ==========
@@ -4510,7 +4513,7 @@ Optional - решение в один стрим.
 ***
 
 ## Разбор Домашнего Задания-14
-- [ ] Пройдено
+- [x] Пройдено
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [Разбор Домашнего Задания-14](https://drive.google.com/open?id=0B_4NpoQW1xfpY1hTY282dzhuOFU)
@@ -4607,16 +4610,20 @@ IDEA
 
     getAllSorted смотрим
 
-    
-    
+    2708
 
-      
+    ставим BP getAllSorted
 
+    3032
 
+    секции
 
-      
+    через разделитель (перенос строки)
+
+    кроме OrganizationSection
 
 ## HTML, Tomcat
+- [ ] Пройдено
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [1. HTML, Tomcat](https://drive.google.com/open?id=0B_4NpoQW1xfpZk1pQ1h4dEJBVEE)
@@ -4630,6 +4637,7 @@ IDEA
 - Запуск Tomcat из IDEA. Динамическое обновление без передеплоя.
 
 ## Сервлеты
+- [ ] Пройдено
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [2. Сервлеты](https://drive.google.com/open?id=0B_4NpoQW1xfpUWw3NWo0SVFBRjg)
@@ -4647,11 +4655,11 @@ IDEA
     - [Ссылки по HTML, JavaScript, CSS](https://github.com/JavaOPs/topjava#html-javascript-css)
 
 ## Домашнее задание HW15
-- Сделать реализацию `SqlStorage.getAllSorted` через 2 отдельных запроса: 
+- [ ] Сделать реализацию `SqlStorage.getAllSorted` через 2 отдельных запроса: 
   отдельно резюме и отдельно контакты.
-- Добавить в реализацию `SqlStorage` и в базу секции (кроме `OrganizationSection`). 
+- [ ] Добавить в реализацию `SqlStorage` и в базу секции (кроме `OrganizationSection`). 
   Для `ListSection` склеиваем строки через `\n`.
-- Сделать отображение таблицы резюме в сервлете (табл resume, т.е. только uuid и fullName).
+- [ ] Сделать отображение таблицы резюме в сервлете (табл resume, т.е. только uuid и fullName).
   - <a href="http://www.webremeslo.ru/html/glava4.html">HTML таблицы</a>
 
 Занятие 16
