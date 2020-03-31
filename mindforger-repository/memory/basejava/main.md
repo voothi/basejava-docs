@@ -4721,6 +4721,13 @@ IDEA
     - [Ссылки по HTML, JavaScript, CSS](https://github.com/JavaOPs/topjava#html-javascript-css)
 
 ### Аннотация видео
+3_servlet.mp4
+
+    просмотрел
+
+2329
+
+    
 
 ## Домашнее задание HW15
 - [ ] Сделать реализацию `SqlStorage.getAllSorted` через 2 отдельных запроса: 
