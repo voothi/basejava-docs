@@ -4755,7 +4755,13 @@ IDEA
 
 ***
 
-## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
+## Разбор Домашнего Задания-15. DB
+1_HW15_db.mp4 - Shortcut
+
+    ускоренно просмотрел до донца
+
+
+![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [Разбор Домашнего Задания-15. DB](https://drive.google.com/open?id=0B9Ye2auQ_NsFS0J4TEN2cjdtWjQ)
 
 [см. коммит Lesson16 HW16 DB](https://github.com/JavaWebinar/basejava/tree/39775ee817be0da26ce111db9ba475bfd97b5a4c)
