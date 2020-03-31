@@ -4631,7 +4631,7 @@ IDEA
 [см. коммит Lesson15 web](https://github.com/JavaWebinar/basejava/tree/2fe01af02b7ba82c3f0c8fa29dc3effb5b575531/src/ru/javawebinar/basejava)
 
 - <a href="http://java-course.ru/student/book1/servlet/">Протокол HTTP</a>. 
-  Смотрим <a href="http://topjava.herokuapp.com/">демо приложение<a/> в Chrome -> Инструменты разработчика
+  Смотрим <a href="http://topjava.herokuapp.com/">демо приложение<a/> в Chrome -> Инструменты разработчика</a>
 - Добавление в проект Web Facet. web.xml. Постороение/cтруктура WAR. Статические ресурсы.
 - Настройка и деплой в Tomcat. Tomcat manager.
 - Запуск Tomcat из IDEA. Динамическое обновление без передеплоя.
@@ -4694,7 +4694,13 @@ IDEA
 
     web.xml Добавился, который обрабатывается Tomcat-ом
 
-    
+2020
+
+    добавили файлы статические 
+
+    закончил это видео, перешел к сл.
+
+
 
 ## Сервлеты
 - [ ] Пройдено
