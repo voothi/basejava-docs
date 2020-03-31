@@ -4636,6 +4636,17 @@ IDEA
 - Настройка и деплой в Tomcat. Tomcat manager.
 - Запуск Tomcat из IDEA. Динамическое обновление без передеплоя.
 
+### Аннотация видео
+2_web_tomcat.mp4
+
+    объясняется почему клиентское приложение - веб-браузер
+
+    0604
+
+    инструменты разработчика в хроме
+
+    
+
 ## Сервлеты
 - [ ] Пройдено
 
@@ -4653,6 +4664,8 @@ IDEA
     - <a href="http://www.intuit.ru/studies/courses/1102/134/info">Основы работы с HTML</a>
     - <a href="http://ru.html.net/tutorials/html/">Учебник HTML</a>
     - [Ссылки по HTML, JavaScript, CSS](https://github.com/JavaOPs/topjava#html-javascript-css)
+
+### Аннотация видео
 
 ## Домашнее задание HW15
 - [ ] Сделать реализацию `SqlStorage.getAllSorted` через 2 отдельных запроса: 
