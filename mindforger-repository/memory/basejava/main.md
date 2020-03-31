@@ -4623,7 +4623,7 @@ IDEA
     кроме OrganizationSection
 
 ## HTML, Tomcat
-- [ ] Пройдено
+- [x] Пройдено
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [1. HTML, Tomcat](https://drive.google.com/open?id=0B_4NpoQW1xfpZk1pQ1h4dEJBVEE)
@@ -4700,7 +4700,12 @@ IDEA
 
     закончил это видео, перешел к сл.
 
+3100
 
+    Проблема интеграции с IDEA
+
+      HTTP Status 404 – Not Found
+        Type Status Report
 
 ## Сервлеты
 - [ ] Пройдено
