@@ -5065,7 +5065,7 @@ IDEA
     хедер футер - один фрагмент
 
 ## 3. JSTL
-- [ ] Пройдено
+- [x] Пройдено
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [3. JSTL](https://drive.google.com/open?id=0B_4NpoQW1xfpSHdUNE9TZWNJV1k)
@@ -5077,6 +5077,23 @@ IDEA
   JSTL для написания JSP страниц</a>
 
 ### Аннотация видео
+5_jstl.mp4
+
+    0110
+
+    tablib подключаем директиву
+
+    появляется новый функционал
+
+    for
+
+    ${  }
+
+    0254
+
+    интеграция useBean 
+
+    библиотеку jstl-1.2 поставил, импортнул в WEB-INF
 
 ## 4. CRUD
 - [ ] Пройдено
