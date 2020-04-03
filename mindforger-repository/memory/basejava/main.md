@@ -5104,6 +5104,10 @@ IDEA
 [см. коммит Lesson16 crud](https://github.com/JavaWebinar/basejava/tree/3e07257a33d1ba51508e315d6021aa1b78849fca)
 
 ### Аннотация видео
+6_delete_view_edit_impl.mp4
+
+    2133
+    просмотрел
 
 ## Домашнее задание HW16
 - [ ] Доделать логику сервлета
