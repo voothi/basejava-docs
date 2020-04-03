@@ -4496,7 +4496,7 @@ Optional - решение в один стрим.
 
 Занятие 15
 ==========
-- [ ] Пройдено
+- [x] Пройдено
 
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
@@ -4708,7 +4708,7 @@ IDEA
         Type Status Report
 
 ## Сервлеты
-- [ ] Пройдено
+- [x] Пройдено
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [2. Сервлеты](https://drive.google.com/open?id=0B_4NpoQW1xfpUWw3NWo0SVFBRjg)
@@ -4775,7 +4775,7 @@ IDEA
   отдельно резюме и отдельно контакты.
 - [x] Добавить в реализацию `SqlStorage` и в базу секции (кроме `OrganizationSection`). 
   Для `ListSection` склеиваем строки через `\n`.
-- [ ] Сделать отображение таблицы резюме в сервлете (табл resume, т.е. только uuid и fullName).
+- [x] Сделать отображение таблицы резюме в сервлете (табл resume, т.е. только uuid и fullName).
   - <a href="http://www.webremeslo.ru/html/glava4.html">HTML таблицы</a>
 
 Занятие 16
@@ -4953,7 +4953,7 @@ IDEA
     завершил
 
 ## Разбор Домашнего Задания-15. Servlet
-- [ ] Пройдено
+- [x] Пройдено
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [Разбор Домашнего Задания-15. Servlet](https://drive.google.com/open?id=0B_4NpoQW1xfpZWVSX0tCTjRiU28)
@@ -4966,6 +4966,33 @@ IDEA
 - [Веб-приложение с Java Servlets](https://tproger.ru/translations/building-a-web-app-with-java-servlets/)
 
 ### Аннотация видео
+2_HW15_servlet.mp4
+
+0248
+
+    жизненный цикл сервлета
+
+    инстанциирует сервлет томкат
+
+    до сервлетов 2.3
+    томкат создавал пул сервлетов
+
+    веб-контейнер - многопоточное приложение
+
+    томкат по умолч 200 потоков
+    200 пользователей
+
+    сейчас создается всего 1 инстанс этого сервлета
+
+    все запросы будут работать с этим одним инстансом
+
+    0540
+
+    Нельзя создавать член класса uuid или др. в классе Servlet
+
+    сервлеты доложны быть thread safe
+
+    VM options
 
 ## 1. JSP
 
