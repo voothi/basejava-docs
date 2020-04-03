@@ -4797,7 +4797,7 @@ IDEA
 ***
 
 ## Разбор Домашнего Задания-15. DB
-- [ ] Пройдено
+- [x] Пройдено
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [Разбор Домашнего Задания-15. DB](https://drive.google.com/open?id=0B9Ye2auQ_NsFS0J4TEN2cjdtWjQ)
