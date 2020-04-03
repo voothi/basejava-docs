@@ -4995,7 +4995,7 @@ IDEA
     VM options
 
 ## 1. JSP
-- [ ] Пройдено
+- [x] Пройдено
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [1. JSP](https://drive.google.com/open?id=0B_4NpoQW1xfpQ2hYRWJ2TWd2QjA)
