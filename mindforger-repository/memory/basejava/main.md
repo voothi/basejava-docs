@@ -5096,7 +5096,7 @@ IDEA
     библиотеку jstl-1.2 поставил, импортнул в WEB-INF
 
 ## 4. CRUD
-- [ ] Пройдено
+- [x] Пройдено
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [4. CRUD](https://drive.google.com/open?id=0B_4NpoQW1xfpak9nZS1BXzBTbEU)
@@ -5212,10 +5212,10 @@ IDEA
 
 [Семнадцатое занятие](https://github.com/JavaWebinar/basejava/blob/lesson/lesson/lesson17.md)
 
-- [ ] Разбор домашнего задания
-- [ ] Деплой приложения в облачный сервис Heroku
-- [ ] Загрузка классов в Java. Classloader
-- [ ] Домашнее задание
+- Разбор домашнего задания
+- Деплой приложения в облачный сервис Heroku
+- Загрузка классов в Java. Classloader
+- Домашнее задание
 
 ***
 
@@ -5228,6 +5228,9 @@ IDEA
 [см. коммит Lesson17 HW16](https://github.com/JavaWebinar/basejava/tree/dc678d613ecdf18d9973e7464ddc997ad316c22f)
 
 ### Аннотация видео
+1_HW16.mp4 - Shortcut
+
+    
 
 ## Разбор Домашнего Задания-16 добавление резюме
 - [ ] Пройдено
