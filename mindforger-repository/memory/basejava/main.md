@@ -4780,7 +4780,7 @@ IDEA
 
 Занятие 16
 ==========
-- [ ] Пройдено
+- [x] Пройдено
 
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
@@ -5201,8 +5201,8 @@ IDEA
     разобрал
 
 ## Домашнее задание HW16
-- [ ] Доделать логику сервлета
-- [ ] Дополнить отображение и редактирование JSP секциями
+- [x] Доделать логику сервлета
+- [x] Дополнить отображение и редактирование JSP секциями
 
 Занятие 17
 ==========
@@ -5220,7 +5220,7 @@ IDEA
 ***
 
 ## Разбор Домашнего Задания-16
-- [ ] Пройдено
+- [x] Пройдено
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [Разбор Домашнего Задания-16](https://drive.google.com/open?id=0B_4NpoQW1xfpR2U1OUJEM0hzc1k)
@@ -5278,8 +5278,10 @@ IDEA
 
     условие по которому удаляем секцию
 
+
+
 ## Разбор Домашнего Задания-16 добавление резюме
-- [ ] Пройдено
+- [x] Пройдено
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [Разбор Домашнего Задания-16 добавление резюме](https://drive.google.com/open?id=0B_4NpoQW1xfpQ1d3VmN1RHA1Q1k)
@@ -5287,6 +5289,7 @@ IDEA
 [см. коммит Lesson17 HW16_add_resume](https://github.com/JavaWebinar/basejava/tree/10c521a8d412b3a4b3256d3044504fb269e16a26)
 
 ### Аннотация видео
+v1.16.1
 
 ## 1. Деплой в Heroku
 - [ ] Пройдено
@@ -5312,7 +5315,7 @@ IDEA
 ### Аннотация видео
 
 ## 3. Вебинар "Осваиваем Java String/JPA Enterprise"
-- [ ] Пройдено
+- [x] Пройдено
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [3. Вебинар "Осваиваем Java String/JPA Enterprise"](https://drive.google.com/file/d/0B9Ye2auQ_NsFY1ZDNXRCd1NCTG8)
