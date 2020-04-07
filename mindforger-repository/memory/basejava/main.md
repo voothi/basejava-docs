@@ -5206,7 +5206,7 @@ IDEA
 
 Занятие 17
 ==========
-- [ ] Пройдено
+- [x] Пройдено
 
 [Общий список занятий](https://github.com/JavaWebinar/basejava)
 
@@ -5318,8 +5318,10 @@ v1.16.1
 
     heroku war:deploy H:\Git\basejava\out\artifacts\resumes_Web\resumes_Web.war --app voothi-basejava
 
-## 2. Classloader
-- [ ] Пройдено
+    https://voothi-basejava.herokuapp.com/resume
+
+## 2. Classloсader
+- [x] Пройдено
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [2. Classloader](https://drive.google.com/open?id=0B_4NpoQW1xfpQnJQZ0d2ajJNWlU)
@@ -5328,6 +5330,31 @@ v1.16.1
 - <a href="https://tomcat.apache.org/tomcat-8.0-doc/class-loader-howto.html">Apache Tomcat Class Loader</a>
 
 ### Аннотация видео
+
+
+    В каждом класслоурере может быть свой собственный инстанс синглтона
+
+    Java класс подгружается в JVM определенным класслоудером
+    но, можно создать свой класслоурер
+    инстансы будут разными между этими классами в разных класслоудерах
+
+    по умолчанию подгружается java.lang
+
+    класспас - CLASSPATH переменная окружения
+
+    Maven может следить, чтобы 2 одинаковых класса не попали в CLASSPATH
+
+    Java выбирает первый попавшийся из CLASSPATH
+
+    В томкате другой способ загрузки
+    несколько варников
+
+    Томкат разделяет классы Classloсader-ами
+
+    В томкат либ можно класть свои jar-ки - пример pg, для пула коннктов в настройках
+    томката
+
+    можно шарить, чтобы вары на были толстыми
 
 ## 3. Вебинар "Осваиваем Java String/JPA Enterprise"
 - [x] Пройдено
