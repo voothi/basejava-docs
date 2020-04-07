@@ -5292,7 +5292,7 @@ IDEA
 v1.16.1
 
 ## 1. Деплой в Heroku
-- [ ] Пройдено
+- [x] Пройдено
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 
 [1. Деплой в Heroku](https://drive.google.com/open?id=0B_4NpoQW1xfpS2JSSDByQ2xGWm8)
@@ -5302,6 +5302,21 @@ v1.16.1
 - для доступа к удаленной БД используйте следующие настройки SSL `ssl=true&sslmode=verify-ca&sslfactory=org.postgresql.ssl.NonValidatingFactory`
 
 ### Аннотация видео
+
+0457
+
+    Не работает ни с одим параметром
+    ssl: true
+    sslfactory: org.postgresql.ssl.NonValidatingFactory
+
+    пропы зименил, гит исключил пароль
+
+    класспас
+    Resources Root задал для Config
+
+    heroku login
+
+    heroku war:deploy H:\Git\basejava\out\artifacts\resumes_Web\resumes_Web.war --app voothi-basejava
 
 ## 2. Classloader
 - [ ] Пройдено
